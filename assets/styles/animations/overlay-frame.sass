@@ -1,0 +1,33 @@
+.overlay-frame
+
+  &__content:before
+    animation: overlay-frame 20s cubic-bezier(0.915, 0, 0.505, 0.985) infinite alternate-reverse
+
+  &__content:after
+    animation: overlay-frame 20s cubic-bezier(0.915, 0, 0.505, 0.985) infinite alternate
+
+@-webkit-keyframes overlay-frame
+  0%
+    top: 0
+    height: 38px
+
+  10%
+    top: 40%
+    height: 60px
+
+  20%
+    top: 15%
+    height: 50px
+
+  40%
+    top: calc(100% - 55px)
+    height: 55px
+
+  60%
+    top: 40%
+    height: 25px
+
+  90%
+    top: 55%
+    height: 40px
+

@@ -1,0 +1,29 @@
+.overlay-frame
+
+  &-enter-active,
+  &-leave-active
+    transition: opacity .6s ease-in-out !important
+
+  &-enter-active
+    & .overlay-frame__content
+      overflow: hidden
+      transition: width .3s ease-in-out, height .3s .3s ease-in-out !important
+
+  &-leave-active
+    & .overlay-frame__content
+      overflow: hidden
+      transition: width .3s .3s ease-in-out, height .3s ease-in-out !important
+
+  &-enter,
+  &-leave-to
+    opacity: 0
+    & .overlay-frame__content
+      width: 0
+      height: 38px
+
+  &-enter-to,
+  &-leave
+    opacity: 1
+    & .overlay-frame__content
+      width: 100%
+      height: 80%

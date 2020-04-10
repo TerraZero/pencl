@@ -1,0 +1,16 @@
+.enter-down
+
+  &-leave-active,
+  &-enter-active
+    position: relative
+    transition: bottom 1s, opacity 1s !important
+
+  &-leave-to,
+  &-enter
+    bottom: -50px
+    opacity: 0
+
+  &-leave,
+  &-enter-to
+    bottom: 0
+    opacity: 1

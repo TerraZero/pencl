@@ -1,0 +1,27 @@
+{
+  "name": "pencl",
+  "version": "1.0.0",
+  "description": "My luminous Nuxt.js project",
+  "author": "TerraZero",
+  "private": true,
+  "scripts": {
+    "preinstall": "localdev uninstall sockettools inputtools",
+    "postinstall": "localdev install sockettools inputtools",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "socket.io": "^2.3.0",
+    "std-env": "^2.2.1",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.2"
+  }
+}
