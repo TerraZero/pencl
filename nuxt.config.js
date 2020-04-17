@@ -1,3 +1,4 @@
+import OS from 'os';
 
 export default {
   server: {
@@ -56,7 +57,7 @@ export default {
     }
   },
   env: {
-    WS_URL: process.env.WS_URL || 'http://192.168.1.2:3000'
+    WS_URL: process.env.WS_URL || 'http://' + OS.hostname() + ':3000'
   },
 
 }

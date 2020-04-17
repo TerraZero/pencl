@@ -2,6 +2,7 @@
   .scroll-panel
     slot
 </template>
+
 <style lang="sass">
 .scroll-panel
   width: 100%
@@ -10,6 +11,7 @@
   background-color: transparent
   -webkit-background-clip: text
   transition: background-color .3s
+  overflow: auto
 
   &:hover
     background-color: #3ce5ca

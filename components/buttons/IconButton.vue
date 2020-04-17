@@ -16,6 +16,7 @@ export default {
   props: ["text", "icon"]
 };
 </script>
+
 <style lang="sass">
 .icon-button
   padding: 40px

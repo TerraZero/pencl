@@ -25,11 +25,11 @@ export default {
       current: null,
       buttons: [
         {
-          url: "/admin",
-          text: "Admin",
+          url: "/host",
+          text: "Host",
           icon: {
             cat: "sciflat",
-            name: "control",
+            name: "host",
             bg: "1"
           },
           classes: []
@@ -39,7 +39,7 @@ export default {
           text: "Screen",
           icon: {
             cat: "sciflat",
-            name: "field",
+            name: "screen",
             bg: "1"
           },
           classes: []
@@ -49,7 +49,7 @@ export default {
           text: "User",
           icon: {
             cat: "sciflat",
-            name: "group",
+            name: "user",
             bg: "1"
           },
           classes: []

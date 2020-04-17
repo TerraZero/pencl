@@ -1,0 +1,727 @@
+{
+  "sounds": [
+    {
+      "type": "sound",
+      "title": "Start Story",
+      "sound": {
+        "howl": "/sound/Vo_narr_town_backstory_16"
+      }
+    },
+    {
+      "type": "sound",
+      "title": "Betreten Dungeon Oben",
+      "sound": {
+        "videoId": "mgLBmLoL2Aw",
+        "volume": 100
+      }
+    },
+    {
+      "type": "sound",
+      "title": "Betreten Dungeon Oben",
+      "sound": {
+        "videoId": "4nTAtZBjQZA",
+        "volume": 100
+      }
+    },
+    {
+      "type": "sound",
+      "title": "Versuchte Flucht",
+      "sound": [
+        {
+          "howl": "/sound/Narration_retreatfail1.ogg"
+        },
+        {
+          "howl": "/sound/Narration_retreatfail2.ogg"
+        },
+        {
+          "howl": "/sound/Narration_retreatfail3.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Story",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_town_backstory_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_04.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_05.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_06.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_07.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_08.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_09.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_10.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_11.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_12.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_14.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_town_backstory_20.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Kritischer Treffer",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_good_virtue_focused.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_virtue_powerful.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_virtue_stalwart.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_virtue_vigorous.ogg"
+        },
+        {
+          "howl": "/sound/Narration_virtuegeneral.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_crit_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_crit_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_crit_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_crit_04.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_crit_05.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_crit_06.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_crit_07.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_crit_08.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Stress",
+      "sound": [
+        {
+          "howl": "/sound/Affliction_abusive.ogg"
+        },
+        {
+          "howl": "/sound/Affliction_fearful.ogg"
+        },
+        {
+          "howl": "/sound/Affliction_generic5.ogg"
+        },
+        {
+          "howl": "/sound/Affliction_hopeless.ogg"
+        },
+        {
+          "howl": "/sound/Affliction_paranoid.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Lagern",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_good_camp_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_camp_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_camp_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_camp_04.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_camp_05.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Kill Gegner",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_good_kill_weak_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_weak_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_weak_04.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_weak_05.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_killfirst_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_killfirst_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_killfirst_04.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_killfirst_05.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Kritischer Kill",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_good_kill_strong_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_strong_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_strong_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_strong_04_v1.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_strong_05.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Elite Kill",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_good_kill_big_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_big_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_big_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_big_04.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Gift",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_good_kill_dot_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_dot_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_kill_dot_04.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Falle",
+      "sound": [
+        {
+          "howl": "/sound/Narration_trap1.ogg"
+        },
+        {
+          "howl": "/sound/Narration_trap2.ogg"
+        },
+        {
+          "howl": "/sound/Narration_trap3.ogg"
+        },
+        {
+          "howl": "/sound/Narration_trap4.ogg"
+        },
+        {
+          "howl": "/sound/Narration_trap5.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_bad_trap_06.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_bad_trap_08_v2.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Heilen",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_good_heal_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_heal_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_heal_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_heal_04.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_healcrit_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_healcrit_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_healcrit_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_healcrit_04.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Heilen Fast Tot",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_good_healdd_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_healdd_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_healdd_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_healdd_04.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Kampf gewonnen",
+      "sound": [
+        {
+          "howl": "/sound/Vo_narr_good_victoryfirst_01.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_victoryfirst_02.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_victoryfirst_03.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_victoryfirst_04.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_victoryfirst_05.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_victoryfirst_06.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_victoryfirst_07.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_victoryfirst_08.ogg"
+        },
+        {
+          "howl": "/sound/Vo_narr_good_victoryfirst_09.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Fast Tot",
+      "sound": [
+        {
+          "howl": "/sound/Narration_deathsdoor1.ogg"
+        },
+        {
+          "howl": "/sound/Narration_deathsdoor4.ogg"
+        },
+        {
+          "howl": "/sound/Narration_deathsdoor2.ogg"
+        },
+        {
+          "howl": "/sound/Narration_deathsdoor4.ogg"
+        },
+        {
+          "howl": "/sound/Narration_deathsdoor3.ogg"
+        },
+        {
+          "howl": "/sound/Narration_deathsdoor4.ogg"
+        },
+        {
+          "howl": "/sound/Narration_deathsdoor4.ogg"
+        },
+        {
+          "howl": "/sound/Narration_deathsdoor5.ogg"
+        }
+      ]
+    },
+    {
+      "type": "sound",
+      "title": "Tot",
+      "sound": [
+        {
+          "howl": "/sound/Narration_death1.ogg"
+        },
+        {
+          "howl": "/sound/Narration_death6.ogg"
+        },
+        {
+          "howl": "/sound/Narration_death2.ogg"
+        },
+        {
+          "howl": "/sound/Narration_death6.ogg"
+        },
+        {
+          "howl": "/sound/Narration_death3.ogg"
+        },
+        {
+          "howl": "/sound/Narration_death6.ogg"
+        },
+        {
+          "howl": "/sound/Narration_death4.ogg"
+        },
+        {
+          "howl": "/sound/Narration_death6.ogg"
+        },
+        {
+          "howl": "/sound/Narration_death5.ogg"
+        },
+        {
+          "howl": "/sound/Narration_death6.ogg"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "type": "scene",
+      "title": "Pause",
+      "description": "Für zwischendurch, keine Musik",
+      "shuffle": true,
+      "images": [
+        {
+          "src": "/images/dd/bandit.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/images/dd/barbar.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/images/dd/grave-robber.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/images/dd/leper.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/images/dd/paladin.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/images/dd/plague-doctor.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/images/dd/shaman.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/images/dd/team.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/images/dd/town.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/images/dd/ruine.jpg",
+          "time": 8000
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "First Intro",
+      "video": {
+        "videoId": "eRh_mlAwxTI",
+        "startSeconds": 9,
+        "endSeconds": 130,
+        "volume": 100
+      }
+    },
+    {
+      "type": "scene",
+      "title": "Start Game",
+      "video": {
+        "videoId": "LvxcWbPQlXE",
+        "startSeconds": 9,
+        "endSeconds": 130,
+        "volume": 100
+      }
+    },
+    {
+      "type": "scene",
+      "title": "Lagern",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "M_-ZwZR_5r4",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Dungeon Links",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "tzftcUFbgoc",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Dungeon Links Kampf",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "br-UVb2zDqs",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Dungeon Rechts Kampf",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "xSUYP_8_S44",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Dungeon Oben Kampf",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "V_JviBa4I5Y",
+          "volume": 100
+        },
+        {
+          "videoId": "Bp648En-8n4",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Elite",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "SuhYqy6PItY",
+          "volume": 100
+        },
+        {
+          "videoId": "ejb3ltBhwYQ",
+          "volume": 100
+        },
+        {
+          "videoId": "8WWAdN2K_1o",
+          "volume": 100
+        },
+        {
+          "videoId": "Z4F-iNOusHc",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Boss",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "SzJYa9Z15-I",
+          "volume": 100
+        },
+        {
+          "videoId": "E7JzX4CHJYg",
+          "volume": 100
+        },
+        {
+          "videoId": "WhVix2wgDD4",
+          "volume": 100
+        },
+        {
+          "videoId": "-3slUbcvS4U",
+          "volume": 100
+        },
+        {
+          "videoId": "QVFExiT4VaU",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Intro Astorias",
+      "video": {
+        "videoId": "FkLdq70Wugo",
+        "volume": 100
+      }
+    },
+    {
+      "type": "scene",
+      "title": "Das Ende",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "WYckudaK0N4",
+          "volume": 100
+        },
+        {
+          "videoId": "eEvakpPy4iY",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Vor der Kammer (Vorboss intro)",
+      "sound": {
+        "videoId": "ISuuQ0-a5YM",
+        "volume": 100
+      }
+    },
+    {
+      "type": "scene",
+      "title": "Vorboss Kampf",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "jF64cLBgD9U",
+          "volume": 100
+        },
+        {
+          "videoId": "n_8LAvwJMq8",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Final Intro Phase 1",
+      "sound": {
+        "videoId": "MWHbSTvxjhM",
+        "volume": 100
+      }
+    },
+    {
+      "type": "scene",
+      "title": "Final Kampf Phase 1",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "RK7uxcHMRWQ",
+          "volume": 100
+        },
+        {
+          "videoId": "HWxIz8haxt0",
+          "volume": 100
+        },
+        {
+          "videoId": "5qY-gWF9AF8",
+          "volume": 100
+        },
+        {
+          "videoId": "1yd1n2TNtZk",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Final Intro Phase 2",
+      "sound": {
+        "videoId": "uGIu6-WtwEs",
+        "volume": 100
+      }
+    },
+    {
+      "type": "scene",
+      "title": "Final Kampf Phase 2",
+      "shuffle": true,
+      "sounds": [
+        {
+          "videoId": "kA614N3IHD4",
+          "volume": 100
+        },
+        {
+          "videoId": "_5i03mlsync",
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Outro",
+      "sound": {
+        "videoId": "3BDoZcXjArI",
+        "volume": 100
+      }
+    },
+    {
+      "type": "scene",
+      "title": "Final Outro",
+      "sound": {
+        "videoId": "5-4Ng_gDhXI",
+        "volume": 100
+      }
+    }
+  ]
+}

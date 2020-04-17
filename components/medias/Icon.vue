@@ -6,31 +6,45 @@
 
 <script>
 export default {
-  props: ["cat", "name", "bg", "type"],
+  props: ["cat", "name", "bg", "type", "src"],
   computed: {
-    icon() {
-      const type = this.type || "png";
-      const icon = {
-        image: require("~/assets/images/icons/" +
-          this.cat +
-          "/" +
-          this.cat +
-          "_" +
-          this.name +
-          "." +
-          type),
-        background: false
-      };
+    source() {
+      return this.src || "static";
+    },
+    filetype() {
+      return this.type || "png";
+    },
+    imagepath() {
+      return this.cat + "/" + this.cat + "_" + this.name + "." + this.filetype;
+    },
+    backgroundpath() {
       if (this.bg) {
-        icon.background = require("~/assets/images/icons/" +
-          this.cat +
-          "/" +
-          this.cat +
-          "_bg_" +
-          this.bg +
-          "." +
-          type);
+        return (
+          this.cat + "/" + this.cat + "_bg_" + this.bg + "." + this.filetype
+        );
       }
+      return false;
+    },
+    icon() {
+      const icon = {
+        image: "icons/" + this.imagepath,
+        background: this.backgroundpath ? "icons/" + this.backgroundpath : null
+      };
+
+      if (this.source === "static") {
+        icon.image = "/images/" + icon.image;
+        if (icon.background) {
+          icon.background = "/images/" + icon.background;
+        }
+      }
+
+      if (this.source === "assets") {
+        icon.image = require("~/assets/images/" + icon.image);
+        if (icon.background) {
+          icon.background = require("~/assets/images/" + icon.background);
+        }
+      }
+
       return icon;
     }
   }
