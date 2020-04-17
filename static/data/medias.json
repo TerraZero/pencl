@@ -4,12 +4,12 @@
       "type": "sound",
       "title": "Start Story",
       "sound": {
-        "howl": "/sound/Vo_narr_town_backstory_16"
+        "howl": "/sound/Vo_narr_town_backstory_16.ogg"
       }
     },
     {
       "type": "sound",
-      "title": "Betreten Dungeon Oben",
+      "title": "Erdbeben",
       "sound": {
         "videoId": "mgLBmLoL2Aw",
         "volume": 100
