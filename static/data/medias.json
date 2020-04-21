@@ -4,7 +4,7 @@
       "type": "sound",
       "title": "Start Story",
       "sound": {
-        "howl": "/sound/Vo_narr_town_backstory_16.ogg"
+        "howl": "/downloads/narrator/Vo_narr_town_backstory_16.mp3"
       }
     },
     {
@@ -28,13 +28,13 @@
       "title": "Versuchte Flucht",
       "sound": [
         {
-          "howl": "/sound/Narration_retreatfail1.ogg"
+          "howl": "/downloads/narrator/Narration_retreatfail1.mp3"
         },
         {
-          "howl": "/sound/Narration_retreatfail2.ogg"
+          "howl": "/downloads/narrator/Narration_retreatfail2.mp3"
         },
         {
-          "howl": "/sound/Narration_retreatfail3.ogg"
+          "howl": "/downloads/narrator/Narration_retreatfail3.mp3"
         }
       ]
     },
@@ -43,43 +43,43 @@
       "title": "Story",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_town_backstory_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_04.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_05.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_05.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_06.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_06.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_07.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_07.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_08.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_08.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_09.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_09.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_10.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_10.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_11.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_11.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_12.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_12.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_14.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_14.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_town_backstory_20.ogg"
+          "howl": "/downloads/narrator/Vo_narr_town_backstory_20.mp3"
         }
       ]
     },
@@ -88,43 +88,43 @@
       "title": "Kritischer Treffer",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_good_virtue_focused.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_virtue_focused.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_virtue_powerful.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_virtue_powerful.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_virtue_stalwart.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_virtue_stalwart.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_virtue_vigorous.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_virtue_vigorous.mp3"
         },
         {
-          "howl": "/sound/Narration_virtuegeneral.ogg"
+          "howl": "/downloads/narrator/Narration_virtuegeneral.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_crit_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_crit_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_crit_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_crit_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_crit_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_crit_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_crit_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_crit_04.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_crit_05.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_crit_05.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_crit_06.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_crit_06.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_crit_07.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_crit_07.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_crit_08.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_crit_08.mp3"
         }
       ]
     },
@@ -133,19 +133,19 @@
       "title": "Stress",
       "sound": [
         {
-          "howl": "/sound/Affliction_abusive.ogg"
+          "howl": "/downloads/narrator/Affliction_abusive.mp3"
         },
         {
-          "howl": "/sound/Affliction_fearful.ogg"
+          "howl": "/downloads/narrator/Affliction_fearful.mp3"
         },
         {
-          "howl": "/sound/Affliction_generic5.ogg"
+          "howl": "/downloads/narrator/Affliction_generic5.mp3"
         },
         {
-          "howl": "/sound/Affliction_hopeless.ogg"
+          "howl": "/downloads/narrator/Affliction_hopeless.mp3"
         },
         {
-          "howl": "/sound/Affliction_paranoid.ogg"
+          "howl": "/downloads/narrator/Affliction_paranoid.mp3"
         }
       ]
     },
@@ -154,19 +154,19 @@
       "title": "Lagern",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_good_camp_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_camp_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_camp_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_camp_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_camp_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_camp_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_camp_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_camp_04.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_camp_05.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_camp_05.mp3"
         }
       ]
     },
@@ -175,28 +175,28 @@
       "title": "Kill Gegner",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_good_kill_weak_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_weak_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_weak_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_weak_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_weak_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_weak_04.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_weak_05.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_weak_05.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_killfirst_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_killfirst_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_killfirst_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_killfirst_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_killfirst_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_killfirst_04.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_killfirst_05.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_killfirst_05.mp3"
         }
       ]
     },
@@ -205,19 +205,19 @@
       "title": "Kritischer Kill",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_good_kill_strong_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_strong_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_strong_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_strong_04_v1.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_04_v1.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_strong_05.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_05.mp3"
         }
       ]
     },
@@ -226,16 +226,16 @@
       "title": "Elite Kill",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_good_kill_big_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_big_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_big_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_big_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_big_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_big_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_big_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_big_04.mp3"
         }
       ]
     },
@@ -244,13 +244,13 @@
       "title": "Gift",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_good_kill_dot_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_dot_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_dot_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_dot_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_kill_dot_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_kill_dot_04.mp3"
         }
       ]
     },
@@ -259,25 +259,25 @@
       "title": "Falle",
       "sound": [
         {
-          "howl": "/sound/Narration_trap1.ogg"
+          "howl": "/downloads/narrator/Narration_trap1.mp3"
         },
         {
-          "howl": "/sound/Narration_trap2.ogg"
+          "howl": "/downloads/narrator/Narration_trap2.mp3"
         },
         {
-          "howl": "/sound/Narration_trap3.ogg"
+          "howl": "/downloads/narrator/Narration_trap3.mp3"
         },
         {
-          "howl": "/sound/Narration_trap4.ogg"
+          "howl": "/downloads/narrator/Narration_trap4.mp3"
         },
         {
-          "howl": "/sound/Narration_trap5.ogg"
+          "howl": "/downloads/narrator/Narration_trap5.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_bad_trap_06.ogg"
+          "howl": "/downloads/narrator/Vo_narr_bad_trap_06.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_bad_trap_08_v2.ogg"
+          "howl": "/downloads/narrator/Vo_narr_bad_trap_08_v2.mp3"
         }
       ]
     },
@@ -286,28 +286,28 @@
       "title": "Heilen",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_good_heal_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_heal_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_heal_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_heal_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_heal_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_heal_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_heal_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_heal_04.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_healcrit_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_healcrit_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_healcrit_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_healcrit_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_healcrit_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_healcrit_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_healcrit_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_healcrit_04.mp3"
         }
       ]
     },
@@ -316,16 +316,16 @@
       "title": "Heilen Fast Tot",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_good_healdd_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_healdd_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_healdd_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_healdd_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_healdd_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_healdd_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_healdd_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_healdd_04.mp3"
         }
       ]
     },
@@ -334,31 +334,31 @@
       "title": "Kampf gewonnen",
       "sound": [
         {
-          "howl": "/sound/Vo_narr_good_victoryfirst_01.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_01.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_victoryfirst_02.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_02.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_victoryfirst_03.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_03.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_victoryfirst_04.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_04.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_victoryfirst_05.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_05.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_victoryfirst_06.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_06.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_victoryfirst_07.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_07.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_victoryfirst_08.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_08.mp3"
         },
         {
-          "howl": "/sound/Vo_narr_good_victoryfirst_09.ogg"
+          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_09.mp3"
         }
       ]
     },
@@ -367,28 +367,28 @@
       "title": "Fast Tot",
       "sound": [
         {
-          "howl": "/sound/Narration_deathsdoor1.ogg"
+          "howl": "/downloads/narrator/Narration_deathsdoor1.mp3"
         },
         {
-          "howl": "/sound/Narration_deathsdoor4.ogg"
+          "howl": "/downloads/narrator/Narration_deathsdoor4.mp3"
         },
         {
-          "howl": "/sound/Narration_deathsdoor2.ogg"
+          "howl": "/downloads/narrator/Narration_deathsdoor2.mp3"
         },
         {
-          "howl": "/sound/Narration_deathsdoor4.ogg"
+          "howl": "/downloads/narrator/Narration_deathsdoor4.mp3"
         },
         {
-          "howl": "/sound/Narration_deathsdoor3.ogg"
+          "howl": "/downloads/narrator/Narration_deathsdoor3.mp3"
         },
         {
-          "howl": "/sound/Narration_deathsdoor4.ogg"
+          "howl": "/downloads/narrator/Narration_deathsdoor4.mp3"
         },
         {
-          "howl": "/sound/Narration_deathsdoor4.ogg"
+          "howl": "/downloads/narrator/Narration_deathsdoor4.mp3"
         },
         {
-          "howl": "/sound/Narration_deathsdoor5.ogg"
+          "howl": "/downloads/narrator/Narration_deathsdoor5.mp3"
         }
       ]
     },
@@ -397,34 +397,34 @@
       "title": "Tot",
       "sound": [
         {
-          "howl": "/sound/Narration_death1.ogg"
+          "howl": "/downloads/narrator/Narration_death1.mp3"
         },
         {
-          "howl": "/sound/Narration_death6.ogg"
+          "howl": "/downloads/narrator/Narration_death6.mp3"
         },
         {
-          "howl": "/sound/Narration_death2.ogg"
+          "howl": "/downloads/narrator/Narration_death2.mp3"
         },
         {
-          "howl": "/sound/Narration_death6.ogg"
+          "howl": "/downloads/narrator/Narration_death6.mp3"
         },
         {
-          "howl": "/sound/Narration_death3.ogg"
+          "howl": "/downloads/narrator/Narration_death3.mp3"
         },
         {
-          "howl": "/sound/Narration_death6.ogg"
+          "howl": "/downloads/narrator/Narration_death6.mp3"
         },
         {
-          "howl": "/sound/Narration_death4.ogg"
+          "howl": "/downloads/narrator/Narration_death4.mp3"
         },
         {
-          "howl": "/sound/Narration_death6.ogg"
+          "howl": "/downloads/narrator/Narration_death6.mp3"
         },
         {
-          "howl": "/sound/Narration_death5.ogg"
+          "howl": "/downloads/narrator/Narration_death5.mp3"
         },
         {
-          "howl": "/sound/Narration_death6.ogg"
+          "howl": "/downloads/narrator/Narration_death6.mp3"
         }
       ]
     }
