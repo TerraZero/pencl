@@ -89,6 +89,6 @@ sw.*
 # Vim swap files
 *.swp
 
-static/downloads/*/*
-!static/downloads/*/.gitkeep
+static/downloads/*
+!static/downloads/.gitkeep
 .vscode
