@@ -11,6 +11,8 @@ function find(items, file) {
     let itembase = Path.basename(item.url);
     itembase = itembase.substring(0, itembase.length - Path.extname(itembase).length);
     if (itembase === base) {
+      item.convert = true;
+      item.output = itembase + '.mp3';
       items.push(item);
     }
   }

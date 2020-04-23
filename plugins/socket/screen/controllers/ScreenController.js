@@ -13,14 +13,14 @@ export default class ClientController extends Controller {
    * @param {import('sockettools/src/Request')} request
    */
   sound(request) {
-    MediaSystem.system.playSound(request.params.data);
+    MediaSystem.system.sound(request.params.data);
   }
 
   /**
    * @param {import('sockettools/src/Request')} request
    */
   scene(request) {
-    MediaSystem.system.load(request.params.data);
+    MediaSystem.system.scene(request.params.data);
   }
 
   /**

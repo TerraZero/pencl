@@ -1,17 +1,22 @@
 /**
- * @typedef T_YoutubeVideo
- * @property {string} videoId
+ * @typedef T_SceneSound
+ * @property {string} src
+ * @property {number} start
+ * @property {number} end
  * @property {number} volume
- * @property {number} startSeconds
- * @property {number} endSeconds
- * @property {string} suggestedQuality
- * @property {string} howl
  */
 
 /**
- * @typedef T_SceneBackground
+ * @typedef T_SceneImage
  * @property {string} src
  * @property {number} time
+ */
+
+/**
+ * @typedef T_SceneVideo
+ * @property {string} src
+ * @property {number} volume
+ * @property {number} loop
  */
 
 /**
@@ -19,146 +24,138 @@
  * @property {string} type
  * @property {string} title
  * @property {string} description
- * @property {boolean} shuffle
- * @property {T_YoutubeVideo} sound
- * @property {T_YoutubeVideo} video
- * @property {T_SceneBackground[]} images
- * @property {T_YoutubeVideo[]} sounds
+ * @property {string[]} shuffle
+ * @property {string} continue
+ * @property {T_SceneImage[]} images
+ * @property {T_SceneSound[]} sounds
+ * @property {T_SceneVideo[]} videos
  */
-
-import VideoPlayer from 'youtube-player';
 
 import Calc from '../util/Calc';
 
 export default class Scene {
 
   /**
-   * @param {*} ms
+   * @param {import('./index').default} mediasystem
    */
-  constructor(ms) {
-    this._ms = ms;
-    this._component = null;
-    this._data = {};
-    this._player = new VideoPlayer('scene-player');
-    this._player.on('stateChange', this.onStateChange.bind(this));
-    this._sound = new VideoPlayer('scene-sound-player');
-    this._sound.on('stateChange', this.onSoundStateChange.bind(this));
+  constructor(mediasystem) {
+    this._mediasystem = mediasystem;
+    this._scene = null;
+    this.__currentTimeout = null;
     this._current = {
       sound: null,
       image: null,
+      video: null,
     };
   }
 
   /**
    * @returns {T_SceneData}
    */
-  get data() {
-    return this._data;
-  }
-
-  mount(component) {
-    this._component = component;
+  get scene() {
+    return this._scene;
   }
 
   /**
-   * @param {T_SceneData} data
+   * @param {T_SceneData} scene
    */
-  load(data) {
-    this.stop();
-    this._data = data;
-    if (this.data.video) {
-      this._component.scene = 'video';
-      if (Array.isArray(this.data.video)) {
-        const index = Calc.random(0, this.data.video.length - 1);
-        this.play(this.data.video[index], this._player);
-      } else {
-        this.play(this.data.video, this._player);
+  load(scene) {
+    if (scene.continue && this._scene !== null) {
+      this.merge(scene);
+    } else {
+      this.stop();
+      this._scene = scene;
+
+      if (this.scene.images) {
+        this.nextImage();
+      }
+      if (this.scene.sounds) {
+        this.nextSound();
+      }
+      if (this.scene.videos) {
+        this.nextVideo();
       }
     }
-    if (this.data.sound) {
-      if (Array.isArray(this.data.sound)) {
-        const index = Calc.random(0, this.data.sound.length - 1);
-        this.play(this.data.sound[index], this._sound);
+  }
+
+  /**
+   * @param {T_SceneData} scene
+   */
+  merge(scene) {
+    this.scene[scene.continue + 's'] = scene[scene.continue + 's'];
+    this._current[scene.continue] = null;
+    if (scene.shuffle) {
+      if (this.scene.shuffle) {
+        this.scene.shuffle.concat(scene.shuffle);
+        this.scene.shuffle.filter((v, i, a) => a.indexOf(v) === i);
       } else {
-        this.play(this.data.sound, this._sound);
+        this.scene.shuffle = scene.shuffle;
       }
     }
-    if (this.data.images) {
-      this.nextImage();
-    }
-    if (this.data.sounds) {
-      this.nextSound();
-    }
+    this.next(scene.continue);
   }
 
   stop() {
-    this._component.scene = null;
-    this._data = {};
+    this._mediasystem.clear();
     this._current = {
       sound: null,
       image: null,
+      video: null,
     };
-    this._sound.stopVideo();
-    this._player.stopVideo();
     clearTimeout(this._currentTimeout);
   }
 
+  next(type) {
+    switch (type) {
+      case 'image':
+        this.nextImage();
+        break;
+      case 'video':
+        this.nextVideo();
+        break;
+      case 'sound':
+        this.nextSound();
+        break;
+    }
+  }
+
   nextImage() {
-    this.count('image');
-    this._component.scene = 'image';
-    this._component.image = this.data.images[this._current.image].src;
-    this._currentTimeout = setTimeout(this.nextImage.bind(this), this.data.images[this._current.image].time);
+    const current = this.count('image');
+    this._mediasystem.image(current.src);
+    if (this.scene.images.length !== 1) {
+      clearTimeout(this._currentTimeout);
+      this._currentTimeout = setTimeout(this.nextImage.bind(this), current.time);
+    }
   }
 
-  nextSound() {
-    this.count('sound');
-    this.play(this.data.sounds[this._current.sound], this._sound);
+  nextSound(sound) {
+    if (sound && sound.state === 'stop') return;
+    const current = this.count('sound');
+    this._mediasystem.sound(current).promise.then(this.nextSound.bind(this));
   }
 
+  nextVideo(video) {
+    if (video && video.state === 'stop') return;
+    const current = this.count('video');
+    this._mediasystem.video(current).promise.then(this.nextVideo.bind(this));
+  }
+
+  /**
+   *
+   * @param {string} type
+   * @returns {(T_SceneImage|T_SceneSound)}
+   */
   count(type) {
-    if (this._current[type] === null) this._current[type] = 0;
-    if (this.data.shuffle) {
-      let count = Calc.random(0, this.data[type + 's'].length);
+    if (this._current[type] === null) this._current[type] = -1;
+    if (this.scene.shuffle && this.scene.shuffle.indexOf(type) !== -1) {
+      let count = Calc.random(0, this.scene[type + 's'].length);
       if (count === this._current[type]) count++;
       this._current[type] = count;
     } else {
       this._current[type]++;
     }
-    this._current[type] = this._current[type] % this.data[type + 's'].length;
-  }
-
-  /**
-   * @param {T_YoutubeVideo} video
-   * @param {VideoPlayer} player
-   */
-  play(video, player) {
-    if (video.howl !== undefined) {
-      const howl = this._ms.playFile(video.howl);
-
-      if (this.data.sounds) {
-        howl.on('end', this.nextSound.bind(this));
-      }
-    } else {
-      player.loadVideoById(video);
-      if (video.volume !== undefined) {
-        player.setVolume(video.volume);
-      }
-      player.playVideo();
-    }
-  }
-
-  onStateChange(event) {
-    if (!this.data.sounds && !this.data.images) {
-      if (event.data === 0) {
-        this._component.scene = null;
-      }
-    }
-  }
-
-  onSoundStateChange(event) {
-    if (event.data === 0 && this.data.sounds) {
-      this.nextSound();
-    }
+    this._current[type] = this._current[type] % this.scene[type + 's'].length;
+    return this.scene[type + 's'][this._current[type]];
   }
 
 }

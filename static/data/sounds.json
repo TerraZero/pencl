@@ -1,122 +1,232 @@
 [
   {
-    "url": "https://www.youtube.com/watch?v=M_-ZwZR_5r4",
-    "convert": "mp3"
+    "url": "https://www.youtube.com/watch?v=eEvakpPy4iY",
+    "convert": true,
+    "output": "bg_empty_chapel.mp3"
   },
   {
-    "url": "https://www.youtube.com/watch?v=tzftcUFbgoc",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=br-UVb2zDqs",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=xSUYP_8_S44",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=V_JviBa4I5Y",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=Bp648En-8n4",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=SuhYqy6PItY",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=ejb3ltBhwYQ",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=8WWAdN2K_1o",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=Z4F-iNOusHc",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=SzJYa9Z15-I",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=E7JzX4CHJYg",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=WhVix2wgDD4",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=-3slUbcvS4U",
-    "convert": "mp3"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=QVFExiT4VaU",
-    "convert": "mp3"
+    "url": "https://www.youtube.com/watch?v=33nWRv0nCRE",
+    "convert": true,
+    "output": "bg_mysteriis_de_sanguine.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=WYckudaK0N4",
-    "convert": "mp3"
+    "convert": true,
+    "output": "bg_the_void.mp3"
   },
   {
-    "url": "https://www.youtube.com/watch?v=eEvakpPy4iY",
-    "convert": "mp3"
+    "url": "https://www.youtube.com/watch?v=C75z9avAKjY",
+    "convert": true,
+    "output": "bg_the_citadel.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=3x-7ML05eJg",
+    "convert": true,
+    "output": "bg_tr_the_cistern.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=2EZ4eALd3mE",
+    "convert": true,
+    "output": "bg_march_of_the_priests.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=s-wtmfgJJZY",
+    "convert": true,
+    "output": "bg_drakhuvud.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=X8Hi4CpwIQg",
+    "convert": true,
+    "output": "bg_chalice_of_eternity.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=M_-ZwZR_5r4",
+    "convert": true,
+    "output": "dd_lagern.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tzftcUFbgoc",
+    "convert": true,
+    "output": "dd_explorer.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=br-UVb2zDqs",
+    "convert": true,
+    "output": "dd_combat_1.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=xSUYP_8_S44",
+    "convert": true,
+    "output": "dd_combat_2.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=V_JviBa4I5Y",
+    "convert": true,
+    "output": "dd_combat_3.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Bp648En-8n4",
+    "convert": true,
+    "output": "dd_combat_4.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=SuhYqy6PItY",
+    "convert": true,
+    "output": "re2_reliving_the_present.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ejb3ltBhwYQ",
+    "convert": true,
+    "output": "re2_absurd_advent.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8WWAdN2K_1o",
+    "convert": true,
+    "output": "re2_cerberus.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Z4F-iNOusHc",
+    "convert": true,
+    "output": "re2_last_judgment.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=SzJYa9Z15-I",
+    "convert": true,
+    "output": "ddk_combat_1.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=E7JzX4CHJYg",
+    "convert": true,
+    "output": "ddk_combat_2.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=WhVix2wgDD4",
+    "convert": true,
+    "output": "ddk_combat_3.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=-3slUbcvS4U",
+    "convert": true,
+    "output": "ddk_combat_4.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=QVFExiT4VaU",
+    "convert": true,
+    "output": "dd_combat_5.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=ISuuQ0-a5YM",
-    "convert": "mp3"
+    "convert": true,
+    "output": "re2_the_beginning.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=jF64cLBgD9U",
-    "convert": "mp3"
+    "convert": true,
+    "output": "c_battle_of_gods.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=n_8LAvwJMq8",
-    "convert": "mp3"
+    "convert": true,
+    "output": "a_ancient_gods.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=MWHbSTvxjhM",
-    "convert": "mp3"
+    "convert": true,
+    "output": "re2_mournful_pursuit.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=RK7uxcHMRWQ",
-    "convert": "mp3"
+    "convert": true,
+    "output": "re2_third_demise.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=HWxIz8haxt0",
-    "convert": "mp3"
+    "convert": true,
+    "output": "c_gods_bound_by_rules.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=5qY-gWF9AF8",
-    "convert": "mp3"
+    "convert": true,
+    "output": "ds3_abyss_watchers.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=1yd1n2TNtZk",
-    "convert": "mp3"
+    "convert": true,
+    "output": "blas_dame_tu_tormento.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=uGIu6-WtwEs",
-    "convert": "mp3"
+    "convert": true,
+    "output": "rn_the_devil.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=kA614N3IHD4",
-    "convert": "mp3"
+    "convert": true,
+    "output": "bb_father_gascoigne.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=_5i03mlsync",
-    "convert": "mp3"
+    "convert": true,
+    "output": "c_mighty_have_fallen.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=3BDoZcXjArI",
-    "convert": "mp3"
+    "convert": true,
+    "output": "o_frozen_in_time.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=5-4Ng_gDhXI",
-    "convert": "mp3"
+    "convert": true,
+    "output": "o_overcome.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=D9s18rUaubc",
+    "convert": true,
+    "output": "c_navras.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=d1E2LKQdMc4",
+    "convert": true,
+    "output": "s_gyoubu_oniwa.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tXQ8LJ4TraY",
+    "convert": true,
+    "output": "s_approaching_forces.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=I4azCgSeQVc",
+    "convert": true,
+    "output": "s_butterfly.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=IPsXMgnGUvU",
+    "convert": true,
+    "output": "s_the_owl.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=JIhB9K4P43E",
+    "convert": true,
+    "output": "n_karasu_tengu.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=PUrdQPs6CoI",
+    "convert": true,
+    "output": "n_magara_naotaka.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0Y2aSvg_Wpw",
+    "convert": true,
+    "output": "n_combat_1.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=qFV5OmQ6y7c",
+    "convert": true,
+    "output": "n_combat_2.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=mgLBmLoL2Aw",
+    "convert": true,
+    "output": "sfx_earthquake.mp3"
   }
 ]

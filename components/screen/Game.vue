@@ -7,9 +7,18 @@
       transition-group(name="enter")
         .game--image(v-if="scene === 'image'", :key="image", :style="imagestyle")
         .game--video(v-show="scene === 'video'", key="scene-player")
-          video#scene-player.game--video-player
+          video#sceneplayer.game--video-player
+            source(v-if="video", :src="video.src", type="video/mp4")
     .game--logo(:class="logoclass")
-      SVGEmbed(src="/images/logos/tz.svg")
+      .game--logo-wrapper
+        SVGEmbed(src="/images/logos/tz.svg")
+      .game--logo--title
+        .game--cha-1 I
+        .game--cha-2 N
+        .game--cha-3 S
+        .game--cha-4 A
+        .game--cha-5 N
+        .game--cha-6 E
 </template>
 
 <script>
@@ -27,6 +36,7 @@ export default {
       sounds: [],
       scene: null,
       image: 0,
+      video: null,
       trigger: true
     };
   },
@@ -90,9 +100,20 @@ export default {
     right: 20px
     width: 50px
     height: 50px
-    filter: drop-shadow(2px 4px 6px black)
     transition: top .3s ease-in-out, right .3s ease-in-out, width .3s ease-in-out, height .3s ease-in-out
+
+  &--logo--title
+    display: flex
+    justify-content: center
+    font-size: 15px
+    transition: font-size .3s ease-in-out
+
+  &--logo-wrapper
+    width: 75%
+    height: 75%
+    margin: 0 auto 5px
     animation: logo-rotate 20s 9s infinite
+    filter: drop-shadow(2px 4px 6px black)
 
     .logo-t,
     .logo-z
@@ -104,5 +125,26 @@ export default {
     right: calc(50% - 300px)
     width: 600px
     height: 600px
+
+  &--logo--start &--logo--title
+    font-size: 150px
+
+  &--cha-1
+    animation: logo-shadow 40s linear infinite
+
+  &--cha-2
+    animation: logo-shadow 50s 6s linear infinite
+
+  &--cha-3
+    animation: logo-shadow 30s 4s linear infinite
+
+  &--cha-4
+    animation: logo-shadow 44s 10s linear infinite
+
+  &--cha-5
+    animation: logo-shadow 38s 8s linear infinite
+
+  &--cha-6
+    animation: logo-shadow 40s 14s linear infinite
 
 </style>

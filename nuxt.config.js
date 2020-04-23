@@ -1,5 +1,9 @@
 import OS from 'os';
 
+const WS_URL = process.env.WS_URL || 'http://' + OS.hostname() + ':3000';
+
+console.log('Connect: ' + WS_URL.toLowerCase());
+
 export default {
   server: {
     port: 3000, // default: 3000
@@ -57,7 +61,7 @@ export default {
     }
   },
   env: {
-    WS_URL: process.env.WS_URL || 'http://' + OS.hostname() + ':3000'
+    WS_URL: WS_URL
   },
 
 }

@@ -1,11 +1,26 @@
 [
   {
-    "url": "https://www.youtube.com/watch?v=eRh_mlAwxTI"
+    "url": "https://www.youtube.com/watch?v=eRh_mlAwxTI",
+    "output": "dd_letter.mp4"
   },
   {
-    "url": "https://www.youtube.com/watch?v=LvxcWbPQlXE"
+    "url": "https://www.youtube.com/watch?v=LvxcWbPQlXE",
+    "output": "dd_road_home.mp4"
   },
   {
-    "url": "https://www.youtube.com/watch?v=FkLdq70Wugo"
+    "url": "https://www.youtube.com/watch?v=FkLdq70Wugo",
+    "output": "ds_artorias_intro.mp4"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=QLsF9ql3gSI",
+    "output": "lrp_red_road_1.mp4"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zC9qpXRqIGk",
+    "output": "lrp_red_road_2.mp4"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Boelfqg9BcY",
+    "output": "lrp_red_road_3.mp4"
   }
 ]

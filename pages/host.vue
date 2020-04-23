@@ -57,7 +57,7 @@ export default {
       } else {
         sound = video.sound;
       }
-      console.log(sound);
+
       Socket.request("updateScreen", {
         route: "sound",
         params: {

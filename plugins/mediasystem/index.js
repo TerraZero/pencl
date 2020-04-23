@@ -1,7 +1,7 @@
 import { Howl } from 'howler';
 
-import ArrayUtil from '../util/ArrayUtil';
 import Video from './Video';
+import Sound from './Sound';
 import Scene from './Scene';
 
 export default class MediaSystem {
@@ -14,70 +14,67 @@ export default class MediaSystem {
   }
 
   constructor() {
-    this._register = {};
     this._component = null;
+    this._video = null;
     this._scene = null;
+    this._sounds = {};
   }
 
   get component() {
     return this._component;
   }
 
-  get scene() {
-    this._scene = this._scene || new Scene(this);
-    return this._scene;
-  }
-
   mount(component) {
     this._component = component;
-    this.scene.mount(component);
+    this._video = new Video(this._component, sceneplayer);
+    this._scene = new Scene(this);
     return this;
   }
 
-  load(data) {
-    this.scene.load(data);
+  sound(sound) {
+    if (this._sounds[sound.src] === undefined) {
+      this._sounds[sound.src] = new Sound(sound);
+      this._sounds[sound.src].start().promise.then(() => {
+        delete this._sounds[sound.src];
+      });
+    }
+    return this._sounds[sound.src];
+  }
+
+  clear() {
+    this._video.stop();
+    this.component.scene = null;
+    this.component.image = null;
+    this.component.video = null;
+    for (const src in this._sounds) {
+      this._sounds[src].stop();
+    }
+  }
+
+  image(image) {
+    this.component.scene = 'image';
+    this.component.image = image;
+  }
+
+  video(video) {
+    return this._video.load(video);
+  }
+
+  scene(scene) {
+    if (scene.sound) {
+      this._scene.stop();
+      this.sound(scene.sound);
+    } else if (scene.video) {
+      this._scene.stop();
+      this._video.load(scene.video);
+    } else {
+      this._scene.load(scene);
+    }
   }
 
   stop() {
-    this.scene.stop();
-  }
-
-  playFile(file) {
-    const sound = new Howl({
-      src: [file],
-    });
-    sound.play();
-    return sound;
-  }
-
-  register(id, component) {
-    if (this._register[id]) {
-      this._register[id].execute(component);
-    }
-  }
-
-  playSound(video) {
-    if (video.howl) {
-      this.playFile(video.howl);
-      return null;
-    } else {
-      this._register = this._register || {};
-      video.id = 'video-' + video.videoId;
-
-      this.component.sounds.push({ id: video.id });
-      this._register[video.id] = new Video(video, 'sound');
-      return this._register[video.id];
-    }
-  }
-
-  /**
-   * @param {import('./Video')} video
-   */
-  clear(video) {
-    const { index } = ArrayUtil.find(this.component.sounds, (item) => item.id === video._video.id);
-
-    this.component.sounds.splice(index, 1);
-    delete this._register[video.id];
+    this._scene.stop();
+    this.clear();
   }
 
 }

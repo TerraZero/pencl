@@ -4,23 +4,21 @@
       "type": "sound",
       "title": "Start Story",
       "sound": {
-        "howl": "/downloads/narrator/Vo_narr_town_backstory_16.mp3"
+        "src": "/downloads/narrator/Vo_narr_town_backstory_16.mp3"
       }
     },
     {
       "type": "sound",
       "title": "Erdbeben",
       "sound": {
-        "videoId": "mgLBmLoL2Aw",
-        "volume": 100
+        "src": "/downloads/sounds/sfx_earthquake.mp3"
       }
     },
     {
       "type": "sound",
       "title": "Betreten Dungeon Oben",
       "sound": {
-        "videoId": "4nTAtZBjQZA",
-        "volume": 100
+        "src": "/downloads/narrator/Narration_load_crypts_02.mp3"
       }
     },
     {
@@ -28,13 +26,13 @@
       "title": "Versuchte Flucht",
       "sound": [
         {
-          "howl": "/downloads/narrator/Narration_retreatfail1.mp3"
+          "src": "/downloads/narrator/Narration_retreatfail1.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_retreatfail2.mp3"
+          "src": "/downloads/narrator/Narration_retreatfail2.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_retreatfail3.mp3"
+          "src": "/downloads/narrator/Narration_retreatfail3.mp3"
         }
       ]
     },
@@ -43,43 +41,43 @@
       "title": "Story",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_04.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_05.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_05.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_06.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_06.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_07.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_07.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_08.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_08.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_09.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_09.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_10.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_10.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_11.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_11.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_12.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_12.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_14.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_14.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_town_backstory_20.mp3"
+          "src": "/downloads/narrator/Vo_narr_town_backstory_20.mp3"
         }
       ]
     },
@@ -88,43 +86,43 @@
       "title": "Kritischer Treffer",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_good_virtue_focused.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_virtue_focused.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_virtue_powerful.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_virtue_powerful.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_virtue_stalwart.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_virtue_stalwart.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_virtue_vigorous.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_virtue_vigorous.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_virtuegeneral.mp3"
+          "src": "/downloads/narrator/Narration_virtuegeneral.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_crit_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_crit_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_crit_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_crit_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_crit_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_crit_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_crit_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_crit_04.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_crit_05.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_crit_05.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_crit_06.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_crit_06.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_crit_07.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_crit_07.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_crit_08.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_crit_08.mp3"
         }
       ]
     },
@@ -133,19 +131,19 @@
       "title": "Stress",
       "sound": [
         {
-          "howl": "/downloads/narrator/Affliction_abusive.mp3"
+          "src": "/downloads/narrator/Affliction_abusive.mp3"
         },
         {
-          "howl": "/downloads/narrator/Affliction_fearful.mp3"
+          "src": "/downloads/narrator/Affliction_fearful.mp3"
         },
         {
-          "howl": "/downloads/narrator/Affliction_generic5.mp3"
+          "src": "/downloads/narrator/Affliction_generic5.mp3"
         },
         {
-          "howl": "/downloads/narrator/Affliction_hopeless.mp3"
+          "src": "/downloads/narrator/Affliction_hopeless.mp3"
         },
         {
-          "howl": "/downloads/narrator/Affliction_paranoid.mp3"
+          "src": "/downloads/narrator/Affliction_paranoid.mp3"
         }
       ]
     },
@@ -154,19 +152,19 @@
       "title": "Lagern",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_good_camp_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_camp_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_camp_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_camp_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_camp_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_camp_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_camp_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_camp_04.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_camp_05.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_camp_05.mp3"
         }
       ]
     },
@@ -175,28 +173,28 @@
       "title": "Kill Gegner",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_weak_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_weak_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_weak_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_weak_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_weak_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_weak_04.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_weak_05.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_weak_05.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_killfirst_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_killfirst_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_killfirst_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_killfirst_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_killfirst_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_killfirst_04.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_killfirst_05.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_killfirst_05.mp3"
         }
       ]
     },
@@ -205,19 +203,19 @@
       "title": "Kritischer Kill",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_strong_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_strong_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_strong_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_04_v1.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_strong_04_v1.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_strong_05.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_strong_05.mp3"
         }
       ]
     },
@@ -226,16 +224,16 @@
       "title": "Elite Kill",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_big_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_big_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_big_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_big_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_big_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_big_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_big_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_big_04.mp3"
         }
       ]
     },
@@ -244,13 +242,13 @@
       "title": "Gift",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_dot_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_dot_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_dot_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_dot_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_kill_dot_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_kill_dot_04.mp3"
         }
       ]
     },
@@ -259,25 +257,25 @@
       "title": "Falle",
       "sound": [
         {
-          "howl": "/downloads/narrator/Narration_trap1.mp3"
+          "src": "/downloads/narrator/Narration_trap1.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_trap2.mp3"
+          "src": "/downloads/narrator/Narration_trap2.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_trap3.mp3"
+          "src": "/downloads/narrator/Narration_trap3.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_trap4.mp3"
+          "src": "/downloads/narrator/Narration_trap4.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_trap5.mp3"
+          "src": "/downloads/narrator/Narration_trap5.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_bad_trap_06.mp3"
+          "src": "/downloads/narrator/Vo_narr_bad_trap_06.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_bad_trap_08_v2.mp3"
+          "src": "/downloads/narrator/Vo_narr_bad_trap_08_v2.mp3"
         }
       ]
     },
@@ -286,28 +284,28 @@
       "title": "Heilen",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_good_heal_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_heal_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_heal_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_heal_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_heal_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_heal_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_heal_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_heal_04.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_healcrit_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_healcrit_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_healcrit_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_healcrit_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_healcrit_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_healcrit_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_healcrit_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_healcrit_04.mp3"
         }
       ]
     },
@@ -316,16 +314,16 @@
       "title": "Heilen Fast Tot",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_good_healdd_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_healdd_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_healdd_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_healdd_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_healdd_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_healdd_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_healdd_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_healdd_04.mp3"
         }
       ]
     },
@@ -334,31 +332,31 @@
       "title": "Kampf gewonnen",
       "sound": [
         {
-          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_01.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_victoryfirst_01.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_02.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_victoryfirst_02.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_03.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_victoryfirst_03.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_04.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_victoryfirst_04.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_05.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_victoryfirst_05.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_06.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_victoryfirst_06.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_07.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_victoryfirst_07.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_08.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_victoryfirst_08.mp3"
         },
         {
-          "howl": "/downloads/narrator/Vo_narr_good_victoryfirst_09.mp3"
+          "src": "/downloads/narrator/Vo_narr_good_victoryfirst_09.mp3"
         }
       ]
     },
@@ -367,28 +365,28 @@
       "title": "Fast Tot",
       "sound": [
         {
-          "howl": "/downloads/narrator/Narration_deathsdoor1.mp3"
+          "src": "/downloads/narrator/Narration_deathsdoor1.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_deathsdoor4.mp3"
+          "src": "/downloads/narrator/Narration_deathsdoor4.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_deathsdoor2.mp3"
+          "src": "/downloads/narrator/Narration_deathsdoor2.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_deathsdoor4.mp3"
+          "src": "/downloads/narrator/Narration_deathsdoor4.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_deathsdoor3.mp3"
+          "src": "/downloads/narrator/Narration_deathsdoor3.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_deathsdoor4.mp3"
+          "src": "/downloads/narrator/Narration_deathsdoor4.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_deathsdoor4.mp3"
+          "src": "/downloads/narrator/Narration_deathsdoor4.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_deathsdoor5.mp3"
+          "src": "/downloads/narrator/Narration_deathsdoor5.mp3"
         }
       ]
     },
@@ -397,34 +395,34 @@
       "title": "Tot",
       "sound": [
         {
-          "howl": "/downloads/narrator/Narration_death1.mp3"
+          "src": "/downloads/narrator/Narration_death1.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_death6.mp3"
+          "src": "/downloads/narrator/Narration_death6.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_death2.mp3"
+          "src": "/downloads/narrator/Narration_death2.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_death6.mp3"
+          "src": "/downloads/narrator/Narration_death6.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_death3.mp3"
+          "src": "/downloads/narrator/Narration_death3.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_death6.mp3"
+          "src": "/downloads/narrator/Narration_death6.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_death4.mp3"
+          "src": "/downloads/narrator/Narration_death4.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_death6.mp3"
+          "src": "/downloads/narrator/Narration_death6.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_death5.mp3"
+          "src": "/downloads/narrator/Narration_death5.mp3"
         },
         {
-          "howl": "/downloads/narrator/Narration_death6.mp3"
+          "src": "/downloads/narrator/Narration_death6.mp3"
         }
       ]
     }
@@ -432,9 +430,11 @@
   "scenes": [
     {
       "type": "scene",
-      "title": "Pause",
-      "description": "Für zwischendurch, keine Musik",
-      "shuffle": true,
+      "title": "Random",
+      "shuffle": [
+        "image"
+      ],
+      "continue": "image",
       "images": [
         {
           "src": "/images/dd/bandit.jpg",
@@ -480,11 +480,149 @@
     },
     {
       "type": "scene",
+      "title": "Red Images",
+      "shuffle": [
+        "image"
+      ],
+      "continue": "image",
+      "images": [
+        {
+          "src": "/downloads/dd_images/dd_red_flagellant.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_red_leper.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_red_highwayman.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_red_jester.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_red_man_at_arms.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_red_grave_robber.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_red_plague_doctor.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_red_vestal.jpg",
+          "time": 8000
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Grey Images",
+      "shuffle": [
+        "image"
+      ],
+      "continue": "image",
+      "images": [
+        {
+          "src": "/downloads/dd_images/dd_grey_abomination.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_man_at_arms.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_plague_doctor.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_flagellant.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_highwayman.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_jester.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_houndmaster.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_arbalest.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_bounty_hunter.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_grave_robber.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_antiquarian.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_grey_hellion.jpg",
+          "time": 8000
+        },
+        {
+          "src": "/downloads/dd_images/dd_color_plague_doctor.jpg",
+          "time": 8000
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Road 1",
+      "continue": "video",
+      "videos": [
+        {
+          "src": "/downloads/videos/lrp_red_road_1.mp4",
+          "volume": 0,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Road 2",
+      "continue": "video",
+      "videos": [
+        {
+          "src": "/downloads/videos/lrp_red_road_2.mp4",
+          "volume": 0,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Road 3",
+      "continue": "video",
+      "videos": [
+        {
+          "src": "/downloads/videos/lrp_red_road_3.mp4",
+          "volume": 0,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "type": "scene",
       "title": "First Intro",
       "video": {
-        "videoId": "eRh_mlAwxTI",
-        "startSeconds": 9,
-        "endSeconds": 130,
+        "src": "/downloads/videos/dd_letter.mp4#t=9,130",
         "volume": 100
       }
     },
@@ -492,118 +630,134 @@
       "type": "scene",
       "title": "Start Game",
       "video": {
-        "videoId": "LvxcWbPQlXE",
-        "startSeconds": 9,
-        "endSeconds": 130,
+        "src": "/downloads/videos/dd_road_home.mp4",
         "volume": 100
       }
     },
     {
       "type": "scene",
       "title": "Lagern",
-      "shuffle": true,
       "sounds": [
         {
-          "videoId": "M_-ZwZR_5r4",
-          "volume": 100
+          "src": "/downloads/sounds/dd_lagern.mp3",
+          "volume": 80
         }
       ]
     },
     {
       "type": "scene",
       "title": "Dungeon Links",
-      "shuffle": true,
       "sounds": [
         {
-          "videoId": "tzftcUFbgoc",
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "scene",
-      "title": "Dungeon Links Kampf",
-      "shuffle": true,
-      "sounds": [
-        {
-          "videoId": "br-UVb2zDqs",
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "scene",
-      "title": "Dungeon Rechts Kampf",
-      "shuffle": true,
-      "sounds": [
-        {
-          "videoId": "xSUYP_8_S44",
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "scene",
-      "title": "Dungeon Oben Kampf",
-      "shuffle": true,
-      "sounds": [
-        {
-          "videoId": "V_JviBa4I5Y",
-          "volume": 100
+          "src": "/downloads/sounds/dd_explorer.mp3",
+          "volume": 80
         },
         {
-          "videoId": "Bp648En-8n4",
-          "volume": 100
+          "src": "/downloads/sounds/bg_mysteriis_de_sanguine.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_the_citadel.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_tr_the_cistern.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_march_of_the_priests.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_drakhuvud.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_chalice_of_eternity.mp3",
+          "volume": 80
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Kampf Theme 1",
+      "shuffle": [
+        "sound"
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/dd_combat_1.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/dd_combat_2.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/dd_combat_3.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/dd_combat_4.mp3",
+          "volume": 80
         }
       ]
     },
     {
       "type": "scene",
       "title": "Elite",
-      "shuffle": true,
+      "shuffle": [
+        "sound"
+      ],
       "sounds": [
         {
-          "videoId": "SuhYqy6PItY",
-          "volume": 100
+          "src": "/downloads/sounds/re2_reliving_the_present.mp3",
+          "volume": 80
         },
         {
-          "videoId": "ejb3ltBhwYQ",
-          "volume": 100
+          "src": "/downloads/sounds/re2_absurd_advent.mp3",
+          "volume": 80
         },
         {
-          "videoId": "8WWAdN2K_1o",
-          "volume": 100
+          "src": "/downloads/sounds/re2_cerberus.mp3",
+          "volume": 80
         },
         {
-          "videoId": "Z4F-iNOusHc",
-          "volume": 100
+          "src": "/downloads/sounds/re2_last_judgment.mp3",
+          "volume": 80
         }
       ]
     },
     {
       "type": "scene",
-      "title": "Boss",
-      "shuffle": true,
+      "title": "Kampf Theme 2 - Kristall",
+      "shuffle": [
+        "sound"
+      ],
       "sounds": [
         {
-          "videoId": "SzJYa9Z15-I",
-          "volume": 100
+          "src": "/downloads/sounds/ddk_combat_1.mp3",
+          "volume": 80
         },
         {
-          "videoId": "E7JzX4CHJYg",
-          "volume": 100
+          "src": "/downloads/sounds/ddk_combat_2.mp3",
+          "volume": 80
         },
         {
-          "videoId": "WhVix2wgDD4",
-          "volume": 100
+          "src": "/downloads/sounds/ddk_combat_3.mp3",
+          "volume": 80
         },
         {
-          "videoId": "-3slUbcvS4U",
-          "volume": 100
+          "src": "/downloads/sounds/ddk_combat_4.mp3",
+          "volume": 80
         },
         {
-          "videoId": "QVFExiT4VaU",
-          "volume": 100
+          "src": "/downloads/sounds/dd_combat_5.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/ddk_combat_1.mp3",
+          "volume": 80
         }
       ]
     },
@@ -611,45 +765,129 @@
       "type": "scene",
       "title": "Intro Astorias",
       "video": {
-        "videoId": "FkLdq70Wugo",
+        "src": "/downloads/videos/ds_artorias_intro.mp3",
         "volume": 100
       }
     },
     {
       "type": "scene",
       "title": "Das Ende",
-      "shuffle": true,
+      "shuffle": [
+        "sound"
+      ],
       "sounds": [
         {
-          "videoId": "WYckudaK0N4",
-          "volume": 100
+          "src": "/downloads/sounds/bg_the_void.mp3",
+          "volume": 80
         },
         {
-          "videoId": "eEvakpPy4iY",
-          "volume": 100
+          "src": "/downloads/sounds/bg_empty_chapel.mp3",
+          "volume": 80
         }
       ]
     },
     {
       "type": "scene",
-      "title": "Vor der Kammer (Vorboss intro)",
-      "sound": {
-        "videoId": "ISuuQ0-a5YM",
-        "volume": 100
-      }
+      "title": "Intro Reynauld",
+      "sounds": [
+        {
+          "src": "/downloads/sounds/c_navras.mp3",
+          "volume": 100
+        }
+      ],
+      "images": [
+        {
+          "src": "/downloads/dd_images/dd_red_crusader.jpg",
+          "time": 20000
+        }
+      ]
     },
     {
       "type": "scene",
-      "title": "Vorboss Kampf",
-      "shuffle": true,
+      "title": "Kampf Theme 3 - Reynauld",
+      "shuffle": [
+        "sound"
+      ],
       "sounds": [
         {
-          "videoId": "jF64cLBgD9U",
-          "volume": 100
+          "src": "/downloads/sounds/s_gyoubu_oniwa.mp3",
+          "volume": 80
         },
         {
-          "videoId": "n_8LAvwJMq8",
-          "volume": 100
+          "src": "/downloads/sounds/s_approaching_forces.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/s_butterfly.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/s_the_owl.mp3",
+          "volume": 80
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Kampf Theme 4",
+      "shuffle": [
+        "sound"
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/n_karasu_tengu.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/n_magara_naotaka.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/n_combat_1.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/n_combat_2.mp3",
+          "volume": 80
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Intro Müller",
+      "images": [
+        {
+          "src": "/downloads/dd_images/dd_color_ghost_miller.jpg",
+          "time": 20000
+        }
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/re2_third_demise.mp3",
+          "volume": 80
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Müller Kampf",
+      "shuffle": [
+        "sound"
+      ],
+      "images": [
+        {
+          "src": "/downloads/dd_images/dd_color_ghost_miller.jpg",
+          "time": 20000
+        }
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/c_battle_of_gods.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/a_ancient_gods.mp3",
+          "volume": 80
         }
       ]
     },
@@ -657,30 +895,32 @@
       "type": "scene",
       "title": "Final Intro Phase 1",
       "sound": {
-        "videoId": "MWHbSTvxjhM",
+        "src": "/downloads/sounds/re2_mournful_pursuit.mp3",
         "volume": 100
       }
     },
     {
       "type": "scene",
       "title": "Final Kampf Phase 1",
-      "shuffle": true,
+      "shuffle": [
+        "sound"
+      ],
       "sounds": [
         {
-          "videoId": "RK7uxcHMRWQ",
-          "volume": 100
+          "src": "/downloads/sounds/re2_mournful_pursuit.mp3",
+          "volume": 80
         },
         {
-          "videoId": "HWxIz8haxt0",
-          "volume": 100
+          "src": "/downloads/sounds/c_gods_bound_by_rules.mp3",
+          "volume": 80
         },
         {
-          "videoId": "5qY-gWF9AF8",
-          "volume": 100
+          "src": "/downloads/sounds/ds3_abyss_watchers.mp3",
+          "volume": 80
         },
         {
-          "videoId": "1yd1n2TNtZk",
-          "volume": 100
+          "src": "/downloads/sounds/blas_dame_tu_tormento.mp3",
+          "volume": 80
         }
       ]
     },
@@ -688,21 +928,23 @@
       "type": "scene",
       "title": "Final Intro Phase 2",
       "sound": {
-        "videoId": "uGIu6-WtwEs",
+        "src": "/downloads/sounds/rn_the_devil.mp3",
         "volume": 100
       }
     },
     {
       "type": "scene",
       "title": "Final Kampf Phase 2",
-      "shuffle": true,
+      "shuffle": [
+        "sound"
+      ],
       "sounds": [
         {
-          "videoId": "kA614N3IHD4",
+          "src": "/downloads/sounds/bb_father_gascoigne.mp3",
           "volume": 100
         },
         {
-          "videoId": "_5i03mlsync",
+          "src": "/downloads/sounds/c_mighty_have_fallen.mp3",
           "volume": 100
         }
       ]
@@ -711,7 +953,7 @@
       "type": "scene",
       "title": "Outro",
       "sound": {
-        "videoId": "3BDoZcXjArI",
+        "src": "/downloads/sounds/o_frozen_in_time.mp3",
         "volume": 100
       }
     },
@@ -719,7 +961,7 @@
       "type": "scene",
       "title": "Final Outro",
       "sound": {
-        "videoId": "5-4Ng_gDhXI",
+        "src": "/downloads/sounds/o_overcome.mp3",
         "volume": 100
       }
     }

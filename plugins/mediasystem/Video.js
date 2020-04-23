@@ -1,40 +1,16 @@
-import MediaSystem from './index';
-import VideoPlayer from 'youtube-player';
-
 export default class Video {
 
-  constructor(video, type = 'video') {
-    this._type = type;
-    this._video = video;
-    this._component = null;
-    this._player = null;
-    this._current = 0;
+  constructor(mount, video) {
     this._promise = null;
+    this._video = video;
+    this._mount = mount;
+    this._video.addEventListener('canplay', this.onCanplay.bind(this));
+    this._video.addEventListener('pause', this.onPause.bind(this));
+    this._state = null;
   }
 
-  execute(component) {
-    this._component = component;
-    this._player = new VideoPlayer(this._video.id, this._video);
-    this._player.on('stateChange', this.onStateChange.bind(this));
-    if (this._video.volume !== undefined) {
-      this._player.setVolume(this._video.volume);
-    } else {
-      this._player.setVolume(100);
-    }
-    this._player.playVideo();
-  }
-
-  clear() {
-    MediaSystem.system.clear(this);
-  }
-
-  onStateChange(event) {
-    if (event.data === 0 && this._promise !== null) {
-      this._promise.resolve(this);
-    }
-    if (this._type === 'sound' && event.data === 0) {
-      this.clear();
-    }
+  get state() {
+    return this._state;
   }
 
   get promise() {
@@ -46,6 +22,51 @@ export default class Video {
       });
     }
     return this._promise.promise;
+  }
+
+  onCanplay() {
+    this._state = 'play';
+    this._video.play();
+  }
+
+  onPause() {
+    this._mount.scene = null;
+    this._mount.video = null;
+    this._video.loop = false;
+    if (this._promise !== null) {
+      this._promise.resolve(this);
+    }
+  }
+
+  /**
+   * @param {import("./Scene").T_SceneVideo} data
+   */
+  load(data) {
+    this.pause();
+    this._promise = null;
+    this._mount.scene = 'video';
+    if (data.loop) {
+      this._video.loop = true;
+    }
+    this._mount.video = data;
+    if (data.volume !== undefined) {
+      this._video.volume = data.volume / 100;
+    } else {
+      this._video.volume = 1;
+    }
+    if (this._video.readyState === 4) {
+      this._video.load();
+    }
+    return this;
+  }
+
+  pause() {
+    this._video.pause();
+  }
+
+  stop() {
+    this._state = 'stop';
+    this._video.pause();
   }
 
 }
