@@ -8,7 +8,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "assets": "node static/assets.js",
+    "assets": "node bin/assets.js",
     "generate": "nuxt generate"
   },
   "dependencies": {

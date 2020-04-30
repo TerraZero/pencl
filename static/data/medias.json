@@ -1,6 +1,47 @@
 {
   "sounds": [
     {
+      "type": "event",
+      "title": "(Event) Der Mond",
+      "event": "moon"
+    },
+    {
+      "type": "text",
+      "title": "Die Gruft",
+      "text": "Die Gruft"
+    },
+    {
+      "type": "text",
+      "title": "Der Friedhof (Rechts)",
+      "text": "Der Friedhof"
+    },
+    {
+      "type": "text",
+      "title": "Die Kammer",
+      "text": "Die Kammer"
+    },
+    {
+      "type": "text",
+      "title": "Das Dorf (Oben)",
+      "text": "Das Dorf"
+    },
+    {
+      "type": "text",
+      "subtitle": "Boss",
+      "title": "Der Nekromant",
+      "text": "Der Nekromant"
+    },
+    {
+      "type": "text",
+      "title": "Der Wald",
+      "text": "Der Wald"
+    },
+    {
+      "type": "text",
+      "title": "Der Dungeon (Links)",
+      "text": "Der Dungeon"
+    },
+    {
       "type": "sound",
       "title": "Start Story",
       "sound": {
@@ -646,7 +687,7 @@
     },
     {
       "type": "scene",
-      "title": "Dungeon Links",
+      "title": "Dungeon Explorer",
       "sounds": [
         {
           "src": "/downloads/sounds/dd_explorer.mp3",
@@ -674,6 +715,44 @@
         },
         {
           "src": "/downloads/sounds/bg_chalice_of_eternity.mp3",
+          "volume": 80
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Dark Explorer",
+      "sounds": [
+        {
+          "src": "/downloads/sounds/bg_mysteriis_de_sanguine.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_the_citadel.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_tr_the_cistern.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_march_of_the_priests.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_drakhuvud.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_chalice_of_eternity.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_the_void.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_empty_chapel.mp3",
           "volume": 80
         }
       ]
@@ -730,6 +809,86 @@
     },
     {
       "type": "scene",
+      "title": "Der Ghoul",
+      "text": {
+        "text": "Der Ghoul",
+        "subtitle": "Elite"
+      },
+      "shuffle": [
+        "sound"
+      ],
+      "clip": [
+        {
+          "title": "First",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/ghoul_1.png",
+              "style": {
+                "bottom": "4%",
+                "left": "34%",
+                "width": "38%",
+                "filter": "drop-shadow(2px 4px 6px red)"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Second",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/ghoul_2.png",
+              "style": {
+                "bottom": "44%",
+                "left": "20%",
+                "width": "20%",
+                "filter": "drop-shadow(2px 4px 6px red)"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Third",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/ghoul_2.png",
+              "style": {
+                "bottom": "20%",
+                "left": "75%",
+                "width": "20%",
+                "filter": "drop-shadow(2px 4px 6px red)",
+                "transform": "rotateY(180deg)"
+              }
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/re2_reliving_the_present.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/re2_absurd_advent.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/re2_cerberus.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/re2_last_judgment.mp3",
+          "volume": 80
+        }
+      ]
+    },
+    {
+      "type": "scene",
       "title": "Kampf Theme 2 - Kristall",
       "shuffle": [
         "sound"
@@ -763,11 +922,383 @@
     },
     {
       "type": "scene",
-      "title": "Intro Astorias",
+      "title": "Intro Artorias",
       "video": {
-        "src": "/downloads/videos/ds_artorias_intro.mp3",
+        "src": "/downloads/videos/ds_artorias_intro.mp4",
         "volume": 100
       }
+    },
+    {
+      "type": "scene",
+      "title": "Artorias",
+      "text": {
+        "text": "Artorias",
+        "subtitle": "Verfluchter"
+      },
+      "shuffle": [
+        "sound"
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/ds_sanctuary_guardian.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/ds_knight_artorias.mp3",
+          "volume": 80
+        }
+      ],
+      "images": [
+        {
+          "src": "/downloads/new/artorias_2.jpg",
+          "time": 20000
+        },
+        {
+          "src": "/downloads/new/artorias_1.jpg",
+          "time": 20000
+        },
+        {
+          "src": "/downloads/new/artorias_3.jpg",
+          "time": 20000
+        },
+        {
+          "src": "/downloads/new/artorias_4.jpg",
+          "time": 20000
+        },
+        {
+          "src": "/downloads/new/artorias_5.jpg",
+          "time": 20000
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Kalameet",
+      "text": {
+        "text": "Kalameet",
+        "subtitle": "Drache"
+      },
+      "shuffle": [
+        "sound"
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/ds_manus.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/ds_kalameet.mp3",
+          "volume": 80
+        }
+      ],
+      "images": [
+        {
+          "src": "/downloads/new/kalameet_3.jpg",
+          "time": 20000
+        },
+        {
+          "src": "/downloads/new/kalameet_2.jpg",
+          "time": 20000
+        },
+        {
+          "src": "/downloads/new/kalameet_1.jpg",
+          "time": 20000
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Intro Der erste Erbe",
+      "sounds": [
+        {
+          "src": "/downloads/sounds/bb_hail_the_nightmare.mp3",
+          "volume": 80
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Der erste Erbe",
+      "text": {
+        "subtitle": "Der erste Erbe",
+        "text": "Cardonell"
+      },
+      "images": [
+        {
+          "src": "/downloads/new/blood_moon.jpg",
+          "time": 20000
+        }
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/bb_first_hunter.mp3",
+          "volume": 80
+        }
+      ],
+      "clip": [
+        {
+          "title": "First",
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/sleeper.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.7) opacity(0.7) hue-rotate(180deg)",
+                "animation": "floaty 2s linear infinite",
+                "bottom": "83%",
+                "left": "82%",
+                "width": "8%",
+                "transform": "rotateY(180deg)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Das Dorf",
+      "shuffle": [
+        "sound"
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/bg_the_void.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/bg_empty_chapel.mp3",
+          "volume": 80
+        }
+      ],
+      "images": [
+        {
+          "src": "/downloads/new/town_2.jpg",
+          "time": 20000
+        }
+      ],
+      "text": {
+        "title": "Das Dorf",
+        "text": "Das Dorf"
+      },
+      "clip": [
+        {
+          "title": "First",
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_1.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.8)",
+                "bottom": "10%",
+                "right": "10%",
+                "width": "10%"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_3.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.9)",
+                "bottom": "4%",
+                "right": "2%",
+                "width": "11%"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_1.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.7)",
+                "bottom": "16%",
+                "right": "51%",
+                "width": "8%",
+                "transform": "rotateY(180deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_1.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.8)",
+                "bottom": "8%",
+                "left": "53%",
+                "width": "10%"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.9)",
+                "bottom": "2%",
+                "left": "46%",
+                "width": "12%"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.65)",
+                "bottom": "31%",
+                "left": "52%",
+                "width": "4%"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.7)",
+                "bottom": "19%",
+                "left": "30%",
+                "width": "5%"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_3.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.65)",
+                "bottom": "40%",
+                "left": "7%",
+                "width": "10%",
+                "transform": "rotate(10deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.65)",
+                "bottom": "33%",
+                "left": "4%",
+                "width": "5%",
+                "transform": "rotate(77deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.5)",
+                "bottom": "67%",
+                "left": "51%",
+                "width": "3%",
+                "transform": "rotate(27deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.55)",
+                "bottom": "56%",
+                "left": "72%",
+                "width": "7%",
+                "transform": "rotate(52deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_1.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.5)",
+                "bottom": "71%",
+                "left": "59%",
+                "width": "4%",
+                "transform": "rotate(67deg) rotateY(180deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_1.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.55)",
+                "bottom": "43%",
+                "left": "27%",
+                "width": "7%",
+                "transform": "rotateY(180deg) rotate(13deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_3.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.5)",
+                "bottom": "63%",
+                "left": "36%",
+                "width": "5%",
+                "transform": "rotate(-27deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.55)",
+                "bottom": "43%",
+                "left": "45%",
+                "width": "5%",
+                "transform": "rotate(60deg)"
+              }
+            },
+            {
+              "type": "text",
+              "event": "moon-bg",
+              "src": "",
+              "style": {
+                "bottom": "0",
+                "left": "0",
+                "width": "100%",
+                "height": "100%",
+                "transition": "background 1s linear",
+                "background": "rgba(0, 0, 0, 0)"
+              }
+            },
+            {
+              "type": "image",
+              "event": "pillar-1",
+              "src": "/downloads/clips/kristall_3.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.9)",
+                "bottom": "4%",
+                "right": "68%",
+                "width": "11%",
+                "transform": "rotateY(180deg)",
+                "transition": "all 1s linear"
+              }
+            },
+            {
+              "type": "image",
+              "event": "pillar-2",
+              "src": "/downloads/clips/kristall_3.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.85)",
+                "bottom": "4%",
+                "left": "63%",
+                "width": "11%",
+                "transition": "all 1s linear"
+              }
+            },
+            {
+              "type": "image",
+              "event": "moon",
+              "src": "/downloads/clips/sleeper.png",
+              "style": {
+                "filter": "drop-shadow(#00ffe8 0 0 30px) brightness(1.1) saturate(1.5)",
+                "animation": "floaty 2s linear infinite",
+                "bottom": "83%",
+                "left": "71%",
+                "width": "8%",
+                "transform": "rotateY(180deg)",
+                "transition": "all 1s linear"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "scene",
@@ -788,7 +1319,13 @@
     },
     {
       "type": "scene",
-      "title": "Intro Reynauld",
+      "title": "Reynauld",
+      "text": {
+        "subtitle": "Diener",
+        "text": "Reynauld",
+        "mute": true,
+        "delay": 4000
+      },
       "sounds": [
         {
           "src": "/downloads/sounds/c_navras.mp3",
@@ -799,6 +1336,102 @@
         {
           "src": "/downloads/dd_images/dd_red_crusader.jpg",
           "time": 20000
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Erwacht Reynauld",
+      "text": {
+        "subtitle": "Erwachter Diener",
+        "text": "Reynauld",
+        "mute": true
+      },
+      "sounds": [
+        {
+          "src": "/downloads/sounds/bb_blood_beast.mp3",
+          "volume": 100
+        }
+      ],
+      "images": [
+        {
+          "src": "/downloads/dd_images/dd_red_crusader.jpg",
+          "time": 20000,
+          "style": {
+            "filter": "hue-rotate(180deg)"
+          }
+        }
+      ],
+      "clip": [
+        {
+          "title": "First",
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_1.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.8)",
+                "bottom": "70%",
+                "right": "10%",
+                "width": "10%"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_3.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.9)",
+                "bottom": "31%",
+                "right": "9%",
+                "width": "7%",
+                "transform": "rotate(110deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.8)",
+                "bottom": "63%",
+                "left": "80%",
+                "width": "7%",
+                "transform": "rotate(180deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.9)",
+                "bottom": "7%",
+                "left": "72%",
+                "width": "14%",
+                "transform": "rotate(152deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.9)",
+                "bottom": "79%",
+                "left": "71%",
+                "width": "11%",
+                "transform": "rotate(77deg)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_2.png",
+              "style": {
+                "filter": "drop-shadow(2px 4px 6px black) brightness(0.9)",
+                "bottom": "41%",
+                "left": "67%",
+                "width": "11%",
+                "transform": "rotate(-82deg)"
+              }
+            }
+          ]
         }
       ]
     },
@@ -855,6 +1488,12 @@
     {
       "type": "scene",
       "title": "Intro Müller",
+      "text": {
+        "subtitle": "Erwachter Diener",
+        "text": "Dismas",
+        "mute": true,
+        "delay": 12000
+      },
       "images": [
         {
           "src": "/downloads/dd_images/dd_color_ghost_miller.jpg",
@@ -871,6 +1510,11 @@
     {
       "type": "scene",
       "title": "Müller Kampf",
+      "text": {
+        "subtitle": "Erwachter Diener",
+        "text": "Dismas",
+        "mute": true
+      },
       "shuffle": [
         "sound"
       ],
@@ -912,10 +1556,6 @@
         },
         {
           "src": "/downloads/sounds/c_gods_bound_by_rules.mp3",
-          "volume": 80
-        },
-        {
-          "src": "/downloads/sounds/ds3_abyss_watchers.mp3",
           "volume": 80
         },
         {
@@ -961,8 +1601,8 @@
       "type": "scene",
       "title": "Final Outro",
       "sound": {
-        "src": "/downloads/sounds/o_overcome.mp3",
-        "volume": 100
+        "src": "/downloads/sounds/ds3_abyss_watchers.mp3",
+        "volume": 80
       }
     }
   ]

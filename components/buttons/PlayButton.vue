@@ -7,7 +7,6 @@
       .play-button--description
         | {{ description }}
     .play-button--right
-      Icon.play-button--action-playlist(v-if="type !== 'playlist'", @click.native="$emit('action:playlist')", cat="api", name="playlist-add", type="svg")
       Icon.play-button--action-play(@click.native="$emit('action:play')", cat="api", name="play", type="svg")
 </template>
 
@@ -56,7 +55,7 @@ export default {
 
   &--action-play,
   &--action-playlist
-    min-width: 35px
+    min-width: 70px
     max-width: 100px
     transition: background-position .3s ease-in-out
     background-image: linear-gradient(to right bottom, #61dcc5, #1b7d6b)

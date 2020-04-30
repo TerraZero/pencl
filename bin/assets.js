@@ -41,6 +41,8 @@ async function downloadImages(file, target) {
           console.log('File: ' + item.output);
           resolve();
         });
+      }).on('error', (e) => {
+        console.log(e);
       });
     });
   }
@@ -51,4 +53,6 @@ async function downloadImages(file, target) {
   await download('static/data/sounds.json', 'static/downloads/sounds').promise;
   await download('static/data/videos.json', 'static/downloads/videos').promise;
   await downloadImages('static/data/dd-images.json', 'static/downloads/dd_images');
+  await downloadImages('static/data/clips.json', 'static/downloads/clips');
+  await downloadImages('static/data/new.json', 'static/downloads/new');
 })();

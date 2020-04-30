@@ -5,10 +5,22 @@
       Video.game--video(v-for="sound in sounds", :key="sound.id", :id="sound.id")
     .game--background
       transition-group(name="enter")
-        .game--image(v-if="scene === 'image'", :key="image", :style="imagestyle")
+        .game--image(v-if="scene === 'image'", :key="image.src || 'none'", :style="imageStyle(image)")
         .game--video(v-show="scene === 'video'", key="scene-player")
           video#sceneplayer.game--video-player
             source(v-if="video", :src="video.src", type="video/mp4")
+        .game--clips(v-if="clip", :key="clip.title")
+          .game--clip(v-for="c, index in clip.clips", :key="c.src + index", :style="c.style")
+            img.game--clip-image(v-if="c.type === 'image'", :src="c.src")
+            .game--clip-text(v-if="c.type === 'text'", :src="c.src")
+              | {{ c.src }}
+        StarBackground.game--stars(v-if="text", :key="text.text", :stars="100")
+        .game--text(v-if="text", :key="text.text")
+          .game--text-line
+            .game--text-subtitle(v-if="text.subtitle")
+              | {{ text.subtitle }}
+            .game--text-title
+              | {{ text.text }}
     .game--logo(:class="logoclass")
       .game--logo-wrapper
         SVGEmbed(src="/images/logos/tz.svg")
@@ -25,32 +37,52 @@
 import MediaSystem from "~/plugins/mediasystem";
 import Video from "~/components/medias/Video";
 import SVGEmbed from "~/components/medias/SVGEmbed";
+import StarBackground from "~/components/backgrounds/StarBackground.vue";
 
 export default {
   components: {
     Video,
-    SVGEmbed
+    SVGEmbed,
+    StarBackground
   },
   data() {
     return {
       sounds: [],
       scene: null,
-      image: 0,
+      image: null,
       video: null,
+      text: null,
+      clip: null,
       trigger: true
     };
   },
   computed: {
     logoclass() {
-      if (this.scene === null) {
+      if (this.scene === null && this.text === null && this.clip === null) {
         return ["game--logo--start"];
       }
       return [];
+    }
+  },
+  methods: {
+    imageStyle(image) {
+      const style = image.style || {};
+
+      if (image.src) {
+        style["background-image"] = 'url("' + image.src + '")';
+      }
+      return style;
     },
-    imagestyle() {
-      return {
-        "background-image": 'url("' + this.image + '")'
+    clipStyle(clip) {
+      const style = {
+        top: clip.top + "px",
+        left: clip.left + "px"
       };
+
+      if (clip.width) {
+        style.width = clip.width + "px";
+      }
+      return style;
     }
   },
   mounted() {
@@ -72,14 +104,46 @@ export default {
     overflow: hidden
     position: relative
 
+  &--stars
+    z-index: 0
+
   &--image,
   &--video,
+  &--text,
+  &--clips,
   &--video-player
     position: absolute
     top: 0
     left: 0
     width: 100%
     height: 100%
+
+  &--clip
+    position: absolute
+
+  &--clip-image
+    width: 100%
+
+  &--text
+    display: flex
+    justify-content: center
+    align-items: center
+    filter: drop-shadow(4px 4px 8px black)
+
+  &--text-line
+    font-size: 180px
+    border-top: 20px solid white
+    border-bottom: 20px solid white
+    text-transform: uppercase
+    animation: ghosty 3s 1s linear
+    text-align: center
+
+  &--text-subtitle
+    font-size: 45px
+    margin-bottom: -35px
+
+  &--text-title
+    padding: 0 90px
 
   &--image
     background-size: cover

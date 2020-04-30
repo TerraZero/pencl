@@ -51,6 +51,33 @@ export default {
     },
     playlist(video) {},
     playSound(video) {
+      if (video.type === "event") {
+        Socket.request("updateScreen", {
+          route: "event",
+          params: {
+            data: video
+          }
+        });
+        return;
+      }
+      if (video.type === "clip") {
+        Socket.request("updateScreen", {
+          route: "clip",
+          params: {
+            data: video
+          }
+        });
+        return;
+      }
+      if (video.type === "text") {
+        Socket.request("updateScreen", {
+          route: "text",
+          params: {
+            data: video
+          }
+        });
+        return;
+      }
       let sound = null;
       if (Array.isArray(video.sound)) {
         sound = video.sound[Calc.random(0, video.sound.length - 1)];

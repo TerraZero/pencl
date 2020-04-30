@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://www.rpguides.de/images/tdd/boss_necromancer.png",
+    "output": "necromancer_1.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/4e/c4/0b/4ec40b245fc8520ca98ed3dc5117e905.png",
+    "output": "necromancer_2.png"
+  },
+  {
+    "url": "https://vignette.wikia.nocookie.net/darkestdungeon/images/b/b2/Pestdoktorin.png/revision/latest/top-crop/width/360/height/450?cb=20170730163521&path-prefix=de",
+    "output": "pest_doktor_1.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/6f/69/7c/6f697c8fae08e69a58a578711b4e3d0c.gif",
+    "output": "standard.gif"
+  },
+  {
+    "url": "https://vignette.wikia.nocookie.net/darkestdungeon/images/7/7a/Kreuzritter_Crusader.png/revision/latest/top-crop/width/360/height/450?cb=20150324000305&path-prefix=de",
+    "output": "crusader.png"
+  },
+  {
+    "url": "https://unwrittengeek.files.wordpress.com/2015/09/highwayman-sprite-attack_slice.png?w=768",
+    "output": "highwayman_1.png"
+  },
+  {
+    "url": "https://staticdelivery.nexusmods.com/images/804/3564670-1502937748.png",
+    "output": "artorias_1.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/bd/ed/40/bded40be4e9bf42fa7a47b52afeb13c1.png",
+    "output": "skellet_boss.png"
+  },
+  {
+    "url": "https://www.pngkit.com/png/full/440-4406103_darkest-dungeon-bone-bearer.png",
+    "output": "standard_1.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/thumb/a/a0/Fanatic_Stand.png/300px-Fanatic_Stand.png?version=3e82d70b90adf354e55d29d876f849cf",
+    "output": "baron_1.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/thumb/6/60/TheMiller.png/250px-TheMiller.png?version=1a3735c3be18fd16a66d71311e051538",
+    "output": "miller_1.png"
+  },
+  {
+    "url": "https://staticdelivery.nexusmods.com/mods/804/images/402-2-1499403894.png",
+    "output": "ghoul_1.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/thumb/e/e3/Ghoul.png/270px-Ghoul.png?version=e450468247babe2c4b59ba22a8aa36ae",
+    "output": "ghoul_2.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0e/Skeleton_defender.sprite.defend.png",
+    "output": "defender_1.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/24/Gargoyle.sprite.attack_melee.png",
+    "output": "gargoyle.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/df/23/17/df2317443b7fc11af97593e5372be9b9.gif",
+    "output": "miller_2.gif"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/thumb/1/1e/Sleeperidle.png/1200px-Sleeperidle.png",
+    "output": "sleeper.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/be/Spireidle.png",
+    "output": "kristall_1.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/23/Farmhand.png",
+    "output": "kristall_farmhand.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/thumb/0/09/Scarecrow_Roots.png/1200px-Scarecrow_Roots.png",
+    "output": "kristall_scarecrow.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d2/Plowhorse.png",
+    "output": "kristall_horse.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/86/Crystalline_Aberration.png",
+    "output": "kristall_2.png"
+  },
+  {
+    "url": "https://steam-helper.ru/wp-content/uploads/2018/08/3.7.png",
+    "output": "kristall_3.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/thumb/a/a6/Foreman_Whip.png/350px-Foreman_Whip.png?version=405a7dbd344bf146206fe309ebd54377",
+    "output": "kristall_foreman_1.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/thumb/a/a9/The_Thing.png/350px-The_Thing.png?version=e760207af1e08874f9ca1ccfdda05d7a",
+    "output": "kristall_thing_1.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/72/66/c1/7266c1a73216b43e980a93197eff1a49.png",
+    "output": "speech.png"
+  }
+]

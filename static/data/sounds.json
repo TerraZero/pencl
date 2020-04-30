@@ -145,6 +145,26 @@
     "output": "c_gods_bound_by_rules.mp3"
   },
   {
+    "url": "https://www.youtube.com/watch?v=_bLzC1xWxPw",
+    "convert": true,
+    "output": "ds_sanctuary_guardian.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ujWjWcE9wkk",
+    "convert": true,
+    "output": "ds_manus.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=TluPWafPTek",
+    "convert": true,
+    "output": "ds_kalameet.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=vK0w67B4EtU",
+    "convert": true,
+    "output": "ds_knight_artorias.mp3"
+  },
+  {
     "url": "https://www.youtube.com/watch?v=5qY-gWF9AF8",
     "convert": true,
     "output": "ds3_abyss_watchers.mp3"
@@ -163,6 +183,31 @@
     "url": "https://www.youtube.com/watch?v=kA614N3IHD4",
     "convert": true,
     "output": "bb_father_gascoigne.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=i3bityYL1G8",
+    "convert": true,
+    "output": "bb_astral_clocktower.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=uZWpYGuqsHI",
+    "convert": true,
+    "output": "bb_first_hunter.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=94n3p5ziADs",
+    "convert": true,
+    "output": "bb_blood_beast.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tuHzagjqOLU",
+    "convert": true,
+    "output": "bb_hail_the_nightmare.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=NiboHWwr12M",
+    "convert": true,
+    "output": "bb_living_failures.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=_5i03mlsync",

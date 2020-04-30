@@ -20,12 +20,36 @@
  */
 
 /**
+ * @typedef T_SceneText
+ * @property {string} subtitle
+ * @property {string} text
+ * @property {boolean} mute
+ * @property {number} delay
+ */
+
+/**
+ * @typedef T_SceneClipItem
+ * @property {string} type
+ * @property {string} src
+ * @property {object} style
+ */
+
+/**
+ * @typedef T_SceneClip
+ * @property {string} title
+ * @property {number} time
+ * @property {T_SceneClipItem[]} clips
+ */
+
+/**
  * @typedef T_SceneData
  * @property {string} type
  * @property {string} title
  * @property {string} description
  * @property {string[]} shuffle
  * @property {string} continue
+ * @property {T_SceneText} text
+ * @property {T_SceneClip[]} clip
  * @property {T_SceneImage[]} images
  * @property {T_SceneSound[]} sounds
  * @property {T_SceneVideo[]} videos
@@ -66,6 +90,12 @@ export default class Scene {
       this.stop();
       this._scene = scene;
 
+      if (this.scene.text) {
+        this._mediasystem.text(this.scene.text);
+      }
+      if (this.scene.clip) {
+        this._mediasystem.clip(this.scene.clip);
+      }
       if (this.scene.images) {
         this.nextImage();
       }
@@ -121,7 +151,7 @@ export default class Scene {
 
   nextImage() {
     const current = this.count('image');
-    this._mediasystem.image(current.src);
+    this._mediasystem.image(current);
     if (this.scene.images.length !== 1) {
       clearTimeout(this._currentTimeout);
       this._currentTimeout = setTimeout(this.nextImage.bind(this), current.time);
