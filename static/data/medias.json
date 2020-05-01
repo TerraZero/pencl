@@ -27,12 +27,6 @@
     },
     {
       "type": "text",
-      "subtitle": "Boss",
-      "title": "Der Nekromant",
-      "text": "Der Nekromant"
-    },
-    {
-      "type": "text",
       "title": "Der Wald",
       "text": "Der Wald"
     },
@@ -1009,6 +1003,109 @@
     },
     {
       "type": "scene",
+      "title": "Nekromant",
+      "text": {
+        "text": "Nekromant",
+        "subtitle": "Boss"
+      },
+      "shuffle": [
+        "sound"
+      ],
+      "clip": [
+        {
+          "title": "first",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/necromancer_1.png",
+              "style": {
+                "bottom": "37%",
+                "left": "52%",
+                "width": "10%",
+                "filter": "drop-shadow(2px 4px 6px red)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_scarecrow.png",
+              "style": {
+                "bottom": "50%",
+                "left": "22%",
+                "width": "20%",
+                "filter": "drop-shadow(2px 4px 6px cyan)",
+                "transform": "rotateY(180deg)",
+                "animation":"floaty 2s linear infinite"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Second",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_farmhand.png",
+              "style": {
+                "bottom": "14%",
+                "left": "72%",
+                "width": "10%",
+                "filter": "drop-shadow(2px 4px 6px cyan)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_farmhand.png",
+              "style": {
+                "bottom": "10%",
+                "left": "80%",
+                "width": "10%",
+                "filter": "drop-shadow(2px 4px 6px cyan)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/necromancer_2.png",
+              "style": {
+                "bottom": "5%",
+                "left": "20%",
+                "width": "50%",
+                "filter": "drop-shadow(2px 4px 6px red)"
+              }
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "src": "/downloads/sounds/ddk_combat_1.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/ddk_combat_2.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/ddk_combat_3.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/ddk_combat_4.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/dd_combat_5.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/ddk_combat_1.mp3",
+          "volume": 80
+        }
+      ]
+    },
+    {
+      "type": "scene",
       "title": "Intro Artorias",
       "video": {
         "src": "/downloads/videos/ds_artorias_intro.mp4",
@@ -1027,11 +1124,19 @@
       ],
       "sounds": [
         {
-          "src": "/downloads/sounds/ds_sanctuary_guardian.mp3",
+          "src": "/downloads/sounds/s_gyoubu_oniwa.mp3",
           "volume": 80
         },
         {
-          "src": "/downloads/sounds/ds_knight_artorias.mp3",
+          "src": "/downloads/sounds/s_approaching_forces.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/s_butterfly.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/s_the_owl.mp3",
           "volume": 80
         }
       ],
@@ -1075,6 +1180,14 @@
         },
         {
           "src": "/downloads/sounds/ds_kalameet.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/ds_sanctuary_guardian.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/ds_knight_artorias.mp3",
           "volume": 80
         }
       ],
