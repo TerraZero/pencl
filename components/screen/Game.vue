@@ -14,7 +14,7 @@
             img.game--clip-image(v-if="c.type === 'image'", :src="c.src")
             .game--clip-text(v-if="c.type === 'text'", :src="c.src")
               | {{ c.src }}
-        StarBackground.game--stars(v-if="text", :key="text.text", :stars="100")
+        StarBackground.game--stars(v-if="text || stars", :key="text && text.text || 'stars'", :stars="100")
         .game--text(v-if="text", :key="text.text")
           .game--text-line
             .game--text-subtitle(v-if="text.subtitle")
@@ -53,6 +53,7 @@ export default {
       video: null,
       text: null,
       clip: null,
+      stars: false,
       trigger: true
     };
   },

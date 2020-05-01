@@ -52,6 +52,7 @@ export default class MediaSystem {
     this.component.image = null;
     this.component.video = null;
     this.component.text = null;
+    this.component.stars = false;
     for (const src in this._sounds) {
       this._sounds[src].stop();
     }
@@ -71,7 +72,6 @@ export default class MediaSystem {
       this._scene.stop();
       this.sound(scene.sound);
     } else if (scene.video) {
-      console.log(scene.video);
       this._scene.stop();
       this._video.load(scene.video);
     } else {
@@ -87,6 +87,10 @@ export default class MediaSystem {
   clip(clip) {
     this._clip = new Clip(this.component, clip);
     this._clip.start();
+  }
+
+  stars() {
+    this.component.stars = true;
   }
 
   text(text) {

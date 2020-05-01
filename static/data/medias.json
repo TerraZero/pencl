@@ -1687,10 +1687,201 @@
     {
       "type": "scene",
       "title": "Outro",
-      "sound": {
-        "src": "/downloads/sounds/o_frozen_in_time.mp3",
-        "volume": 100
-      }
+      "stars": true,
+      "sounds": [
+        {
+          "src": "/downloads/sounds/o_frozen_in_time.mp3",
+          "volume": 100
+        }
+      ],
+      "clip": [
+        {
+          "title": "wait",
+          "time": 30000
+        },
+        {
+          "title": "ghoul",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/ghoul_1.png",
+              "style": {
+                "bottom": "4%",
+                "left": "34%",
+                "width": "38%",
+                "filter": "drop-shadow(2px 4px 6px red)"
+              }
+            }
+          ]
+        },
+        {
+          "title": "crusader",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/crusader.png",
+              "style": {
+                "bottom": "3%",
+                "left": "50%",
+                "width": "38%",
+                "filter": "drop-shadow(2px 4px 6px red)"
+              }
+            }
+          ]
+        },
+        {
+          "title": "necromancer",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/necromancer_2.png",
+              "style": {
+                "bottom": "5%",
+                "left": "20%",
+                "width": "50%",
+                "filter": "drop-shadow(2px 4px 6px red)"
+              }
+            }
+          ]
+        },
+        {
+          "title": "artorias",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/artorias_1.png",
+              "style": {
+                "bottom": "1%",
+                "left": "38%",
+                "width": "25%",
+                "filter": "drop-shadow(2px 4px 6px cyan)"
+              }
+            }
+          ]
+        },
+        {
+          "title": "sleeper",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/sleeper.png",
+              "style": {
+                "bottom": "20%",
+                "left": "15%",
+                "width": "30%",
+                "filter": "drop-shadow(2px 4px 6px cyan)",
+                "animation": "floaty 2s linear infinite"
+              }
+            }
+          ]
+        },
+        {
+          "title": "wait_2",
+          "time": 10000
+        },
+        {
+          "title": "chars",
+          "time": 2000000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/pest_doktor_1.png",
+              "style": {
+                "bottom": "47%",
+                "left": "3%",
+                "width": "20%",
+                "filter": "drop-shadow(rgb(254, 255, 253) 2px 4px 20px) opacity(0.3) brightness(1.5)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/pest_doktor_2.png",
+              "style": {
+                "bottom": "27%",
+                "left": "7%",
+                "width": "25%",
+                "filter": "drop-shadow(2px 4px 6px #fefffd)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/highwayman_1.png",
+              "style": {
+                "bottom": "17%",
+                "left": "35%",
+                "width": "28%",
+                "filter": "drop-shadow(rgb(254, 255, 253) 2px 4px 20px) opacity(0.3) brightness(1.5)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/highwayman_2.png",
+              "style": {
+                "bottom": "6%",
+                "left": "33%",
+                "width": "17%",
+                "filter": "drop-shadow(2px 4px 6px #fefffd)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/hellion_1.png",
+              "style": {
+                "bottom": "27%",
+                "left": "78%",
+                "width": "21%",
+                "filter": "drop-shadow(rgb(254, 255, 253) 2px 4px 20px) opacity(0.3) brightness(1.5)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/hellion_2.png",
+              "style": {
+                "bottom": "7%",
+                "left": "70%",
+                "width": "20%",
+                "filter": "drop-shadow(2px 4px 6px #fefffd)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_torch.png",
+              "style": {
+                "bottom": "64%",
+                "left": "42%",
+                "filter": "drop-shadow(2px 2px 6px cyan)",
+                "animation": "floaty 2s linear infinite"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_1.png",
+              "style": {
+                "bottom": "65%",
+                "left": "35%",
+                "width": "8%",
+                "transform": "rotateY(180deg)",
+                "filter": "drop-shadow(cyan 2px 2px 50px)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/kristall_3.png",
+              "style": {
+                "bottom": "65%",
+                "left": "55%",
+                "width": "8%",
+                "filter": "drop-shadow(cyan 2px 2px 50px)"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "scene",

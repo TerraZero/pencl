@@ -48,6 +48,7 @@
  * @property {string} description
  * @property {string[]} shuffle
  * @property {string} continue
+ * @property {boolean} stars
  * @property {T_SceneText} text
  * @property {T_SceneClip[]} clip
  * @property {T_SceneImage[]} images
@@ -90,6 +91,9 @@ export default class Scene {
       this.stop();
       this._scene = scene;
 
+      if (this.scene.stars) {
+        this._mediasystem.stars();
+      }
       if (this.scene.text) {
         this._mediasystem.text(this.scene.text);
       }
