@@ -33,7 +33,12 @@ async function downloadImages(file, target) {
     data = require(Path.join(process.cwd(), file));
   }
   for (const item of data) {
-    const stream = FS.createWriteStream(Path.join(output, item.output));
+    const newPath = Path.join(output, item.output);
+    if (FS.existsSync(newPath)) {
+      console.log('Image exists: ' + item.output + ' [' + item.url + ']');
+      continue;
+    }
+    const stream = FS.createWriteStream(newPath);
     await new Promise((resolve, reject) => {
       console.log('Download image: ' + item.url);
       HTTPS.get(item.url, function (response) {
