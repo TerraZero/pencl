@@ -484,7 +484,7 @@
               "src": "/downloads/clips/kristall_torch.png",
               "style": {
                 "bottom": "64%",
-                "left": "42%",
+                "left": "calc(50vw - 144px)",
                 "filter": "drop-shadow(2px 2px 6px white)",
                 "animation": "floaty 2s linear infinite"
               }
@@ -1966,7 +1966,7 @@
               "src": "/downloads/clips/kristall_torch.png",
               "style": {
                 "bottom": "64%",
-                "left": "42%",
+                "left": "calc(50vw - 144px)",
                 "filter": "drop-shadow(2px 2px 6px cyan)",
                 "animation": "floaty 2s linear infinite"
               }
