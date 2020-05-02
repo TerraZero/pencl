@@ -2003,6 +2003,177 @@
         "src": "/downloads/sounds/ds3_abyss_watchers.mp3",
         "volume": 80
       }
+    },
+    {
+      "type": "scene",
+      "title": "Ancestors Door",
+      "sounds": [
+        {
+          "src": "/downloads/sounds/bg_the_void.mp3",
+          "volume": 80
+        }
+      ],
+      "images": [
+        {
+          "src": "/downloads/new/ancestors_door.jpg",
+          "time": 20000
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Ancestors First",
+      "text": {
+        "text": "Ahne",
+        "delay": 60000
+      },
+      "sounds": [
+        {
+          "src": "/downloads/sounds/bb_bloodborne.mp3",
+          "volume": 80
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ancestors_moon.jpg",
+          "time": 20000
+        }
+      ],
+      "clip": [
+        {
+          "title": "First",
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/ancestor_1.png",
+              "style": {
+                "bottom": "17%",
+                "left": "47%",
+                "width": "20%",
+                "filter": "drop-shadow(red 2px 2px 10px)"
+              }
+            },
+            {
+              "type": "image",
+              "src": "/downloads/clips/ancestor_2.png",
+              "style": {
+                "bottom": "17%",
+                "left": "28%",
+                "width": "20%",
+                "filter": "drop-shadow(red 2px 2px 10px) opacity(0.5)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Ancestors Second",
+      "text": {
+        "text": "Ahne",
+        "subtitle": "Wahnsinniger",
+        "mute": true
+      },
+      "sounds": [
+        {
+          "src": "/downloads/sounds/bb_ophan_of_kos.mp3",
+          "volume": 80
+        },
+        {
+          "src": "/downloads/sounds/dd_final.mp3",
+          "volume": 80
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ancestors_moon.jpg",
+          "time": 20000
+        }
+      ],
+      "clip": [
+        {
+          "title": "First",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/ancestor_3.png",
+              "style": {
+                "bottom": "17%",
+                "left": "47%",
+                "width": "20%",
+                "filter": "drop-shadow(red 2px 2px 10px)"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Second",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/ancestor_4.png",
+              "style": {
+                "bottom": "17%",
+                "left": "47%",
+                "width": "20%",
+                "filter": "drop-shadow(red 2px 2px 10px)"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Third",
+          "time": 20000,
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/ancestor_5.png",
+              "style": {
+                "bottom": "17%",
+                "left": "47%",
+                "width": "20%",
+                "filter": "drop-shadow(red 2px 2px 10px)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "title": "Ancestors Last",
+      "text": {
+        "text": "Ahne",
+        "subtitle": "Erwachter",
+        "delay": 35000,
+        "mute": true
+      },
+      "sounds": [
+        {
+          "src": "/downloads/sounds/bb_moon_presence.mp3",
+          "volume": 80
+        }
+      ],
+      "clip": [
+        {
+          "title": "First",
+          "clips": [
+            {
+              "type": "image",
+              "src": "/downloads/clips/ancestor_6.png",
+              "style": {
+                "bottom": "4%",
+                "left": "30%",
+                "width": "40%",
+                "filter": "drop-shadow(red 2px 2px 20px)"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

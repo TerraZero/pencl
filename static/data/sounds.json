@@ -70,6 +70,11 @@
     "output": "dd_combat_4.mp3"
   },
   {
+    "url": "https://www.youtube.com/watch?v=CsW72KIOd8U",
+    "convert": true,
+    "output": "dd_final.mp3"
+  },
+  {
     "url": "https://www.youtube.com/watch?v=SuhYqy6PItY",
     "convert": true,
     "output": "re2_reliving_the_present.mp3"
@@ -213,6 +218,21 @@
     "url": "https://www.youtube.com/watch?v=7RzA_Oomra8",
     "convert": true,
     "output": "bb_ludwig_holy.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gxbJ7O8iAfI",
+    "convert": true,
+    "output": "bb_ophan_of_kos.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=1zWsGoMS6d4",
+    "convert": true,
+    "output": "bb_bloodborne.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=PrUbD1mAzDk",
+    "convert": true,
+    "output": "bb_moon_presence.mp3"
   },
   {
     "url": "https://www.youtube.com/watch?v=_5i03mlsync",

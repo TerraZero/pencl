@@ -130,5 +130,41 @@
   {
     "url": "https://i.redd.it/71hfredact511.png",
     "output": "kristall_torch.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c0/Ancestor_Small.png",
+    "output": "ancestor_1.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/68/Perfect_Reflection.png",
+    "output": "ancestor_2.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/4e/Ancestor_Big.png",
+    "output": "ancestor_3.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/70/Imperfect_Reflection.png",
+    "output": "ancestor_4.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/f3/53/10/f3531075b249df9a82e8dc31ca5ecaf5.png",
+    "output": "ancestor_5.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/6c/ae/ce/6caecef6b1949c20c6610a981b6abe60.png",
+    "output": "ancestor_6.png"
+  },
+  {
+    "url": "https://www.pngkit.com/png/full/108-1082609_darkest-dungeon-ancestor-png.png",
+    "output": "madman.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/d3/a0/11/d3a01101031063ad8889991e37c3f856.png",
+    "output": "collector.png"
+  },
+  {
+    "url": "https://www.pngkit.com/png/full/268-2683849_stage-coach-character-darkest-dungeon-npc-monsters.png",
+    "output": "madman_2.png"
   }
 ]
