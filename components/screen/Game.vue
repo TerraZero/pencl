@@ -12,7 +12,7 @@
         .game--clips(v-if="clip", :key="clip.title")
           .game--clip(v-for="c, index in clip.clips", :key="c.src + index", :style="c.style")
             img.game--clip-image(v-if="c.type === 'image'", :src="c.src")
-            .game--clip-text(v-if="c.type === 'text'", :src="c.src")
+            .game--clip-text(v-if="c.type === 'text'")
               | {{ c.src }}
         StarBackground.game--stars(v-if="text || stars", :key="text && text.text + '-stars' || 'stars'", :stars="100")
         .game--text(v-if="text", :key="text.text")
@@ -136,8 +136,9 @@ export default {
     border-top: 20px solid white
     border-bottom: 20px solid white
     text-transform: uppercase
-    animation: ghosty 3s 1s linear
+    animation: ghosty-text 6s 1s linear forwards
     text-align: center
+    position: relative
 
   &--text-subtitle
     font-size: 45px

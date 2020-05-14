@@ -16,12 +16,20 @@
     "output": "pest_doktor_2.png"
   },
   {
+    "url": "https://www.pinclipart.com/picdir/big/14-140260_stress-sprite-darkest-dungeon-png-image-witch-doctor.png",
+    "output": "pest_doktor_3.png"
+  },
+  {
     "url": "https://unwrittengeek.files.wordpress.com/2015/09/highwayman-sprite-attack_slice.png?w=768",
     "output": "highwayman_1.png"
   },
   {
     "url": "https://usercontent2.hubstatic.com/12861433.png",
     "output": "highwayman_2.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/df/b0/0e/dfb00e634cf1e865c972b53c41574eff.png",
+    "output": "highwayman_3.png"
   },
   {
     "url": "https://library.kissclipart.com/20181201/cle/kissclipart-hero-clipart-darkest-dungeon-dungeon-crawl-game-637522f264ae53cd.png",
@@ -32,8 +40,20 @@
     "output": "hellion_2.png"
   },
   {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/thumb/c/cf/Hellion.png/1200px-Hellion.png",
+    "output": "hellion_3.png"
+  },
+  {
     "url": "https://lh3.googleusercontent.com/proxy/-0_8XFbvpgy6-mtsN6TOY10Zhpc3ph2vs5Tg9z-kmxmc1yJ3H0tGk1cvaCYIGLz2O_l1byvOmahYG-ELiQC0v3b22n1WANyviMaHQ9YC4DoEe_jgmawNVxoXrv471m91F-h8gDTyNPGwS3yF9z8_bw",
     "output": "seiphan_1.png"
+  },
+  {
+    "url": "https://lh3.googleusercontent.com/proxy/SB3lXfW4BvvllOBSHBZJOX-4kVduznheZaSaiOLxJ6U2rPTMbCkjMqgzoIijxb9vu8a71rtvm-SQk_3l0uM_jAaIUtHTK-GIyVQWW3nCP8QjJAK4sOMTYRFuno-WDuQGF9bbQyiESXtCI_z8sfa7Yw",
+    "output": "seiphan_2.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/63/f8/d2/63f8d2452f37c90cba4c1587c0c88029.png",
+    "output": "seiphan_3.png"
   },
   {
     "url": "https://i.pinimg.com/originals/6f/69/7c/6f697c8fae08e69a58a578711b4e3d0c.gif",
@@ -41,7 +61,15 @@
   },
   {
     "url": "https://vignette.wikia.nocookie.net/darkestdungeon/images/7/7a/Kreuzritter_Crusader.png/revision/latest/top-crop/width/360/height/450?cb=20150324000305&path-prefix=de",
-    "output": "crusader.png"
+    "output": "crusader_1.png"
+  },
+  {
+    "url": "https://unwrittengeek.files.wordpress.com/2015/09/crusader-sprite-attack_charge.png?w=768",
+    "output": "crusader_2.png"
+  },
+  {
+    "url": "https://vignette.wikia.nocookie.net/darkestdungeon/images/5/5a/Char_Hero_Crusader_cmp.png/",
+    "output": "crusader_3.png"
   },
   {
     "url": "https://unwrittengeek.files.wordpress.com/2015/09/highwayman-sprite-attack_slice.png?w=768",
@@ -50,6 +78,22 @@
   {
     "url": "https://staticdelivery.nexusmods.com/images/804/3564670-1502937748.png",
     "output": "artorias_1.png"
+  },
+  {
+    "url": "https://www.nicepng.com/png/full/63-634674_dark-souls-artorias-png-pic-artorias-png.png",
+    "output": "artorias_2.png"
+  },
+  {
+    "url": "https://www.pngkit.com/png/full/478-4787407_image-of-the-kapra-demon-dark-souls-3.png",
+    "output": "artorias_3.png"
+  },
+  {
+    "url": "https://www.vippng.com/png/full/337-3370938_dark-souls-artorias-transparent-png-mmd-models-dark.png",
+    "output": "artorias_4.png"
+  },
+  {
+    "url": "https://steamuserimages-a.akamaihd.net/ugc/869618689513956262/7B97458F5AA8D1F9D7BF1147463725C56286E17A/",
+    "output": "artorias_5.png"
   },
   {
     "url": "https://i.pinimg.com/originals/bd/ed/40/bded40be4e9bf42fa7a47b52afeb13c1.png",
@@ -166,5 +210,69 @@
   {
     "url": "https://www.pngkit.com/png/full/268-2683849_stage-coach-character-darkest-dungeon-npc-monsters.png",
     "output": "madman_2.png"
+  },
+  {
+    "url": "https://bogleech.com/vgmonsters/dd-shambler.png",
+    "output": "parasite_boss.png"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/06/7e/37/067e37af13f27399a099cf90c2633485.png",
+    "output": "parasite.png"
+  },
+  {
+    "url": "https://i.kym-cdn.com/photos/images/original/001/389/697/6aa.png",
+    "output": "final.png"
+  },
+  {
+    "url": "https://user-images.githubusercontent.com/1059232/38832153-5afffcbc-41ca-11e8-86dd-b19087b591db.jpg",
+    "output": "final_bg_1.jpg"
+  },
+  {
+    "url": "https://onlysp.escapistmagazine.com/wp-content/uploads/2015/07/2015-07-31_00003.jpg",
+    "output": "final_bg_2.jpg"
+  },
+  {
+    "url": "https://66.media.tumblr.com/6691b6bfa484492b3f97af98dd1d95be/tumblr_inline_pb7q2m6brx1rqrjnu_540.png",
+    "output": "obstacle_1.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/be/Blacksmith.png",
+    "output": "blacksmith.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0d/Locus_Beacon.png",
+    "output": "circle.png"
+  },
+  {
+    "url": "https://www.rpguides.de/images/tdd/icon256_sarcophagus.png",
+    "output": "sarcophagus.png"
+  },
+  {
+    "url": "https://www.kindpng.com/picc/b/450-4503447_esdeath-png.png",
+    "output": "cardonell.png"
+  },
+  {
+    "url": "https://pluspng.com/img-png/blood-hd-png-blood-png-hd-png-image-600.png",
+    "output": "blood_1.png"
+  },
+  {
+    "url": "https://i.ya-webdesign.com/images/anime-blood-png-2.png",
+    "output": "blood_2.png"
+  },
+  {
+    "url": "https://lh3.googleusercontent.com/proxy/lsUfgckZKZJxfqsm7ZohawFwzOU_xIa1gv6LVBFJ23RKHwv8cFF-seblIXEopjVjRK8Vvg6Cw3amObwjZBkmhu1yyjjpSGPB4hNxMRHvz7guABBT4ER0qzKwg9RaJjvHRot0Z-vitk3NJhsjnOxMFYJnRF0fqQm9o6bZvnReLts",
+    "output": "blood_3.png"
+  },
+  {
+    "url": "https://lh3.googleusercontent.com/proxy/pU-iK2gZB-j_fvdgClAfrEjiAqebxnBecKEPuaM8Tcz8_QjhDpxjIa5l0Yq7z4Rz_J70EXRJBcZCMIw3ML1ZwUi_rzsC4DhriBgoUpNgkH3QIiQq5dgyVvtG-hpw9FGKmQtKNHSv6gtI4nTKiBVLm3yDJff-6bdLCOGdf0mPCYh2osh-zQ",
+    "output": "blood_4.png"
+  },
+  {
+    "url": "https://png2.cleanpng.com/sh/1f59f408daee85ac497f3c4e9a700dbc/L0KzQYm3UsEyN6JwfZH0aYP2gLBuTfJtd5DpReRuc3nnhba0gvxwd5V4jNNybj24cYjthPY5QWU4SdM8Nz6zQIm6UsE2PmI6Sao8Mkm6Q4i5V8Q6NqFzf3==/kisspng-blood-residue-bloodstain-5a7fdf89431a37.0083215615183297372749.png",
+    "output": "blood_5.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/18/Shard.png",
+    "output": "item_kristall.png"
   }
 ]

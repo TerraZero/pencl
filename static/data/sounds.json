@@ -303,5 +303,15 @@
     "url": "https://www.youtube.com/watch?v=SNTSoizcvME",
     "convert": true,
     "output": "wardruna_iwar.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=mtB6ey6bge4",
+    "convert": true,
+    "output": "blood_1.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=sOy5291iN5o",
+    "convert": true,
+    "output": "blood_2.mp3"
   }
 ]

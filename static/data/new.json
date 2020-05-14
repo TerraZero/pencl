@@ -120,6 +120,22 @@
     "output": "ornstein_2.jpg"
   },
   {
+    "url": "https://i.imgur.com/ipSYg.jpg",
+    "output": "ornstein_3.jpg"
+  },
+  {
+    "url": "https://i.pinimg.com/originals/9d/eb/9b/9deb9baf16e16aeb8a07a20ae8ee18bd.png",
+    "output": "ornstein_4.jpg"
+  },
+  {
+    "url": "https://wallpaperplay.com/walls/full/5/6/5/221443.jpg",
+    "output": "ornstein_5.jpg"
+  },
+  {
+    "url": "https://cdnb.artstation.com/p/assets/images/images/006/031/267/large/keira-harcourt-duel.jpg?1495546301",
+    "output": "ornstein_6.jpg"
+  },
+  {
     "url": "https://i.imgur.com/IAiv5dY.jpg",
     "output": "kalameet_1.jpg"
   },
@@ -134,5 +150,17 @@
   {
     "url": "https://staticdelivery.nexusmods.com/mods/804/images/350-0-1493090556.jpg",
     "output": "ancestors_door.jpg"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/92/Loading_screen_Crypts.png",
+    "output": "ruins.png"
+  },
+  {
+    "url": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/42/Loading_screen_Cove.png",
+    "output": "cove.png"
+  },
+  {
+    "url": "https://i.imgur.com/nPHbbhm.jpg",
+    "output": "all.jpg"
   }
 ]
