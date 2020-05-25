@@ -1,5 +1,5 @@
 import Controller from 'sockettools/src/Controller';
-import DeepData from 'inputtools/src/data/DeepData';
+import DeepData from 'utils/src/DeepData';
 
 export default class ClientController extends Controller {
 

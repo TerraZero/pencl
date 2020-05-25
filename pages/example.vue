@@ -5,7 +5,6 @@
 
 <script>
 import Manager from "~/plugins/manager";
-import Logo from "~/components/Logo.vue";
 import Socket from "../plugins/socket/client";
 
 export default {

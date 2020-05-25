@@ -3,23 +3,19 @@
 const HTTPS = require('https');
 const Path = require('path');
 const FS = require('fs');
-const Downloader = require('downloadtools/src/Downloader');
+const BulkDownload = require('downloadutils/src/BulkDownload');
+const DownloadManager = require('downloadcli/src/DownloadManager');
 
-const manager = new Downloader();
-
-function download(file, target) {
+function download(json, target) {
   const output = Path.join(process.cwd(), target);
   if (!FS.existsSync(output)) {
     FS.mkdirSync(output);
   }
-  if (Path.isAbsolute(file)) {
-    data = require(file);
-  } else {
-    data = require(Path.join(process.cwd(), file));
-  }
-  const bulk = manager.createMulti(data).setCWD(output);
+  const data = DownloadManager.readFromJSON(json);
+  const bulk = new BulkDownload(data);
 
-  return bulk.execute();
+  bulk.setCWD(target);
+  return bulk.download();
 }
 
 async function downloadImages(file, target) {

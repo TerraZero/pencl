@@ -12,13 +12,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "downloadtools": "git+https://github.com/TerraZero/downloadtools.git",
+    "clitools": "git+https://github.com/TerraZero/clitools.git",
+    "downloadcli": "git+https://github.com/TerraZero/downloadcli.git",
+    "downloadutils": "git+https://github.com/TerraZero/downloadutils.git",
     "howler": "^2.1.3",
-    "inputtools": "git+https://github.com/TerraZero/inputtools.git",
     "nuxt": "^2.0.0",
     "socket.io": "^2.3.0",
     "sockettools": "git+https://github.com/TerraZero/sockettools.git",
     "std-env": "^2.2.1",
+    "utils": "git+https://github.com/TerraZero/utils.git",
     "uuid": "^7.0.2",
     "youtube-player": "^5.5.2"
   },

@@ -1,14 +1,14 @@
 <template lang="pug">
   .pgame
-    Game
+    Logo
 </template>
 
 <script>
-import Socket from "~/plugins/socket/screen";
-import Game from "~/components/screen/Game";
+import Logo from "~/components/medias/Logo";
+
 export default {
   components: {
-    Game
+    Logo
   }
 };
 </script>
