@@ -91,11 +91,11 @@ export default {
 
   &--svg
     padding: 0 10%
-    animation: logo-rotate 20s 9s infinite
+    animation: logo--rotate 20s 9s infinite
 
     .logo-t,
     .logo-z
-      animation: logo-rotate--character 10s linear infinite
+      animation: logo--rotate--character 10s linear infinite
       transform-origin: 50%
 
   &--title
@@ -192,20 +192,20 @@ export default {
     text-shadow: 0 0 5px black
 
   &--sha-1
-    animation: logo-shadow 40s linear infinite
+    animation: logo--shadow 40s linear infinite
 
   &--sha-2
-    animation: logo-shadow 50s 6s linear infinite
+    animation: logo--shadow 50s 6s linear infinite
 
   &--sha-3
-    animation: logo-shadow 30s 4s linear infinite
+    animation: logo--shadow 30s 4s linear infinite
 
   &--sha-4
-    animation: logo-shadow 44s 10s linear infinite
+    animation: logo--shadow 44s 10s linear infinite
 
   &--sha-5
-    animation: logo-shadow 38s 8s linear infinite
+    animation: logo--shadow 38s 8s linear infinite
 
   &--sha-6
-    animation: logo-shadow 40s 14s linear infinite
+    animation: logo--shadow 40s 14s linear infinite
 </style>
