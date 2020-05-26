@@ -5,6 +5,7 @@ const Path = require('path');
 const FS = require('fs');
 const BulkDownload = require('downloadutils/src/BulkDownload');
 const DownloadManager = require('downloadcli/src/DownloadManager');
+const DownloadLogger = require('downloadcli/src/DownloadLogger');
 
 function download(json, target) {
   const output = Path.join(process.cwd(), target);
@@ -15,6 +16,8 @@ function download(json, target) {
   const bulk = new BulkDownload(data);
 
   bulk.setCWD(target);
+
+  new DownloadLogger(bulk);
   return bulk.download();
 }
 
@@ -50,10 +53,6 @@ async function downloadImages(file, target) {
 }
 
 (async function () {
-  await download('static/data/narrator.json', 'static/downloads/narrator').promise;
-  await download('static/data/sounds.json', 'static/downloads/sounds').promise;
-  await download('static/data/videos.json', 'static/downloads/videos').promise;
-  await downloadImages('static/data/dd-images.json', 'static/downloads/dd_images');
-  await downloadImages('static/data/clips.json', 'static/downloads/clips');
-  await downloadImages('static/data/new.json', 'static/downloads/new');
+  await download('static/data/downloads/music.json', 'static/downloads/music').promise;
+  await download('static/data/downloads/sounds.json', 'static/downloads/sounds').promise;
 })();
