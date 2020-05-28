@@ -3,6 +3,8 @@ import Socket from 'socket.io';
 
 import Server from 'sockettools/src/Server';
 import ServerController from './controllers/ServerController';
+import ServerManagerController from './controllers/ServerManagerController';
+import EditorController from './controllers/EditorController';
 
 export default function () {
   this.nuxt.hook('render:before', (renderer) => {
@@ -11,6 +13,8 @@ export default function () {
     /* CUSTOM */
     const socketServer = new Server();
 
+    socketServer.addController(new ServerManagerController(socketServer));
+    socketServer.addController(new EditorController(socketServer));
     socketServer.addController(new ServerController(socketServer));
     socketServer.createServer(Socket(server));
     /* CUSTOM */

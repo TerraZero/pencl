@@ -248,3 +248,27 @@
     text-shadow: 20px -15px 50px rgba(255, 255, 255, 0)
   100%
     text-shadow: 0px 0px 0 rgba(255, 255, 255, 0)
+
+@-webkit-keyframes logo--3d-shake
+  0%
+    transform: perspective(300px)
+  10%
+    transform: perspective(300px) rotateX(10deg)
+  20%
+    transform: perspective(300px) rotateX(-15deg) rotateY(20deg)
+  30%
+    transform: perspective(300px) rotateX(5deg) rotateY(-20deg)
+  40%
+    transform: perspective(300px) rotateY(-10deg)
+  50%
+    transform: perspective(300px) rotateX(-10deg)
+  60%
+    transform: perspective(300px) rotateX(-15deg) rotateY(-20deg)
+  70%
+    transform: perspective(300px) rotateX(15deg) rotateY(15deg)
+  80%
+    transform: perspective(300px) rotateX(10deg) rotateY(-15deg)
+  90%
+    transform: perspective(300px) rotateX(-15deg) rotateY(20deg)
+  100%
+    transform: perspective(300px)

@@ -55,4 +55,5 @@ async function downloadImages(file, target) {
 (async function () {
   await download('static/data/downloads/music.json', 'static/downloads/music').promise;
   await download('static/data/downloads/sounds.json', 'static/downloads/sounds').promise;
+  await download('static/data/downloads/backgrounds.json', 'static/downloads/backgrounds').promise;
 })();

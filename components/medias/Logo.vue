@@ -84,7 +84,7 @@ export default {
 
   &--center
     position: absolute
-    top: calc(50% - 18.5vh)
+    top: calc(50% - 14.5vw)
     right: calc(50% - 12.5vw)
     width: 25vw
     transition: transform .3s

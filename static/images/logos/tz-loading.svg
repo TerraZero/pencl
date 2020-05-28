@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="47" stroke="white" stroke-width="5" fill="transparent" stroke-dasharray="none" />
+  <path d="M 2 50 a 50,50 -30 0 1 48,-48 z" stroke="white" fill="white" stroke-dasharray="none" />
+  <path d="M 98 50 a 50,50 -30 0 1 -48,48 z" stroke="white" fill="white" stroke-dasharray="none" />
+  <path class="logo-t" d="M 30, 30 l 40 0 l -20 0 l 0 48 M 30, 30 z" stroke="white" stroke-width="4" fill="transparent" />
+  <path class="logo-z" d="M 35, 38 l 27 0 l -24 30 l 27 0 M 35 38 z" stroke="white" stroke-width="4" fill="transparent" />
+  <circle clasS="logo-loading" cx="50" cy="50" r="47" stroke="black" stroke-width="3" fill="transparent" style="transform: rotate(-90deg); transform-origin: 50%;" />
+</svg>

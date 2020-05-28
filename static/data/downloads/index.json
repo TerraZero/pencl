@@ -1,0 +1,20 @@
+{
+  "categories": {
+    "backgrounds": {
+      "name": "Background",
+      "path": "/downloads/backgrounds"
+    },
+    "music": {
+      "name": "Music",
+      "path": "/downloads/music"
+    },
+    "sounds": {
+      "name": "Sounds",
+      "path": "/downloads/sounds"
+    },
+    "hallo": {
+      "name": "Hallo",
+      "path": "super"
+    }
+  }
+}
