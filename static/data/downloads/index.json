@@ -11,10 +11,6 @@
     "sounds": {
       "name": "Sounds",
       "path": "/downloads/sounds"
-    },
-    "hallo": {
-      "name": "Hallo",
-      "path": "super"
     }
   }
 }

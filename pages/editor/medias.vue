@@ -22,6 +22,8 @@
             .pmedias--button(v-if="item.ext === '.mp3'", @click="toggleMedia(item)")
               Icon(v-if="!item.play", cat="api", name="play", type="svg")
               Icon(v-if="item.play", cat="api", name="stop", type="svg")
+            .pmedias--button(v-if="item.ext === '.mp3'", @click="toRhythmn(item)")
+              Icon(cat="api", name="rhythm")
 
 </template>
 
@@ -135,6 +137,12 @@ export default {
       }
       item.play = !item.play;
       this.$forceUpdate();
+    },
+    toRhythmn(item) {
+      this.$store.commit("editor/entity", { entity: item });
+      this.$router.push({
+        path: "/editor/rhythm"
+      });
     }
   }
 };

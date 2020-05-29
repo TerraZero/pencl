@@ -1,4 +1,5 @@
 import WaveFormData from 'waveform-data';
+import Wavesurfer from 'wavesurfer';
 
 export default class WaveForm {
 
