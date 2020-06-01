@@ -22,7 +22,7 @@
 <script>
 import Socket from "~/plugins/socket/admin";
 import Icon from "~/components/medias/Icon.vue";
-import ScrollPanel from "~/components/lists/ScrollPanel.vue";
+import ScrollPanel from "~/components/ui/panel/ScrollPanel.vue";
 import PlayButton from "~/components/buttons/PlayButton.vue";
 import Calc from "~/plugins/util/Calc";
 

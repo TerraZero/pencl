@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import ScrollPanel from "~/components/lists/ScrollPanel";
+import ScrollPanel from "~/components/ui/panel/ScrollPanel";
 import Icon from "~/components/medias/Icon";
 
 export default {

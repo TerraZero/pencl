@@ -4,26 +4,26 @@
       h1
         | Medias
       Status(v-if="status", :status="status", :message="message")
-      Form
-        template(v-slot:fields)
-          .pmedias--search
-            Textfield.pmedias--input(label="Search", v-model="search")
-            Select.pmedias--input.pmedias--input-category(label="Category", v-model="category", :options="options")
-            Select.pmedias--input.pmedias--input-ext(label="Ext", v-model="ext", :options="exts")
-      .pmedias--content
-        .pmedias--item(v-for="item in filtered")
-          .pmedias--title
-            | {{ item.output }}
-          .pmedias--category
-            | {{ item.category }}
-          .pmedias--controlls
-            .pmedias--button(@click="deleteMedia(item)")
-              Icon(cat="api", name="trash")
-            .pmedias--button(v-if="item.ext === '.mp3'", @click="toggleMedia(item)")
-              Icon(v-if="!item.play", cat="api", name="play", type="svg")
-              Icon(v-if="item.play", cat="api", name="stop", type="svg")
-            .pmedias--button(v-if="item.ext === '.mp3'", @click="toRhythmn(item)")
-              Icon(cat="api", name="rhythm")
+      FilterPanel(:items="items", :filters="filters")
+        template(v-slot:filters)
+          Textfield.pmedias--input(label="Search", v-model="search")
+          Select.pmedias--input.pmedias--input-category(label="Category", v-model="category", :options="options")
+          Select.pmedias--input.pmedias--input-ext(label="Ext", v-model="ext", :options="exts")
+        template(v-slot:item="item")
+          Item
+            template(v-slot:tag)
+              | {{ item.item.category }}
+            template
+              | {{item.item.output}}
+            template(v-slot:controlls)
+              .pmedias--button(@click="deleteMedia(item.item)")
+                Icon(cat="api", name="trash")
+              .pmedias--button(v-if="item.item.ext === '.mp3'", @click="toggleMedia(item.item)")
+                Icon(v-if="!item.item.play", cat="api", name="play", type="svg")
+                Icon(v-if="item.item.play", cat="api", name="stop", type="svg")
+              .pmedias--button(v-if="item.item.ext === '.mp3'", @click="toRhythmn(item.item)")
+                Icon(cat="api", name="rhythm")
+
 
 </template>
 
@@ -31,9 +31,11 @@
 import Icon from "~/components/medias/Icon";
 import EditorNav from "~/components/nav/EditorNav";
 import Form from "~/components/ui/form/Form";
+import FilterPanel from "~/components/ui/panel/FilterPanel";
 import Textfield from "~/components/ui/form/Textfield";
 import Status from "~/components/ui/form/Status";
 import Select from "~/components/ui/form/Select";
+import Item from "~/components/entity/Item";
 
 import Socket from "~/plugins/socket/client";
 import Path from "path";
@@ -42,33 +44,42 @@ import { Howl } from "howler";
 
 export default {
   components: {
+    Item,
     EditorNav,
     Icon,
     Form,
     Textfield,
     Status,
-    Select
+    Select,
+    FilterPanel
   },
   data() {
     const index = require("~/static/data/downloads/index.json");
 
     const options = {
-      all: "- All -"
+      "": "- All -"
     };
     for (const cat in index.categories) {
       options[cat] = index.categories[cat].name;
     }
 
     return {
-      search: null,
+      search: "",
       status: null,
       message: null,
-      ext: "all",
-      category: "all",
+      ext: "",
+      category: "",
       options: options
     };
   },
   computed: {
+    filters() {
+      return {
+        category: this.category,
+        ext: this.ext,
+        path: this.search
+      };
+    },
     items() {
       const items = [];
       const index = require("~/static/data/downloads/index.json");
@@ -88,7 +99,7 @@ export default {
     },
     exts() {
       const exts = {
-        all: "- All -"
+        "": "- All -"
       };
 
       for (const item of this.items) {

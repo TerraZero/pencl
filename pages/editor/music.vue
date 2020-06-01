@@ -24,7 +24,7 @@
 import data from "~/static/data/downloads/music.json";
 import { Howl } from "howler";
 
-import ScrollPanel from "~/components/lists/ScrollPanel";
+import ScrollPanel from "~/components/ui/panel/ScrollPanel";
 import AudioWave from "~/components/ui/audio/AudioWave";
 
 import Socket from "~/plugins/socket/client";
