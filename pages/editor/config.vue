@@ -3,16 +3,19 @@
     EditorNav
       h1
         | Editor Config
-      Status(v-if="status", :status="status", :message="message")
+      Status(v-if="status", :key="message + status", :status="status", :message="message")
       Form
         template(v-slot:fields)
-          h3
+          h3.peditorconfig--subline
             | Font
-          Textfield(label="Master Size", v-model="masterfontsize")
-          h3
+          Textfield(label="Master Size", v-model="masterfontsize", :reset="data.masterfontsize === masterfontsize ? '' : 'Default: ' + data.masterfontsize", @reset="masterfontsize = data.masterfontsize")
+            | The master font size for the editor.
+          h3.peditorconfig--subline
             | Sidebar
-          Select(label="Sidebar Close", v-model="sidebarclose", :options="options")
-          Textfield(label="Sidebar width", v-model="sidebarwidth")
+          Select(label="Sidebar Close", v-model="sidebarclose", :options="options", :reset="data.sidebarclose === (sidebarclose === 'true') ? '' : 'Default: ' + data.sidebarclose", @reset="sidebarclose = data.sidebarclose + ''")
+            | If the sidebar is closed by default.
+          Textfield(label="Sidebar width", v-model="sidebarwidth", :reset="data.sidebarwidth === sidebarwidth ? '' : 'Default: ' + data.sidebarwidth", @reset="sidebarwidth = data.sidebarwidth")
+            | The width of the sidebar. Only for the editor.
         template(v-slot:actions)
           Submit(label="Submit", @click.native="submit")
 </template>
@@ -27,6 +30,8 @@ import Submit from "~/components/ui/form/Submit";
 
 import Socket from "~/plugins/socket/client";
 
+import data from "~/static/data/config/editor.default.json";
+
 export default {
   components: {
     EditorNav,
@@ -40,13 +45,14 @@ export default {
     return {
       status: null,
       message: null,
-      sidebarclose: this.$store.state.editorconfig.sidebarclose,
+      sidebarclose: this.$store.state.editorconfig.sidebarclose + "",
       sidebarwidth: this.$store.state.editorconfig.sidebarwidth,
       masterfontsize: this.$store.state.editorconfig.masterfontsize,
       options: {
         false: "False",
         true: "True"
-      }
+      },
+      data: data
     };
   },
   methods: {
@@ -78,4 +84,8 @@ export default {
 .peditorconfig
   width: 100%
   height: 100%
+
+  &--subline
+    margin-top: 2em
+    margin-bottom: 0
 </style>

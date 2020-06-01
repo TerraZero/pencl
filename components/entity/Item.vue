@@ -3,9 +3,9 @@
     .item--tag-slot(v-if="$slots.tag")
       .item--tag
         slot(name="tag")
-    .form--content
+    .item--content
       slot
-    .form--controlls(v-if="$slots.controlls")
+    .item--controlls(v-if="$slots.controlls")
       slot(name="controlls")
 </template>
 
@@ -19,12 +19,15 @@ export default {};
   background: #222
 
   &--tag-slot
-    font-size: 0.5em
+    font-size: 0.8em
 
   &--tag
     padding: 0.3em
     display: inline-block
     background: #333
+
+  &--content
+    padding: 1em 0.5em
 
   &--controlls
     align-self: flex-end

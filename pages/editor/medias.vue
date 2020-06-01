@@ -16,26 +16,19 @@
             template
               | {{item.item.output}}
             template(v-slot:controlls)
-              .pmedias--button(@click="deleteMedia(item.item)")
-                Icon(cat="api", name="trash")
-              .pmedias--button(v-if="item.item.ext === '.mp3'", @click="toggleMedia(item.item)")
-                Icon(v-if="!item.item.play", cat="api", name="play", type="svg")
-                Icon(v-if="item.item.play", cat="api", name="stop", type="svg")
-              .pmedias--button(v-if="item.item.ext === '.mp3'", @click="toRhythmn(item.item)")
-                Icon(cat="api", name="rhythm")
-
-
+              ControllButton(@click.native="deleteMedia(item.item)", :icon="{cat: 'api', name: 'trash'}")
+              ControllButton(v-if="item.item.ext === '.mp3'", @click.native="toggleMedia(item.item)", :icon="( item.item.play ? {cat: 'api', name: 'stop', type: 'svg'} : {cat: 'api', name: 'play', type: 'svg'})")
+              ControllButton(v-if="item.item.ext === '.mp3'", @click.native="toRhythmn(item.item)", :icon="{cat: 'api', name: 'rhythm'}")
 </template>
 
 <script>
-import Icon from "~/components/medias/Icon";
 import EditorNav from "~/components/nav/EditorNav";
-import Form from "~/components/ui/form/Form";
 import FilterPanel from "~/components/ui/panel/FilterPanel";
 import Textfield from "~/components/ui/form/Textfield";
 import Status from "~/components/ui/form/Status";
 import Select from "~/components/ui/form/Select";
 import Item from "~/components/entity/Item";
+import ControllButton from "~/components/buttons/ControllButton";
 
 import Socket from "~/plugins/socket/client";
 import Path from "path";
@@ -46,12 +39,11 @@ export default {
   components: {
     Item,
     EditorNav,
-    Icon,
-    Form,
     Textfield,
     Status,
     Select,
-    FilterPanel
+    FilterPanel,
+    ControllButton
   },
   data() {
     const index = require("~/static/data/downloads/index.json");
@@ -164,9 +156,6 @@ export default {
   width: 100%
   height: 100%
 
-  &--search
-    display: flex
-
   &--input
     margin: 10px
 
@@ -176,47 +165,4 @@ export default {
   &--input-ext
     width: 8%
     min-width: 90px
-
-  &--content
-    display: flex
-    flex-wrap: wrap
-
-  &--item
-    width: calc(20% - 20px)
-    margin: 10px
-    box-sizing: border-box
-    background: #222
-    padding-bottom: 2.5em
-    position: relative
-
-  &--title
-    padding: 20px 20px 0
-    word-break: break-all
-
-  &--category
-    padding: 0 20px
-
-  &--controlls
-    position: absolute
-    left: 0
-    bottom: 0
-
-  &--button
-    display: inline-block
-    vertical-align: middle
-    width: 2em
-    height: 2em
-    text-align: center
-    line-height: 2em
-    background: #333
-    box-sizing: border-box
-    cursor: pointer
-    transition: background .3s ease-in-out
-    border: 1px solid #121111
-
-    &:hover
-      background: #444
-
-  &--button + &--button
-    border-left-width: 0
 </style>

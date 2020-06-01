@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "assets": "node bin/assets.js",
-    "init": "node bin/init.js",
+    "init": "npm install && node bin/init.js && node bin/assets.js",
     "generate": "nuxt generate"
   },
   "dependencies": {

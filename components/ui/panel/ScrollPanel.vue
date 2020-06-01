@@ -9,12 +9,7 @@
   height: 100%
   display: inline-block
   background-color: transparent
-  -webkit-background-clip: text
-  transition: background-color .3s
   overflow: auto
-
-  &:hover
-    background-color: #3ce5ca
 
   &::-webkit-scrollbar
     background: transparent
@@ -22,7 +17,10 @@
     height: 5px
 
   &::-webkit-scrollbar-thumb
-    background-color: inherit
+    background-color: transparent
+
+  &:hover::-webkit-scrollbar-thumb
+    background-color: #3ce5ca
 
   &::-webkit-scrollbar-corner
     display: none

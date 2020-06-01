@@ -1,11 +1,19 @@
 <template lang="pug">
-  .status(:class="'status--' + status")
-    | {{ message }}
+  .status(v-if="open", :class="'status--' + status")
+    .status--message
+      | {{ message }}
+    .status--close(@click="open = false")
+      | X
 </template>
 
 <script>
 export default {
-  props: ["status", "message"]
+  props: ["status", "message"],
+  data() {
+    return {
+      open: true
+    };
+  }
 };
 </script>
 <style lang="sass">
@@ -13,6 +21,13 @@ export default {
   width: 100%
   padding: 10px
   box-sizing: border-box
+  display: flex
+
+  &--message
+    width: 100%
+
+  &--close
+    cursor: pointer
 
   &--info
     background: #5bc0de
