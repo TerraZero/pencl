@@ -28,4 +28,5 @@ export default {
     outline: 0
     padding: 5px
     cursor: pointer
+    font-size: 1em
 </style>

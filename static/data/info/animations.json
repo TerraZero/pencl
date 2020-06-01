@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Pulse",
+    "animation": "shake--pulse",
+    "speed": ".2s"
+  },
+  {
+    "name": "Shake",
+    "animation": "shake",
+    "speed": ".5s"
+  }
+]

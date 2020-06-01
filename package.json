@@ -9,12 +9,14 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "assets": "node bin/assets.js",
+    "init": "node bin/init.js",
     "generate": "nuxt generate"
   },
   "dependencies": {
     "clitools": "git+https://github.com/TerraZero/clitools.git",
     "downloadcli": "git+https://github.com/TerraZero/downloadcli.git",
     "downloadutils": "git+https://github.com/TerraZero/downloadutils.git",
+    "glob": "^7.1.6",
     "howler": "^2.1.3",
     "nuxt": "^2.0.0",
     "socket.io": "^2.3.0",

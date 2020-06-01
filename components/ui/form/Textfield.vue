@@ -25,4 +25,5 @@ export default {
     border: 0
     outline: 0
     padding: 5px
+    font-size: 1em
 </style>

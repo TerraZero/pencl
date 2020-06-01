@@ -1,8 +1,9 @@
-const editor = require('~/static/data/config/editor.json');
+const editor = require('~/static/data/config/editor.config.json');
 
 export const state = () => ({
   sidebarclose: editor.sidebarclose,
   sidebarwidth: editor.sidebarwidth,
+  masterfontsize: editor.masterfontsize,
 })
 
 export const mutations = {
@@ -11,5 +12,8 @@ export const mutations = {
   },
   sidebarwidth(state, { sidebarwidth }) {
     state.sidebarwidth = sidebarwidth;
+  },
+  masterfontsize(state, { masterfontsize }) {
+    state.masterfontsize = masterfontsize;
   }
 }

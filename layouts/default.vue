@@ -1,9 +1,19 @@
 <template>
-  <div class="page">
+  <div class="page" :style="styles">
     <nuxt />
   </div>
 </template>
-
+<script>
+export default {
+  computed: {
+    styles() {
+      return {
+        "font-size": this.$store.state.editorconfig.masterfontsize
+      };
+    }
+  }
+};
+</script>
 <style>
 html {
   font-family: "Nova Flat", "Source Sans Pro", -apple-system, BlinkMacSystemFont,

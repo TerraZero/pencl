@@ -90,7 +90,7 @@ export default class EditorController extends Controller {
    * @param {import('sockettools/src/Request')} request
    */
   config(request) {
-    const json = Path.join(process.cwd(), 'static/data/config/editor.json');
+    const json = Path.join(process.cwd(), 'static/data/config/editor.config.json');
     delete require.cache[require.resolve(json)];
     const data = require(json);
 

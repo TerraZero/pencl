@@ -6,6 +6,11 @@
       Status(v-if="status", :status="status", :message="message")
       Form
         template(v-slot:fields)
+          h3
+            | Font
+          Textfield(label="Master Size", v-model="masterfontsize")
+          h3
+            | Sidebar
           Select(label="Sidebar Close", v-model="sidebarclose", :options="options")
           Textfield(label="Sidebar width", v-model="sidebarwidth")
         template(v-slot:actions)
@@ -37,6 +42,7 @@ export default {
       message: null,
       sidebarclose: this.$store.state.editorconfig.sidebarclose,
       sidebarwidth: this.$store.state.editorconfig.sidebarwidth,
+      masterfontsize: this.$store.state.editorconfig.masterfontsize,
       options: {
         false: "False",
         true: "True"
@@ -48,10 +54,14 @@ export default {
       if (this.sidebarwidth) {
         await Socket.request("editor/config", {
           sidebarclose: this.sidebarclose === "true",
-          sidebarwidth: this.sidebarwidth
+          sidebarwidth: this.sidebarwidth,
+          masterfontsize: this.masterfontsize
         });
         this.$store.commit("editorconfig/sidebarwidth", {
           sidebarwidth: this.sidebarwidth
+        });
+        this.$store.commit("editorconfig/masterfontsize", {
+          masterfontsize: this.masterfontsize
         });
         this.status = "success";
         this.message = "Saved";

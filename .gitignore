@@ -89,6 +89,11 @@ sw.*
 # Vim swap files
 *.swp
 
+# CUSTOM Pencl
+
 static/downloads/*
 !static/downloads/.gitkeep
+
+static/**/*.config.json
+
 .vscode

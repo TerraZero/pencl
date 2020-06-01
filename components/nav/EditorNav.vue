@@ -11,6 +11,8 @@
     .editor-nav--content
       ScrollPanel.editor-nav--scroll
         slot
+      .editor-nav--select(v-if="$slots.select", :class="selectClass")
+        slot(name="select")
 </template>
 
 <script>
@@ -22,6 +24,7 @@ export default {
     ScrollPanel,
     Icon
   },
+  props: ["selectOpen"],
   data() {
     return {
       items: [
@@ -51,6 +54,11 @@ export default {
     classes() {
       if (this.close) {
         return ["editor-nav--sidebar--close"];
+      }
+    },
+    selectClass() {
+      if (this.selectOpen) {
+        return "editor-nav--select--open";
       }
     },
     styles() {
@@ -96,6 +104,20 @@ export default {
     width: 100%
     background: #555
     position: relative
+    overflow: hidden
+
+  &--select
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100%
+    height: 100%
+    background: #555
+    z-index: 1000
+    transition: top .3s ease-in-out
+
+  &--select--open
+    top: 0
 
   &--scroll
     padding: 10px 20px
@@ -107,7 +129,7 @@ export default {
     transition: width .3s
 
   &--sidebar--close
-    width: 40px
+    width: 2.5em
 
   &--controlls
     background: #222
@@ -115,10 +137,10 @@ export default {
   &--toggle
     display: inline-block
     vertical-align: middle
-    width: 40px
-    height: 40px
+    width: 2.5em
+    height: 2.5em
     text-align: center
-    line-height: 40px
+    line-height: 2.5em
     background: #333
     box-sizing: border-box
     cursor: pointer

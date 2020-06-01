@@ -5,13 +5,18 @@
       #audio-wave--canvas
       #audio-wave--minimap
     .audio-wave--volume
-      Range(min="0", max="100", vertical="true", v-model="volume", @input="changeVolume")
+      Range(min="0", max="100", v-model="volume", @input="changeVolume")
+    .audio-wave--controlls
+      .audio-wave--button(@click="addRegion")
+        | + Region
+
 </template>
 
 <script>
 import WaveSurfer from "wavesurfer.js";
 import Minimap from "wavesurfer.js/dist/plugin/wavesurfer.minimap";
 import Timeline from "wavesurfer.js/dist/plugin/wavesurfer.timeline";
+import Regions from "wavesurfer.js/dist/plugin/wavesurfer.regions";
 
 import Range from "~/components/ui/form/Range";
 
@@ -33,6 +38,13 @@ export default {
     };
   },
   methods: {
+    addRegion() {
+      console.log(wavesurfer.regions.list);
+      wavesurfer.addRegion({
+        start: wavesurfer.getCurrentTime(),
+        end: wavesurfer.getCurrentTime() + 0.1
+      });
+    },
     wheel(e) {
       if (this.disabled || !this.controll) return;
       if (e.deltaY < 0) {
@@ -98,7 +110,8 @@ export default {
         }),
         Timeline.create({
           container: "#audio-wave--timeline"
-        })
+        }),
+        Regions.create()
       ]
     });
     wavesurfer.load(this.src);
@@ -113,18 +126,18 @@ export default {
 
       this.maxZoom = width / this.duration;
       this.zoom = this.maxZoom;
+      this.$emit("init", { wavesurfer });
     });
   }
 };
 </script>
 <style lang="sass">
 .audio-wave
-  display: flex
 
   &--track
     width: 100%
 
   &--volume
-    width: 25px
-    -webkit-appearance: slider-vertical
+    width: 20%
+
 </style>

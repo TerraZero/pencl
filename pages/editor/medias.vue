@@ -175,6 +175,8 @@ export default {
     margin: 10px
     box-sizing: border-box
     background: #222
+    padding-bottom: 2.5em
+    position: relative
 
   &--title
     padding: 20px 20px 0
@@ -184,15 +186,17 @@ export default {
     padding: 0 20px
 
   &--controlls
-    padding-top: 20px
+    position: absolute
+    left: 0
+    bottom: 0
 
   &--button
     display: inline-block
     vertical-align: middle
-    width: 40px
-    height: 40px
+    width: 2em
+    height: 2em
     text-align: center
-    line-height: 40px
+    line-height: 2em
     background: #333
     box-sizing: border-box
     cursor: pointer
