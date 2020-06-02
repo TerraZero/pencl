@@ -8,7 +8,7 @@
         template(v-slot:fields)
           h3.peditorconfig--subline
             | Font
-          Textfield(label="Master Size", v-model="masterfontsize", :reset="data.masterfontsize === masterfontsize ? '' : 'Default: ' + data.masterfontsize", @reset="masterfontsize = data.masterfontsize")
+          Textfield(label="Master Font Size", v-model="masterfontsize", :reset="data.masterfontsize === masterfontsize ? '' : 'Default: ' + data.masterfontsize", @reset="masterfontsize = data.masterfontsize")
             | The master font size for the editor.
           h3.peditorconfig--subline
             | Sidebar
