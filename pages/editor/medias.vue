@@ -3,6 +3,7 @@
     EditorNav
       h1
         | Medias
+      LinkButton.pmedias--add(text="Add Media", :icon="{cat: 'api', name: 'plus'}", target="/editor/mediaadd")
       Status(v-if="status", :status="status", :message="message")
       FilterPanel(:items="items", :filters="filters")
         template(v-slot:filters)
@@ -29,6 +30,7 @@ import Status from "~/components/ui/form/Status";
 import Select from "~/components/ui/form/Select";
 import Item from "~/components/entity/Item";
 import ControllButton from "~/components/buttons/ControllButton";
+import LinkButton from "~/components/buttons/LinkButton";
 
 import Socket from "~/plugins/socket/client";
 import Path from "path";
@@ -43,7 +45,8 @@ export default {
     Status,
     Select,
     FilterPanel,
-    ControllButton
+    ControllButton,
+    LinkButton
   },
   data() {
     const index = require("~/static/data/downloads/index.json");
@@ -165,4 +168,7 @@ export default {
   &--input-ext
     width: 8%
     min-width: 90px
+
+  &--add
+    margin: 0 10px
 </style>

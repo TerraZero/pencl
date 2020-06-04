@@ -12,6 +12,8 @@ export default class EditorController extends Controller {
     this.addHandle('editor/addCategory', this.addCategory);
     this.addHandle('editor/config', this.config);
     this.addHandle('editor/deleteMedia', this.deleteMedia);
+    this.addHandle('editor/saveRhythm', this.saveRhythm);
+    this.addHandle('editor/loadRhythm', this.loadRhythm);
   }
 
   /**
@@ -121,6 +123,66 @@ export default class EditorController extends Controller {
     if (FS.existsSync(file)) {
       FS.unlinkSync(file);
     }
+  }
+
+  /**
+   * @param {import('sockettools/src/Request')} request
+   */
+  saveRhythm(request) {
+    const cleanup = [];
+
+    for (const region of request.params.regions) {
+      const item = {
+        id: region.id,
+        time: region.time,
+        animation: region.animation,
+        effect: region.effect,
+      };
+
+      if (!item.animation.animation) {
+        delete item.animation;
+      }
+      if (!item.effect.animation) {
+        delete item.effect;
+      }
+      if (item.animation || item.effect) {
+        cleanup.push(item);
+      }
+    }
+
+    FS.writeFileSync(Path.join(process.cwd(), 'static/data/extras/rhythm', request.params.entity.output + '.json'), JSON.stringify(cleanup, null, 2));
+  }
+
+  /**
+   * @param {import('sockettools/src/Request')} request
+   */
+  loadRhythm(request) {
+    const path = Path.join(process.cwd(), 'static/data/extras/rhythm', request.params.entity.output + '.json');
+
+    if (FS.existsSync(path)) {
+      const data = JSON.parse(FS.readFileSync(path));
+
+      for (const item of data) {
+        if (!item.animation) {
+          item.animation = {
+            name: '',
+            animation: '',
+            speed: '',
+            options: '',
+          };
+        }
+        if (!item.effect) {
+          item.effect = {
+            name: '',
+            animation: '',
+            speed: '',
+            options: '',
+          };
+        }
+      }
+      return data;
+    }
+    return [];
   }
 
 }

@@ -1,0 +1,2030 @@
+[
+  {
+    "id": "cc081a7a-b362-47c8-bdf7-d29717706fc8_region",
+    "time": 57.75747221547959,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "e0c1afba-41eb-463e-a25c-877d31503718_region",
+    "time": 58.38933440314933,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "74be9327-a619-41e4-b514-053939592f0c_region",
+    "time": 58.970047580996514,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "06de137d-07ad-4854-b085-5c6d4c24cf98_region",
+    "time": 59.56464534149806,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "2bc70aaf-bc58-4a42-a0be-116b3b4f1d10_region",
+    "time": 60.12984086250113,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "583abfd1-f336-4876-b937-04ba6ac35ae8_region",
+    "time": 60.74556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "0c3f8b59-2cb7-437a-a1c4-cfdd1344c417_region",
+    "time": 61.35917419583446,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "674f4fad-1b64-496c-8b2d-42ec8deb2ba6_region",
+    "time": 61.956231904507284,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "93173e47-ce92-4c23-8bdf-d2daf5b2387c_region",
+    "time": 62.56922070701497,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4600b662-3445-4f43-af19-e19062ce2edd_region",
+    "time": 63.17469185267856,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "6f19f051-2644-421a-9040-c4884f538b56_region",
+    "time": 63.76128961318011,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "441f29fd-6d8f-4088-8f30-7cb2cd3b4c55_region",
+    "time": 64.38809409217703,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4bce3eac-b51d-456f-b2e1-4642a59094d0_region",
+    "time": 64.9587607588437,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "de3c2951-0313-4dde-b595-98c243ab4695_region",
+    "time": 65.53469185267856,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "113ceadf-fb92-4ddf-b4fb-4402f90f51e9_region",
+    "time": 66.18556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "feef419d-168a-41ef-9d66-ac6b2897ccdc_region",
+    "time": 66.78556523784061,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "20ef3713-5945-47cb-b49b-45a72d1768c9_region",
+    "time": 67.36381846751654,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7d08d04d-3857-45d2-9330-2625df80e5b8_region",
+    "time": 67.97489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "0b6f3f19-2359-4a25-ad62-b21a84e484e2_region",
+    "time": 68.50556523784061,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "15e531d3-bc13-4337-9b62-ed80e20e7bff_region",
+    "time": 69.13489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7f2bd642-dfca-41bc-84ab-92b33f351bfd_region",
+    "time": 69.77489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "11616b0c-2a08-4cfb-9045-1af31bd286bc_region",
+    "time": 70.34556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "1b7068e2-d481-4f85-845b-5ad3d9825169_region",
+    "time": 70.96423190450727,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "33b11b8d-9959-4f56-a985-4252ec7d8441_region",
+    "time": 71.55623190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "df70f9bb-5934-4d4d-bfbe-4b0a766c868b_region",
+    "time": 72.20423190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4d2c91c0-c155-42c9-b9f9-94c33e95d188_region",
+    "time": 72.78556523784061,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "2f60f9bc-52f6-4e8f-a327-2f03f200044c_region",
+    "time": 73.3562319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "015ef2ad-1bd7-48b2-abcd-8636cd151177_region",
+    "time": 73.96423190450727,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "95f8cb33-a369-4be3-9db6-000efff4e517_region",
+    "time": 74.5642319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "0a295412-5959-4c6c-b3aa-c7b1b1076523_region",
+    "time": 75.17489857117394,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "9d9d1987-2a4b-48a4-a1fa-ccf4a3a7128f_region",
+    "time": 75.75623190450727,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c768b866-d286-477f-ac1e-395bcddcb4be_region",
+    "time": 76.34556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f2a7588f-4c02-4d1a-8c7b-8128b00478da_region",
+    "time": 76.94556523784061,
+    "effect": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    }
+  },
+  {
+    "id": "23a5b111-2ea3-4bdd-9b1e-02dbe093f5b4_region",
+    "time": 77.53489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "b6755054-2e1f-46e8-9b58-bd7ce7193901_region",
+    "time": 78.15623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "690eeb6a-cea2-44cd-8f63-9f59af3b9031_region",
+    "time": 78.7962319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "db5f8392-c735-450d-8e1e-e4ad0c059cfc_region",
+    "time": 79.3562319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "af29c5ac-7cc0-4beb-8a17-7dcdb89cc8bf_region",
+    "time": 79.94556523784061,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "705258f1-8c56-4d83-87b2-a80d33079300_region",
+    "time": 80.53489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "997c237a-c295-445f-a548-8d71eda3112f_region",
+    "time": 81.17489857117394,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "48138879-79a1-467c-b552-4386b3c65141_region",
+    "time": 81.71623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "28d1ec26-7dac-4d64-80cb-0ac23a0b4b06_region",
+    "time": 82.34556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "9b1b4108-d184-4e0e-9bed-0d4577c24111_region",
+    "time": 82.92423190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "52fdb15a-9e22-404f-87f9-1668e38e1956_region",
+    "time": 83.5162319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7f5e9b54-7c74-436d-ae3f-1143c9034199_region",
+    "time": 84.08423190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4a046bfe-65d0-4125-abbc-803b28c4b3e3_region",
+    "time": 84.75623190450727,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "6abfcc28-df21-43cb-90c1-858f4f825bbd_region",
+    "time": 85.37489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4055cf27-05f9-4dc5-8e13-7a0698bad81f_region",
+    "time": 85.9645223641248,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "02f54c69-d91b-4944-b024-ffd3b06ccff0_region",
+    "time": 86.58556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c887bcc0-8be8-4b20-99f1-734d38f7847e_region",
+    "time": 87.16423190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c892677b-ecbf-4230-8ce3-4adbb3c62217_region",
+    "time": 87.72423190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "fdc3e120-ab0d-48ce-81c3-8d9c4c607738_region",
+    "time": 88.37489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "fd1543d5-b342-493c-b998-2180f8b0f091_region",
+    "time": 88.9162319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "0afbe77d-6598-4259-a40e-255aedba0151_region",
+    "time": 89.55623190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "5020a4ae-348c-412d-9a9e-c686537035ee_region",
+    "time": 90.11623190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "14b6d7b3-1e05-42fe-8801-362010234225_region",
+    "time": 90.78556523784061,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "3bf1b814-8456-451d-9569-322c36975f1b_region",
+    "time": 91.4042319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "a76836f9-8c90-4a12-9f64-f736f9a807ae_region",
+    "time": 91.95623190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "ca568b1c-7019-4db9-938a-90010f3ca009_region",
+    "time": 92.52423190450727,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "82b69b3f-e133-462c-be6d-5700e7e7a8cb_region",
+    "time": 93.10556523784061,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7bc1a63b-ed84-4a1b-bfb9-7f54d7e39376_region",
+    "time": 93.71623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "61f7a9a7-1ab8-4981-bde4-8bd3c41e5fdb_region",
+    "time": 94.31623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "9997e1a5-8e17-459f-85ba-4f8b56da9bb2_region",
+    "time": 94.89489857117394,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7f82750c-d97b-4781-b52c-60cf3f8d0854_region",
+    "time": 95.53489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "8b7e57a3-5af2-4fbf-be93-530f64ccf097_region",
+    "time": 96.13493588132822,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "245402db-02a9-463e-a459-9410e0be856f_region",
+    "time": 96.76423190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "5d8b00a0-63a7-4e47-b89b-9352f379800d_region",
+    "time": 97.36423190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "3abf082b-7775-414d-b7d5-dac24b59e126_region",
+    "time": 97.98511641588706,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "0d801265-3101-472e-b5c0-642b9a4d02ff_region",
+    "time": 98.56481282374227,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "822acebb-341a-4255-9858-a596df4fda03_region",
+    "time": 99.1553342606002,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "feabcd19-cad0-4c04-aac8-4845dc881dd9_region",
+    "time": 99.74540687550459,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "fabc17a9-7342-4b66-8fdf-6ce8c9e8b402_region",
+    "time": 100.36571046764936,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "84e0ddd7-b127-4b2f-acbb-8a29315e3b7e_region",
+    "time": 100.99623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f0665f97-65cf-4f98-b117-effafd3e3b7a_region",
+    "time": 101.5455652378406,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "abbf9c28-ce75-4808-b60b-09c53e8dab88_region",
+    "time": 102.1242319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "0f374add-c621-40fd-9f0e-d52a96ee728c_region",
+    "time": 102.7851164158871,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "3a380ce4-8e51-485e-a555-4b6295bdd410_region",
+    "time": 103.37489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "17abd53f-7fd2-46ec-87dd-2c9bebf1170a_region",
+    "time": 103.97489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "fb644b10-3acd-4642-902b-f2c87ab3e7fc_region",
+    "time": 104.57489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "24f1ebc6-d1c1-45ad-978c-a37fff45530f_region",
+    "time": 105.17518903079147,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f701e044-603e-455b-813b-8e14c5444b15_region",
+    "time": 105.72423190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7955eadf-4234-4d57-91d8-8f70c59509e3_region",
+    "time": 106.30556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "59f6d91a-64e0-4bb0-8495-426f7143ca1a_region",
+    "time": 106.90556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "6d1f65b1-9357-437f-9e7c-17251349b8a9_region",
+    "time": 107.55623190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "43353780-72c4-40af-9b9d-a22a816cd90a_region",
+    "time": 108.16423190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "ebc3f933-258b-48c6-95ae-147a7473c137_region",
+    "time": 108.76423190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "bb19f75b-a9c7-4329-8122-e1dcfb192a5d_region",
+    "time": 109.38556523784061,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "bdeef754-a707-498f-baac-6dd374bfbecb_region",
+    "time": 109.93489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "d61c4b65-4d8b-489f-923a-6ae152ac78a6_region",
+    "time": 110.5642319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4b753b8a-9e9f-4f51-9501-54a280eca9c4_region",
+    "time": 111.1962319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c9acd71a-1195-488c-bf0f-31510fe84315_region",
+    "time": 111.73489857117394,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "9f00ca95-c59f-4e0a-87c9-41c8cd88c9e8_region",
+    "time": 112.31623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f5253ea5-8eb1-4c01-983a-c5f30e50ee87_region",
+    "time": 112.93489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "6dec52fa-c576-4ad9-a927-1e37c7610d66_region",
+    "time": 113.5162319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "a1786413-7477-42a4-90f8-acfdb5581330_region",
+    "time": 114.11623190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "eaf8cb29-e9f5-4b0c-b7fc-7d223861b255_region",
+    "time": 153.79710328335977,
+    "effect": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    }
+  },
+  {
+    "id": "14b1798d-b281-464f-bb30-e9c632837e5f_region",
+    "time": 156.21489857117396,
+    "effect": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    }
+  },
+  {
+    "id": "ef18f51f-684d-4f60-9a4a-86e788463605_region",
+    "time": 158.6842319045073,
+    "effect": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    }
+  },
+  {
+    "id": "d9e9a31b-83ea-4655-a082-ad771edd58b2_region",
+    "time": 161.01489857117397,
+    "effect": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7e1ae20d-fcb6-4c77-a488-2b6a6ac51ec8_region",
+    "time": 163.5242319045073,
+    "effect": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4adee89a-327f-4860-8b40-bd3ba15a3dff_region",
+    "time": 165.8442319045073,
+    "effect": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    }
+  },
+  {
+    "id": "42797029-8353-4488-844d-4fe221725050_region",
+    "time": 168.2442319045073,
+    "effect": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    }
+  },
+  {
+    "id": "46f93247-c162-4723-927c-c846a46981af_region",
+    "time": 170.58659497902917,
+    "effect": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c04aad60-9da0-4ecc-aea5-07e1178570db_region",
+    "time": 172.91739374297725,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "d3bde655-99db-4431-82d9-bc3ce77d3d3b_region",
+    "time": 173.59430451941168,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "d83087af-babc-40b7-a026-fa234111a8f3_region",
+    "time": 174.1642319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "71f6362a-e442-4f58-a478-77e4ff29c814_region",
+    "time": 174.7550438009827,
+    "animation": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    },
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "631f7b90-5e41-43a7-9837-0a222fb15731_region",
+    "time": 175.3962319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c466f381-b1f0-4796-a87f-54fa21f35cc7_region",
+    "time": 175.99623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "42e558e7-e107-4c57-96a4-ba1d9e885107_region",
+    "time": 176.58556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "34a7ffce-dd4b-44d9-81a9-ced6a8a7237c_region",
+    "time": 177.14556523784063,
+    "animation": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    },
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "bd2cf823-fe8b-498b-9d20-ca3302390694_region",
+    "time": 177.73489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "03ebdc4f-e87b-490b-8d65-cb77371ad1c5_region",
+    "time": 178.33489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "fec63d33-ea08-45dc-916d-f99389242e15_region",
+    "time": 178.89489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "9c192d77-ab9c-4ff1-8ee3-ec62f8d22b2c_region",
+    "time": 179.55623190450729,
+    "animation": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    },
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "77aa00db-5475-4b59-b4d3-b154cc143cc8_region",
+    "time": 180.14556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "5f8ccd7e-e977-4125-b0af-f770639c1b71_region",
+    "time": 180.69489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "a5c302e1-66f9-4ea3-a990-33e458784a4a_region",
+    "time": 181.30556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "fad94781-3669-4c1f-883d-fbc1b83ad842_region",
+    "time": 181.89489857117397,
+    "animation": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    },
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "570e5da1-d723-4aaa-8dc7-63e7f964fdf7_region",
+    "time": 182.53489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4bce7c14-8926-43e4-9efd-4a3d6dc0c60d_region",
+    "time": 183.13489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4b801abb-b815-490d-abcb-abc3ec607dd6_region",
+    "time": 183.69489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c16ed773-793c-438c-a34c-dfa68e60b653_region",
+    "time": 184.3242319045073,
+    "animation": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    },
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "df9f7757-de44-43ff-aa8f-121e7f19c3e1_region",
+    "time": 184.98556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "5340387f-9f10-495c-9881-1dc502b1d4d9_region",
+    "time": 185.58556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f5606f87-eb67-4044-948a-96b30b5c0454_region",
+    "time": 186.1642319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7bd7e199-9bb3-4609-8a51-425dcca4852c_region",
+    "time": 186.71623190450728,
+    "animation": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    },
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "05eeb819-5583-4984-a5f9-3b2f6e1aa162_region",
+    "time": 187.3162319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7af24529-a44c-4121-8770-d3bdbc2a1b39_region",
+    "time": 187.94556523784064,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c0dc5260-03d6-4588-8958-c52799b3549b_region",
+    "time": 188.54556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "6a1f93cc-86a9-4bfa-9244-1221bfe3bfdc_region",
+    "time": 189.13489857117395,
+    "animation": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    },
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c4229fce-845c-4222-a311-14c891364b3a_region",
+    "time": 189.6842319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f9187c5f-54e0-4774-a6a7-ed290a24084b_region",
+    "time": 190.22556523784064,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c2c236e0-d24d-4ce1-ad38-35d226a37255_region",
+    "time": 190.8362319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "de988659-8443-4af3-91fd-48c24edb428c_region",
+    "time": 191.41489857117395,
+    "animation": {
+      "name": "Shake",
+      "animation": "shake",
+      "speed": ".5s",
+      "options": ""
+    },
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "904b0fb7-1345-4de1-9720-5e994c539dd9_region",
+    "time": 192.06556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f8df9a30-f754-4682-b7ac-3c39337eb367_region",
+    "time": 192.69489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f7f3f777-6f19-4d4a-bbc6-b148a8fa4abf_region",
+    "time": 193.29489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "40af95e6-8689-45a9-8efc-e571bb727428_region",
+    "time": 193.89489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "12f749e4-d0a0-4f53-9d87-0a12604d1213_region",
+    "time": 194.5055652378406,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "befc3fbe-62b0-4401-b625-c28d7be81c39_region",
+    "time": 195.09489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "d8beb068-17bb-45b8-9a34-3967eb139375_region",
+    "time": 195.69489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "ecf22547-ac40-4ffd-8fc7-d4296c1c2548_region",
+    "time": 196.29489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c9fc0ffb-8329-4111-b9a9-a531ce4001f6_region",
+    "time": 196.89489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f6bdd750-3587-4985-bc3a-521ff824d55b_region",
+    "time": 197.46556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f82b3baf-9dd5-480d-a377-50fe66b2dfba_region",
+    "time": 198.04423190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "709c2564-5bee-4c5e-8e2b-3b36683dbe1b_region",
+    "time": 198.6362319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4c3c491e-e52d-4197-8939-56373a6c103f_region",
+    "time": 199.21489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f3950cb8-bc5c-4af0-9171-778150b79f8f_region",
+    "time": 199.85489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "5f14322f-cac2-4a2c-8e7f-fb76c1b10e9a_region",
+    "time": 200.43623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "5dfa4447-8ab5-47b0-b3ac-fec9ad39f5ce_region",
+    "time": 201.06556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "b33f647b-5612-4e57-822b-61f6821d687f_region",
+    "time": 201.66556523784064,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "5ddd1e7b-fb8c-4137-ad71-ccf6326eef79_region",
+    "time": 202.27623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "8b9f192d-d9c9-40fe-a447-33ebe827c41c_region",
+    "time": 202.90556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "df963832-e234-4b6d-bc97-10e22faae588_region",
+    "time": 203.5055652378406,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "24702c33-4aa2-47df-b82e-34b9f1727ef1_region",
+    "time": 204.05489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "d797753c-e14e-4162-897b-95922518a0c7_region",
+    "time": 204.73489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "25f78120-e376-40c2-891a-cc7f959f4b07_region",
+    "time": 205.2842319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "e324ce8a-e0c9-411b-99be-8fbfd9a27882_region",
+    "time": 205.86556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "b6971687-c476-4442-a0b6-6ee597229fd8_region",
+    "time": 206.46556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "75c3d6b6-ccce-48d7-acc4-39242ff9a2c5_region",
+    "time": 207.0762319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "59463016-c1b3-4906-b9ee-5ceff3c4e660_region",
+    "time": 207.6842319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "a3c818f4-864c-4478-8aa6-2053baf9f188_region",
+    "time": 208.29489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c06695d3-2f7b-4202-b9d8-322893f6035f_region",
+    "time": 208.93489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c17c882d-3381-4503-8b2a-eb331c05d5bc_region",
+    "time": 209.57489857117395,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "e2d50c96-814d-45e6-832c-912b6f4f1a03_region",
+    "time": 210.1642319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "dc1aaeb4-8ae1-498a-af05-dde843fefd54_region",
+    "time": 210.7962319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "ae46ccc5-6381-4231-91b3-5694505dbc51_region",
+    "time": 211.33650923159752,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "48411e6d-daaf-471d-8e2a-c97a3f51a2f2_region",
+    "time": 211.94540687550457,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "7e90c1dd-e63b-4d59-ab12-8cd21b23a847_region",
+    "time": 212.5359283123625,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "0d308ac1-402f-400c-973d-190945675a75_region",
+    "time": 213.17489857117397,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "bd797046-21b9-4775-8a1f-69ce1db11887_region",
+    "time": 213.7557830825537,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c697b83b-df38-4223-bc10-59132427bc72_region",
+    "time": 214.40571046764939,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "d9c9fb60-b497-4009-bca9-ae1aab252f13_region",
+    "time": 214.95488543864664,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c55417b2-7c7c-44e1-b2a7-6dda99dfc110_region",
+    "time": 215.57666759393354,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "602c7b95-86b7-4834-9f61-5db0e1bf2ad1_region",
+    "time": 216.14688543864665,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "587b5d2b-253a-4c2b-aca5-463be6539098_region",
+    "time": 216.7664497492204,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "120e97b8-eb16-4090-81db-6f94bdbfc877_region",
+    "time": 217.3262913868844,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "f4559622-c013-4cdb-aea2-f821b8fd0b3b_region",
+    "time": 217.93489857117396,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "44230676-7bd6-4626-9c18-9042c27891eb_region",
+    "time": 218.5642319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "d1fadebe-8330-4ad7-b1de-c208bb5e3ad4_region",
+    "time": 219.1642319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "e397dfdd-3de1-4c96-8882-bb748984c8f5_region",
+    "time": 219.7562319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "2af9bb81-18b8-46c4-a1cf-3ebd06e605e8_region",
+    "time": 220.38556523784064,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "1f3a6eeb-7b7e-4468-bd72-c2267cb9a883_region",
+    "time": 220.98556523784063,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "8db944f6-6199-4ffd-a05c-55884a02ebbb_region",
+    "time": 221.54659497902915,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "940e08bd-b013-49ff-92b0-6d3a22565800_region",
+    "time": 222.1863045194117,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "06cd8745-5df9-4142-9a73-a317bf9f3208_region",
+    "time": 222.77592831236254,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "8277dd27-634e-48c7-99a2-b4c84c9005e4_region",
+    "time": 223.35459497902914,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "ee1acf5d-dfba-4cdd-8251-949a95f93b98_region",
+    "time": 223.9642319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "5c7fa51b-f5ff-46cd-9ff0-f7ed490a2384_region",
+    "time": 224.54511641588707,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "9d26eb7f-c034-4278-b78f-b7d669e6487c_region",
+    "time": 225.18556523784062,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "29cacffc-fa08-4592-ab7e-f323adda2d3a_region",
+    "time": 225.72674020883792,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "4ec35ec8-f6cd-4604-9b06-762e28101da9_region",
+    "time": 226.38556523784064,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "e7f3c198-313e-4250-829f-33f3827b73a4_region",
+    "time": 226.95459497902917,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "c1fc2b24-179b-495a-9dff-8589413eb430_region",
+    "time": 227.55623190450729,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "8f5c7f47-ad98-4d26-97f4-6c8fa2908b33_region",
+    "time": 228.15623190450728,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "96c3b3de-2055-44e7-9813-c690ccf1874f_region",
+    "time": 228.7962319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  },
+  {
+    "id": "accf32bd-a819-4944-9cbc-50a9d331729e_region",
+    "time": 229.3642319045073,
+    "effect": {
+      "name": "Pulse",
+      "animation": "shake--pulse",
+      "speed": ".2s",
+      "options": ""
+    }
+  }
+]

@@ -1,12 +1,26 @@
 [
   {
+    "name": "None",
+    "animation": "",
+    "speed": "",
+    "options": ""
+  },
+  {
     "name": "Pulse",
     "animation": "shake--pulse",
-    "speed": ".2s"
+    "speed": ".2s",
+    "options": ""
   },
   {
     "name": "Shake",
     "animation": "shake",
-    "speed": ".5s"
+    "speed": ".5s",
+    "options": ""
+  },
+  {
+    "name": "3D Show",
+    "animation": "logo--3d-shake",
+    "speed": "20s",
+    "options": "infinite"
   }
 ]

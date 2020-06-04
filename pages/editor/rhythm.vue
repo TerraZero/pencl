@@ -6,7 +6,7 @@
           h1
             | Rhythm {{ entity.output }}
           .prhythm--wave
-            AudioWave.prhythm--track(:src="entity.path", @init="initWave")
+            AudioWave.prhythm--track(:entity="entity", :src="entity.path", @init="initWave")
       template(v-slot:select)
 
 </template>

@@ -3,6 +3,7 @@
     EditorNav
       h1
         | Categories
+      LinkButton.pcategories--add(text="Add Category", :icon="{cat: 'api', name: 'plus'}", target="/editor/categoryadd")
       Status(v-if="status", :status="status", :message="message")
       FilterPanel(:items="items")
         template(v-slot:item="item")
@@ -21,6 +22,7 @@ import Status from "~/components/ui/form/Status";
 import FilterPanel from "~/components/ui/panel/FilterPanel";
 import Item from "~/components/entity/Item";
 import ControllButton from "~/components/buttons/ControllButton";
+import LinkButton from "~/components/buttons/LinkButton";
 
 import Socket from "~/plugins/socket/client";
 
@@ -30,7 +32,8 @@ export default {
     Status,
     FilterPanel,
     Item,
-    ControllButton
+    ControllButton,
+    LinkButton
   },
   data() {
     return {
@@ -74,4 +77,7 @@ export default {
 
   &--path
     padding: 0 20px
+
+  &--add
+    margin: 0 10px
 </style>

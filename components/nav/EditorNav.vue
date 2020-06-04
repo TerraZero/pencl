@@ -6,8 +6,12 @@
           | {{ (close ? '+' : '-') }}
         .editor-nav--toggle(@click="toConfig")
           Icon(cat="api", name="settings")
+        .editor-nav--toggle(@click="toFullscreen")
+          Icon(cat="api", name="fullscreen")
       .editor-nav--item(v-for="item in items", :class="itemclass(item)", @click="click(item)")
-        | {{ item.label }}
+        Icon.editor-nav--item-icon(cat="api", :name="item.icon")
+        .editor-nav--item-label
+          | {{ item.label }}
     .editor-nav--content
       ScrollPanel.editor-nav--scroll
         slot
@@ -27,22 +31,17 @@ export default {
   props: ["selectOpen"],
   data() {
     return {
+      fullscreen: false,
       items: [
         {
-          label: "+ Add Category",
-          path: "/editor/categoryadd"
-        },
-        {
-          label: "+ Add Media",
-          path: "/editor/mediaadd"
-        },
-        {
           label: "Categories",
-          path: "/editor/categories"
+          path: "/editor/categories",
+          icon: "dir"
         },
         {
           label: "Medias",
-          path: "/editor/medias"
+          path: "/editor/medias",
+          icon: "photo"
         }
       ]
     };
@@ -85,6 +84,14 @@ export default {
       this.$router.push({
         path: "/editor/config"
       });
+    },
+    toFullscreen() {
+      if (this.fullscreen) {
+        document.exitFullscreen();
+      } else {
+        document.body.requestFullscreen();
+      }
+      this.fullscreen = !this.fullscreen;
     },
     itemclass(item) {
       if (this.$router.currentRoute.path === item.path) {
@@ -152,15 +159,42 @@ export default {
       background: #444
 
   &--item
-    padding: 10px
+    display: flex
     background: #121111
     transition: background .3s ease-in-out
     cursor: pointer
     white-space: nowrap
+    border: 1px solid #121111
+    position: relative
 
-    &:hover
-      background: #333
+    &:hover,
+    &:hover &-icon
+      background: #444
+
+    & + &
+      border-top-width: 0
+
+  &--item-icon
+    width: 2.5em
+    height: 2.5em
+    background: #333
+    flex-shrink: 0
+    transition: background .3s ease-in-out
+
+  &--item-label
+    flex-grow: 1
+    padding: 0 0.5em
+    line-height: 2.5em
 
   &--item--active
     background: #333
+
+    &:after
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      width: 0.2em
+      height: 100%
+      background: white
 </style>
