@@ -3,11 +3,17 @@
     .filter-panel--filters
       slot(name="filters")
     .filter-panel--items
-      .filter-panel--item(v-for="item in filterred")
-        slot(name="item", v-bind:item="item")
+      ScrollPanel
+        .filter-panel--item(v-for="item in filterred")
+          slot(name="item", v-bind:item="item")
 </template>
 <script>
+import ScrollPanel from "~/components/ui/panel/ScrollPanel";
+
 export default {
+  components: {
+    ScrollPanel
+  },
   props: ["items", "filters"],
   computed: {
     filterred() {

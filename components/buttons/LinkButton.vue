@@ -1,5 +1,5 @@
 <template lang="pug">
-  .link-button(@click="click")
+  .link-button(:class="classes", @click="click")
     .link-button--icon(v-if="icon")
       Icon(v-bind="icon")
     .link-button--text(v-if="text")
@@ -13,7 +13,14 @@ export default {
   components: {
     Icon
   },
-  props: ["text", "icon", "target"],
+  props: ["text", "icon", "target", "swap"],
+  computed: {
+    classes() {
+      if (this.swap) {
+        return ["link-button--swap"];
+      }
+    }
+  },
   methods: {
     click() {
       if (this.target) {
@@ -39,6 +46,9 @@ export default {
 
   &:hover
     background: #444
+
+  &--swap
+    flex-direction: row-reverse
 
   &--icon
     width: 2.5em
