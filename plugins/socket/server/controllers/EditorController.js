@@ -14,6 +14,7 @@ export default class EditorController extends Controller {
     this.addHandle('editor/deleteMedia', this.deleteMedia);
     this.addHandle('editor/saveRhythm', this.saveRhythm);
     this.addHandle('editor/loadRhythm', this.loadRhythm);
+    this.addHandle('editor/getScenes', this.getScenes);
   }
 
   /**
@@ -183,6 +184,20 @@ export default class EditorController extends Controller {
       return data;
     }
     return [];
+  }
+
+  /**
+   * @param {import('sockettools/src/Request')} request
+   */
+  getScenes(request) {
+    const path = Path.join(process.cwd(), 'static/data/scenes');
+    const scenes = [];
+    const data = FS.readdirSync(path);
+
+    for (const file of data) {
+      scenes.push(require(Path.join(path, file)));
+    }
+    return scenes;
   }
 
 }

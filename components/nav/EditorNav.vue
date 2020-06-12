@@ -15,7 +15,7 @@
     .editor-nav--content
       ScrollPanel.editor-nav--scroll
         slot
-      .editor-nav--select(v-if="$slots.select", :class="selectClass")
+      .editor-nav--select(:class="selectClass", ref="editorSelection", @transitionend="onTransitionend")
         slot(name="select")
 </template>
 
@@ -41,6 +41,11 @@ export default {
         {
           label: "Medias",
           path: "/editor/medias",
+          icon: "photo"
+        },
+        {
+          label: "Scenes",
+          path: "/editor/scenes",
           icon: "photo"
         }
       ]
@@ -69,6 +74,11 @@ export default {
     }
   },
   methods: {
+    onTransitionend(event) {
+      if (!this.selectOpen && event.target === this.$refs.editorSelection) {
+        this.$emit("closeSelect");
+      }
+    },
     toggle() {
       this.$store.commit("editorconfig/sidebarclose", {
         sidebarclose: !this.close
@@ -121,7 +131,8 @@ export default {
     height: 100%
     background: #555
     z-index: 1000
-    transition: top .3s ease-in-out
+    transition: top .5s ease-in-out
+    border-top: 1em solid #121111
 
   &--select--open
     top: 0
