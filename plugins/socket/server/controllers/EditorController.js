@@ -15,6 +15,7 @@ export default class EditorController extends Controller {
     this.addHandle('editor/saveRhythm', this.saveRhythm);
     this.addHandle('editor/loadRhythm', this.loadRhythm);
     this.addHandle('editor/getScenes', this.getScenes);
+    this.addHandle('editor/addScene', this.addScene);
   }
 
   /**
@@ -198,6 +199,29 @@ export default class EditorController extends Controller {
       scenes.push(require(Path.join(path, file)));
     }
     return scenes;
+  }
+
+  /**
+   * @param {import('sockettools/src/Request')} request
+   */
+  addScene(request) {
+    const path = Path.join(process.cwd(), 'static/data/scenes', request.params.id + '.json');
+
+    if (FS.existsSync(path)) {
+      return {
+        status: 'warning',
+        message: 'Scene ' + request.params.title + ' already exists',
+      };
+    }
+
+    for (const index in request.params.images) {
+      request.params.images[index].url = '/downloads/backgrounds/' + request.params.images[index].output;
+    }
+
+    for (const index in request.params.musics) {
+      request.params.musics[index].url = '/downloads/music/' + request.params.musics[index].output;
+    }
+    FS.writeFileSync(path, JSON.stringify(request.params, null, 2));
   }
 
 }

@@ -3,7 +3,7 @@
     .filter-panel--filters
       slot(name="filters")
     .filter-panel--items
-      ScrollPanel
+      ScrollPanel.filter-panel--scroll
         .filter-panel--item(v-for="item in filterred")
           slot(name="item", v-bind:item="item")
 </template>
@@ -43,13 +43,19 @@ export default {
     display: flex
 
   &--items
-    display: flex
-    flex-wrap: wrap
     justify-content: space-between
     padding: 5px
+    height: 100%
+    box-sizing: border-box
+    overflow: hidden
+
+  &--scroll
+    display: flex
+    flex-wrap: wrap
 
   &--item
-    margin: 5px
+    margin: .3em
     flex: 1 1 21em
+    max-width: calc(20% - .3em)
 
 </style>

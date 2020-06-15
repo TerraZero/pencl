@@ -133,6 +133,7 @@ export default {
     z-index: 1000
     transition: top .5s ease-in-out
     border-top: 1em solid #121111
+    box-sizing: border-box
 
   &--select--open
     top: 0

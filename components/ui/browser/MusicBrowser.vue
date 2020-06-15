@@ -1,39 +1,34 @@
 <template lang="pug">
-  .image-browser
-    .image-browser--controlls
-      LinkButton.image-browser--select(:icon="{cat: 'api', name:'next'}", :text="'Select (' + select.length + ')'", swap="true", :class="buttonClass", @click="$emit('select', select)")
-    FilterPanel.image-browser--filter(:items="items", :filters="filters")
+  .music-browser
+    .music-browser--controlls
+      LinkButton.music-browser--select(:icon="{cat: 'api', name:'next'}", :text="'Select (' + select.length + ')'", swap="true", :class="buttonClass", @click="$emit('select', select)")
+    FilterPanel(:items="items", :filters="filters")
       template(v-slot:filters)
-        .image-browser--filters
+        .music-browser--filters
           Textfield(label="Search", v-model="filters.output")
       template(v-slot:item="item")
-        ImageItem.image-browser--item(:class="classes(item.item)", @click.native="click(item.item)", :src="'/downloads/backgrounds/' + item.item.output")
-          template(v-slot:image)
-            .image-browser--mark(v-if="find(item.item)", cat="api", name="correct")
-              Icon.image-browser--mark-icon(cat="api", name="correct")
+        MusicItem.music-browser--item(:class="classes(item.item)", @click.native="click(item.item)", :src="'/downloads/backgrounds/' + item.item.output")
           template
+            .music-browser--mark(v-if="find(item.item)", cat="api", name="correct")
+              Icon.music-browser--mark-icon(cat="api", name="correct")
             | Name: {{ item.item.output }}
 </template>
 <script>
 import FilterPanel from "~/components/ui/panel/FilterPanel";
 import Textfield from "~/components/ui/form/Textfield";
-import AspectRadioFrame from "~/components/ui/frame/AspectRadioFrame";
-import CoverImage from "~/components/medias/CoverImage";
 import Icon from "~/components/medias/Icon";
 import LinkButton from "~/components/buttons/LinkButton";
-import ImageItem from "~/components/entity/ImageItem";
+import MusicItem from "~/components/entity/MusicItem";
 
-import data from "~/static/data/downloads/backgrounds.json";
+import data from "~/static/data/downloads/music.json";
 
 export default {
   components: {
     FilterPanel,
     Textfield,
-    AspectRadioFrame,
-    CoverImage,
     Icon,
     LinkButton,
-    ImageItem
+    MusicItem
   },
   props: {
     preSelect: {
@@ -53,7 +48,7 @@ export default {
   computed: {
     buttonClass() {
       if (this.select.length) {
-        return "image-browser--select--active";
+        return "music-browser--select--active";
       }
     }
   },
@@ -77,7 +72,7 @@ export default {
     },
     classes(item) {
       if (this.find(item)) {
-        return ["image-browser--item--selected"];
+        return ["music-browser--item--selected"];
       }
     }
   },
@@ -87,19 +82,11 @@ export default {
 };
 </script>
 <style lang="sass">
-.image-browser
+.music-browser
   width: 100%
   height: 100%
   padding: 2em
   box-sizing: border-box
-  display: flex
-  flex-direction: column
-
-  &--filter
-    height: 100%
-    display: flex;
-    flex-direction: column;
-    overflow: hidden
 
   &--filters
     padding: 2em 0
@@ -107,6 +94,7 @@ export default {
 
   &--item
     cursor: pointer
+    position: relative
 
   &--mark
     position: absolute
