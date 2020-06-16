@@ -1,5 +1,5 @@
 <template lang="pug">
-  .loading(@click="click", :class="'loading--mode-' + mode")
+  .loading(:class="'loading--mode-' + mode")
     .loading--center
       SVGEmbed.loading--svg(src="/images/logos/tz-loading.svg", :style="styles")
 </template>
@@ -37,6 +37,16 @@ export default {
     }
   },
   methods: {
+    setMode(mode) {
+      if (mode === 0) {
+        clearInterval(interval);
+        interval = setInterval(() => {
+          this.offset =
+            (this.offset + Calc.random(0, radius) + radius / 2) % (radius * 2);
+        }, 1000);
+        this.mode = 1;
+      }
+    },
     click() {
       if (this.mode === 0) {
         interval = setInterval(() => {

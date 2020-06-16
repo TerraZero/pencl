@@ -1,5 +1,5 @@
 <template lang="pug">
-  .timeline(:class="'timeline--state-' + state", @click="click")
+  .timeline(:class="'timeline--state-' + state")
     .timeline--items(:style="styles")
       .timeline--item(v-for="i in 30", :style="itemStyles(i)")
         .timeline--time
@@ -19,13 +19,18 @@ import Format from "utils/src/Format";
 import RandomText from "~/components/text/RandomText";
 
 import { Howl } from "howler";
+import AsyncPromise from "utils/src/AsyncPromise";
 
 let counter = 0;
+const promise = new AsyncPromise();
 
 const howl = new Howl({
   src: "/downloads/music/hitman3.mp3"
 });
 howl.seek(33);
+howl.on("end", () => {
+  promise.resolve();
+});
 
 export default {
   components: {
@@ -66,31 +71,31 @@ export default {
     lpad(text) {
       return Format.pad(text, 2, "0", true);
     },
-    click() {
+    start() {
       switch (counter) {
         case 0:
           this.focus = 18;
           howl.play();
           setTimeout(() => {
-            this.click();
+            this.start();
           }, 2000);
           break;
         case 1:
           this.state++;
           setTimeout(() => {
-            this.click();
+            this.start();
           }, 2000);
           break;
         case 2:
           this.state++;
           setTimeout(() => {
-            this.click();
+            this.start();
           }, 9000);
           break;
         case 3:
           this.overlay = true;
           setTimeout(() => {
-            this.click();
+            this.start();
           }, 4000);
           break;
         case 4:
@@ -98,6 +103,7 @@ export default {
       }
 
       counter++;
+      return promise.promise;
     },
     itemStyles(index) {
       if (index - 4 === this.focus && this.state === 3) {
@@ -156,8 +162,8 @@ export default {
     left: 0
     right: 0
     bottom: 0
-    background: white
-    color: black
+    background: black
+    color: white
     font-family: payday
     font-size: 20em
     display: flex

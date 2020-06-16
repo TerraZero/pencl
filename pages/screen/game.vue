@@ -1,14 +1,14 @@
 <template lang="pug">
   .pgame
-    Logo
+    Game
 </template>
 
 <script>
-import Logo from "~/components/medias/Logo";
+import Game from "~/components/screen/Game";
 
 export default {
   components: {
-    Logo
+    Game
   }
 };
 </script>
@@ -17,4 +17,5 @@ export default {
 .pgame
   width: 100%
   height: 100%
+  background: black
 </style>

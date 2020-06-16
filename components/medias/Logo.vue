@@ -1,5 +1,5 @@
 <template lang="pug">
-  .logo(:class="'logo--mode-' + mode", @click="click")
+  .logo(:class="'logo--mode-' + mode")
     .logo--center
       SVGEmbed.logo--svg(src="/images/logos/tz.svg")
       .logo--title
@@ -27,6 +27,7 @@
 <script>
 import SVGEmbed from "~/components/medias/SVGEmbed";
 import { Howl } from "howler";
+import AsyncPromise from "utils/src/AsyncPromise";
 
 const insane = new Howl({
   src: "/downloads/music/re2_third_demise.mp3",
@@ -41,6 +42,8 @@ const glitch = new Howl({
 });
 paycyber.seek(35);
 
+const promise = new AsyncPromise();
+
 export default {
   components: {
     SVGEmbed
@@ -51,7 +54,7 @@ export default {
     };
   },
   methods: {
-    click() {
+    start() {
       if (this.mode !== 0) return;
       this.mode = 1;
       insane.play();
@@ -65,18 +68,19 @@ export default {
       }, 12000);
       setTimeout(() => {
         paycyber.fade(1, 0, 5000);
-      }, 47000);
+      }, 22000);
       setTimeout(() => {
         paycyber.stop();
         this.mode = 3;
-      }, 52000);
+        promise.resolve();
+      }, 27000);
+      return promise.promise;
     }
   }
 };
 </script>
 <style lang="sass">
 .logo
-  background: black
   width: 100%
   height: 100%
   overflow: hidden
