@@ -1,0 +1,9 @@
+{
+  "title": "Sniper",
+  "id": "sniper",
+  "type": "sound",
+  "sound": {
+    "url": "/downloads/sounds/sniper.mp3",
+    "start": 51
+  }
+}

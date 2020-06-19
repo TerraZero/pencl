@@ -1,0 +1,18 @@
+{
+  "title": "Music",
+  "id": "music",
+  "type": "music",
+  "config": {
+    "music": {
+      "random": true
+    }
+  },
+  "music": [
+    {
+      "url": "/downloads/music/exhuman.mp3"
+    },
+    {
+      "url": "/downloads/music/hitman3.mp3"
+    }
+  ]
+}

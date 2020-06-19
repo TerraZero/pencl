@@ -3,6 +3,7 @@ import Socket from 'socket.io';
 
 import Server from 'sockettools/src/Server';
 import ServerController from './controllers/ServerController';
+import ServerGameController from './controllers/ServerGameController';
 import ServerManagerController from './controllers/ServerManagerController';
 import EditorController from './controllers/EditorController';
 
@@ -16,6 +17,7 @@ export default function () {
     socketServer.addController(new ServerManagerController(socketServer));
     socketServer.addController(new EditorController(socketServer));
     socketServer.addController(new ServerController(socketServer));
+    socketServer.addController(new ServerGameController(socketServer));
     socketServer.createServer(Socket(server));
     /* CUSTOM */
 

@@ -1,27 +1,13 @@
 import { Howl } from 'howler';
 
-import Video from './Video';
-import Sound from './Sound';
-import Scene from './Scene';
-import Clip from './Clip';
+import Calc from '~/plugins/util/Calc';
 
-export default class MediaSystem {
-
-  static get system() {
-    if (this._system === undefined) {
-      this._system = new MediaSystem();
-    }
-    return this._system;
-  }
+class MediaSystem {
 
   constructor() {
     this._component = null;
-    this._video = null;
-    this._scene = null;
-    this._clip = null;
     this._sounds = {};
-    this._textTimeout = null;
-    this._textSoundTimeout = null;
+    this._current = null;
   }
 
   get component() {
@@ -30,132 +16,79 @@ export default class MediaSystem {
 
   mount(component) {
     this._component = component;
-    this._video = new Video(this._component, sceneplayer);
-    this._scene = new Scene(this);
     return this;
   }
 
+  stop(type) {
+    this.component.showloading = false;
+    if (type === 'sound' || type === 'all') {
+      for (const item in this._sounds) {
+        this._sounds[item].off();
+        this._sounds[item].stop();
+        delete this._sounds[item];
+      }
+    }
+  }
+
+  intro(animation = true) {
+    this.stop();
+    this.component.showlogo = true;
+    this.component.logoanimate = animation;
+  }
+
+  timeline({ time, list }) {
+    this.stop();
+    this.component.timeline.time = time;
+    this.component.timeline.list = list.filter(v => v.length);
+    this.component.screen = 'timeline';
+  }
+
+  images({ images, config }) {
+    this.component.images = images;
+    this.component.imagespeed = config.image.speed;
+    this.component.screen = 'mediashow';
+  }
+
   sound(sound) {
-    if (this._sounds[sound.src] === undefined) {
-      this._sounds[sound.src] = new Sound(sound);
-      this._sounds[sound.src].start().promise.then(() => {
-        delete this._sounds[sound.src];
-      });
+    console.log(sound);
+    const key = sound.url;
+    this._sounds[key] = new Howl({
+      src: sound.url,
+    });
+    if (sound.volume) {
+      this._sounds[key].volume(sound.volume);
     }
-    return this._sounds[sound.src];
-  }
-
-  clear() {
-    this._video.stop();
-    if (this._clip) this._clip.stop();
-    this.component.scene = null;
-    this.component.image = null;
-    this.component.video = null;
-    this.component.text = null;
-    this.component.stars = false;
-    for (const src in this._sounds) {
-      this._sounds[src].stop();
+    if (sound.start) {
+      this._sounds[key].seek(sound.start);
     }
+    this._sounds[key].on('end', () => {
+      delete this._sounds[key];
+    });
+    this._sounds[key].play();
+    return this._sounds[key];
   }
 
-  image(image) {
-    this.component.scene = 'image';
-    this.component.image = image;
-  }
-
-  video(video) {
-    return this._video.load(video);
-  }
-
-  scene(scene) {
-    if (scene.sound) {
-      this._scene.stop();
-      this.sound(scene.sound);
-    } else if (scene.video) {
-      this._scene.stop();
-      this._video.load(scene.video);
-    } else {
-      this._scene.load(scene);
+  music(data) {
+    if (this._current) {
+      this._current.stop();
     }
+
+    let index = Calc.random(0, data.music.length);
+    const start = () => {
+      let newIndex = Calc.random(0, data.music.length);
+      if (newIndex === index) newIndex++;
+      index = newIndex % data.music.length;
+      this._current = this.sound(data.music[index]);
+      this._current.on('end', start);
+    };
+    start();
   }
 
-  stop() {
-    this._scene.stop();
-    this.clear();
+  text({ title, subtitle = null }) {
+    this.component.title = title;
+    this.component.subtitle = subtitle || null;
   }
 
-  clip(clip) {
-    this._clip = new Clip(this.component, clip);
-    this._clip.start();
-  }
+};
 
-  stars() {
-    this.component.stars = true;
-  }
-
-  text(text) {
-    this.component.text = null;
-    clearTimeout(this._textTimeout);
-    this._textTimeout = setTimeout(() => {
-      this.component.text = text;
-      clearTimeout(this._textSoundTimeout);
-      if (!text.mute) {
-        this._textSoundTimeout = setTimeout(() => {
-          this.sound({
-            src: '/sound/title.mp3',
-            start: 0,
-            end: 3,
-          });
-        }, 1000);
-      }
-    }, text.delay || 1000);
-  }
-
-  event(event) {
-    if (event.event === 'moon') {
-      this.component.text = null;
-      for (const src in this._sounds) {
-        this._sounds[src].stop();
-      }
-      const moonBG = this.findEvent(this.component.clip.clips, 'moon-bg');
-      const moon = this.findEvent(this.component.clip.clips, 'moon');
-      const pillar1 = this.findEvent(this.component.clip.clips, 'pillar-1');
-      const pillar2 = this.findEvent(this.component.clip.clips, 'pillar-2');
-
-      setTimeout(() => {
-        this.component.clip.clips[moon].style.width = '50%';
-        this.component.clip.clips[moon].style.bottom = '13%';
-        this.component.clip.clips[moon].style.left = '27%';
-        this.component.clip.clips[moon].style.filter = 'drop-shadow(#00ffe8 0 0 100px) brightness(1.1) saturate(1.5) hue-rotate(185deg)';
-        this.component.clip.clips[pillar1].style.filter = 'drop-shadow(2px 4px 100px #00ffe8) brightness(0.9) hue-rotate(185deg)';
-        this.component.clip.clips[pillar2].style.filter = 'drop-shadow(2px 4px 100px #00ffe8) brightness(0.85) hue-rotate(185deg)';
-        setTimeout(() => {
-          this.component.text = {
-            text: 'Der Schläfer',
-            subtitle: 'Erwacht',
-          };
-        }, 56000);
-      }, 2000);
-      this.component.clip.clips[moonBG].style.background = 'rgba(0, 0, 0, .97)';
-      this.moonSound();
-    }
-  }
-
-  findEvent(clips, name) {
-    for (const index in clips) {
-      if (clips[index].event === name) {
-        return index;
-      }
-    }
-    return null;
-  }
-
-  moonSound(sound) {
-    if (sound && sound.state === 'stop') return;
-    this.sound({
-      "src": "/downloads/sounds/bb_living_failures.mp3",
-      "volume": 80
-    }).promise.then(this.moonSound.bind(this));
-  }
-
-}
+export default new MediaSystem();

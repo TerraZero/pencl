@@ -75,6 +75,18 @@ export default {
         promise.resolve();
       }, 27000);
       return promise.promise;
+    },
+    show() {
+      this.mode = 3;
+    }
+  },
+  mounted() {
+    if (insane.state() === "loaded") {
+      this.$emit("ready");
+    } else {
+      insane.on("load", () => {
+        this.$emit("ready");
+      });
     }
   }
 };

@@ -2,5 +2,17 @@
   {
     "url": "https://www.youtube.com/watch?v=3n04T3_QUhg",
     "output": "glitch.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=L-AOed1r42M",
+    "output": "sniper.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=2RtDgTm6rn4",
+    "output": "helicopter.mp3"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4idPc86ze_Q",
+    "output": "c4.mp3"
   }
 ]

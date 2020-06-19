@@ -1,8 +1,7 @@
 {
   "title": "Test",
   "id": "test",
-  "text": null,
-  "subtext": null,
+  "type": "images",
   "config": {
     "image": {
       "speed": "10000"
@@ -16,16 +15,6 @@
     {
       "url": "/downloads/backgrounds/town1.jpg",
       "output": "town1.jpg"
-    }
-  ],
-  "musics": [
-    {
-      "url": "/downloads/music/hs_welcome_to_night_city.mp3",
-      "output": "hs_welcome_to_night_city.mp3"
-    },
-    {
-      "url": "/downloads/music/is_tektronik.mp3",
-      "output": "is_tektronik.mp3"
     }
   ]
 }

@@ -27,7 +27,6 @@ const promise = new AsyncPromise();
 const howl = new Howl({
   src: "/downloads/music/hitman3.mp3"
 });
-howl.seek(33);
 howl.on("end", () => {
   promise.resolve();
 });
@@ -36,24 +35,21 @@ export default {
   components: {
     RandomText
   },
-  props: ["current"],
+  props: ["time", "list"],
   data() {
     return {
       state: 1,
       focus: 0,
-      overlay: false,
-      list: [
-        "Arbeitskräfte: 10",
-        "Wachen: 5",
-        "Kunden: ???",
-        "! Direktor Termin"
-      ]
+      overlay: false
     };
   },
   computed: {
     styles() {
       return {
-        transform: "translateY(calc(-" + 1.3 * (this.focus + 3) + "em + 10vh))"
+        transform:
+          "translateY(calc(-" +
+          1.3 * (Number.parseInt(this.focus) + 3) +
+          "em + 10vh)) skewY(-2deg)"
       };
     },
     timelineOverlay() {
@@ -72,30 +68,36 @@ export default {
       return Format.pad(text, 2, "0", true);
     },
     start() {
+      counter = 0;
+      howl.seek(33);
+      this.play();
+      return promise.renew().promise;
+    },
+    play() {
       switch (counter) {
         case 0:
-          this.focus = 18;
+          this.focus = Number.parseInt(this.time);
           howl.play();
           setTimeout(() => {
-            this.start();
+            this.play();
           }, 2000);
           break;
         case 1:
           this.state++;
           setTimeout(() => {
-            this.start();
+            this.play();
           }, 2000);
           break;
         case 2:
           this.state++;
           setTimeout(() => {
-            this.start();
+            this.play();
           }, 9000);
           break;
         case 3:
           this.overlay = true;
           setTimeout(() => {
-            this.start();
+            this.play();
           }, 4000);
           break;
         case 4:
@@ -103,7 +105,6 @@ export default {
       }
 
       counter++;
-      return promise.promise;
     },
     itemStyles(index) {
       if (index - 4 === this.focus && this.state === 3) {
@@ -121,6 +122,7 @@ export default {
   width: 100%
   height: 100%
   overflow: hidden
+  background: black
 
   &--state-1 &--time
     left: 50%
