@@ -1,0 +1,16 @@
+{
+  "title": "Payday Van",
+  "id": "payday_van",
+  "type": "music",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "musics": [
+    {
+      "url": "/downloads/music/payday_van.mp3",
+      "output": "payday_van.mp3"
+    }
+  ]
+}

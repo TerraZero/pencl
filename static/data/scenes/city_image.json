@@ -1,0 +1,40 @@
+{
+  "title": "City Image",
+  "id": "city_image",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/town2.jpg",
+      "output": "town2.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/town1.jpg",
+      "output": "town1.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/town3.jpg",
+      "output": "town3.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/street.jpg",
+      "output": "street.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/town6.jpg",
+      "output": "town6.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/town5.jpg",
+      "output": "town5.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/town4.jpg",
+      "output": "town4.jpg"
+    }
+  ]
+}

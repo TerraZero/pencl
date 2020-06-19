@@ -1,0 +1,20 @@
+{
+  "title": "Prison Image",
+  "id": "prison_image",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/prison_2.jpg",
+      "output": "prison_2.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/prison_1.jpg",
+      "output": "prison_1.jpg"
+    }
+  ]
+}

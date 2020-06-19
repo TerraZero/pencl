@@ -1,0 +1,16 @@
+{
+  "title": "Payday Enforcer Ray",
+  "id": "payday_enforcer_ray",
+  "type": "music",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "musics": [
+    {
+      "url": "/downloads/music/enforcer_1.mp3",
+      "output": "enforcer_1.mp3"
+    }
+  ]
+}

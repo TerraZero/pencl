@@ -1,0 +1,18 @@
+{
+  "title": "Intro",
+  "id": "intro",
+  "text": "",
+  "subtext": "",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [],
+  "musics": [
+    {
+      "url": "/downloads/music/payday_mayham.mp3",
+      "output": "payday_mayham.mp3"
+    }
+  ]
+}

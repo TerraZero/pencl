@@ -1,0 +1,44 @@
+{
+  "title": "City Music",
+  "id": "city_music",
+  "type": "music",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "musics": [
+    {
+      "url": "/downloads/music/base_1.mp3",
+      "output": "base_1.mp3"
+    },
+    {
+      "url": "/downloads/music/city_2.mp3",
+      "output": "city_2.mp3"
+    },
+    {
+      "url": "/downloads/music/city_3.mp3",
+      "output": "city_3.mp3"
+    },
+    {
+      "url": "/downloads/music/city_4.mp3",
+      "output": "city_4.mp3"
+    },
+    {
+      "url": "/downloads/music/city_5.mp3",
+      "output": "city_5.mp3"
+    },
+    {
+      "url": "/downloads/music/city_6.mp3",
+      "output": "city_6.mp3"
+    },
+    {
+      "url": "/downloads/music/city_7.mp3",
+      "output": "city_7.mp3"
+    },
+    {
+      "url": "/downloads/music/city_8.mp3",
+      "output": "city_8.mp3"
+    }
+  ]
+}

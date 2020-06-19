@@ -1,0 +1,16 @@
+{
+  "title": "Payday Before Sturm",
+  "id": "payday_before_sturm",
+  "type": "music",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "musics": [
+    {
+      "url": "/downloads/music/spannung_1.mp3",
+      "output": "spannung_1.mp3"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Kanalisation",
+  "id": "kanalisation",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/underground.jpg",
+      "output": "underground.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/underground2.jpg",
+      "output": "underground2.jpg"
+    }
+  ]
+}

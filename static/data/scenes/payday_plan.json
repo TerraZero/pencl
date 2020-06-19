@@ -1,0 +1,24 @@
+{
+  "title": "Payday Plan",
+  "id": "payday_plan",
+  "type": "music",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "musics": [
+    {
+      "url": "/downloads/music/payday_master_plan.mp3",
+      "output": "payday_master_plan.mp3"
+    },
+    {
+      "url": "/downloads/music/payday_plan_1.mp3",
+      "output": "payday_plan_1.mp3"
+    },
+    {
+      "url": "/downloads/music/payday_plan_2.mp3",
+      "output": "payday_plan_2.mp3"
+    }
+  ]
+}

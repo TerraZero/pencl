@@ -1,0 +1,28 @@
+{
+  "title": "Payday Battle",
+  "id": "payday_battle",
+  "type": "music",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "musics": [
+    {
+      "url": "/downloads/music/payday_sturm_1.mp3",
+      "output": "payday_sturm_1.mp3"
+    },
+    {
+      "url": "/downloads/music/payday_sturm_2.mp3",
+      "output": "payday_sturm_2.mp3"
+    },
+    {
+      "url": "/downloads/music/payday_sturm_3.mp3",
+      "output": "payday_sturm_3.mp3"
+    },
+    {
+      "url": "/downloads/music/payday_sturm_4.mp3",
+      "output": "payday_sturm_4.mp3"
+    }
+  ]
+}

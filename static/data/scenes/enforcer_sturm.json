@@ -1,0 +1,36 @@
+{
+  "title": "Enforcer Sturm",
+  "id": "enforcer_sturm",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/motorcycle.jpg",
+      "output": "motorcycle.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/enforcer2.jpg",
+      "output": "enforcer2.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/enforcer4.jpg",
+      "output": "enforcer4.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/enforcer3.jpg",
+      "output": "enforcer3.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/enforcer7.jpg",
+      "output": "enforcer7.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/enforcer6.jpg",
+      "output": "enforcer6.jpg"
+    }
+  ]
+}

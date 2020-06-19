@@ -1,0 +1,16 @@
+{
+  "title": "Helfer 1",
+  "id": "helfer_1",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/rook.jpg",
+      "output": "rook.jpg"
+    }
+  ]
+}

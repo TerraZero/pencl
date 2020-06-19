@@ -1,0 +1,28 @@
+{
+  "title": "Highway",
+  "id": "highway",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/town5.jpg",
+      "output": "town5.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/high.jpg",
+      "output": "high.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/high2.jpg",
+      "output": "high2.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/high3.jpg",
+      "output": "high3.jpg"
+    }
+  ]
+}

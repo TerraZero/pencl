@@ -1,0 +1,20 @@
+{
+  "title": "Silent",
+  "id": "silent",
+  "type": "music",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "musics": [
+    {
+      "url": "/downloads/music/payday_silent_1.mp3",
+      "output": "payday_silent_1.mp3"
+    },
+    {
+      "url": "/downloads/music/payday_silent_2.mp3",
+      "output": "payday_silent_2.mp3"
+    }
+  ]
+}

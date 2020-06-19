@@ -1,0 +1,16 @@
+{
+  "title": "Server",
+  "id": "server",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/server.jpg",
+      "output": "server.jpg"
+    }
+  ]
+}

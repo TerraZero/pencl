@@ -1,0 +1,16 @@
+{
+  "title": "Enforcer Ray",
+  "id": "enforcer_ray",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/enforcer5.jpg",
+      "output": "enforcer5.jpg"
+    }
+  ]
+}

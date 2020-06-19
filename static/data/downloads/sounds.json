@@ -14,5 +14,17 @@
   {
     "url": "https://www.youtube.com/watch?v=4idPc86ze_Q",
     "output": "c4.mp3"
+  },
+  {
+    "url": "https://sounds.tabletopaudio.com/starship2/doors_heavy_open.ogg",
+    "output": "door_open.mp3"
+  },
+  {
+    "url": "https://sounds.tabletopaudio.com/starship2/doors_heavy_close.ogg",
+    "output": "door_close.mp3"
+  },
+  {
+    "url": "https://sounds.tabletopaudio.com/combat_future/rail_gun1.ogg",
+    "output": "railun.mp3"
   }
 ]

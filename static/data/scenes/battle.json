@@ -1,0 +1,24 @@
+{
+  "title": "Battle",
+  "id": "battle",
+  "type": "music",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "musics": [
+    {
+      "url": "/downloads/music/battle_1.mp3",
+      "output": "battle_1.mp3"
+    },
+    {
+      "url": "/downloads/music/battle_3.mp3",
+      "output": "battle_3.mp3"
+    },
+    {
+      "url": "/downloads/music/battle_2.mp3",
+      "output": "battle_2.mp3"
+    }
+  ]
+}

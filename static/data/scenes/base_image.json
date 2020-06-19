@@ -1,0 +1,28 @@
+{
+  "title": "Base Image",
+  "id": "base_image",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/hacker.jpg",
+      "output": "hacker.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/hideout.jpg",
+      "output": "hideout.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/hacker3.jpg",
+      "output": "hacker3.jpg"
+    },
+    {
+      "url": "/downloads/backgrounds/hacker2.jpg",
+      "output": "hacker2.jpg"
+    }
+  ]
+}

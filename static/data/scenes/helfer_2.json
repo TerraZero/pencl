@@ -1,0 +1,16 @@
+{
+  "title": "Helfer 2",
+  "id": "helfer_2",
+  "type": "images",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "images": [
+    {
+      "url": "/downloads/backgrounds/root.jpg",
+      "output": "root.jpg"
+    }
+  ]
+}
