@@ -1,14 +1,7 @@
 {
-  "title": "Intro",
+  "title": "Music: Intro",
   "id": "intro",
-  "text": "",
-  "subtext": "",
-  "config": {
-    "image": {
-      "speed": "10000"
-    }
-  },
-  "images": [],
+  "type": "music",
   "musics": [
     {
       "url": "/downloads/music/payday_mayham.mp3",

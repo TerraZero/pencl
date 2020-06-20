@@ -1,0 +1,11 @@
+{
+  "title": "Music: Base",
+  "id": "base_music",
+  "type": "music",
+  "musics": [
+    {
+      "url": "/downloads/music/base_1.mp3",
+      "output": "base_1.mp3"
+    }
+  ]
+}

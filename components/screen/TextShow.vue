@@ -50,6 +50,7 @@ export default {
     text-align: center
     padding: 0 8em
     transition: all .3s ease-in-out
+    filter: drop-shadow(2px 4px 6px black)
 
   &--small &--frame
     top: -5em

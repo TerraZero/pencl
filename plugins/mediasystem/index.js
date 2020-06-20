@@ -71,14 +71,16 @@ class MediaSystem {
   music(data) {
     if (this._current) {
       this._current.stop();
+      this._current = null;
     }
 
-    let index = Calc.random(0, data.music.length);
+    let index = Calc.random(0, data.musics.length);
     const start = () => {
-      let newIndex = Calc.random(0, data.music.length);
+      let newIndex = Calc.random(0, data.musics.length);
       if (newIndex === index) newIndex++;
-      index = newIndex % data.music.length;
-      this._current = this.sound(data.music[index]);
+      index = newIndex % data.musics.length;
+      data.musics[index].volume = 0.8;
+      this._current = this.sound(data.musics[index]);
       this._current.on('end', start);
     };
     start();

@@ -1,0 +1,11 @@
+{
+  "title": "Music: Outro",
+  "id": "outro",
+  "type": "music",
+  "musics": [
+    {
+      "url": "/downloads/music/outro.mp3",
+      "output": "outro.mp3"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Music: Enforcer Ray",
+  "id": "music_enforcer_ray",
+  "type": "music",
+  "config": {
+    "image": {
+      "speed": "10000"
+    }
+  },
+  "musics": [
+    {
+      "url": "/downloads/music/ray.mp3",
+      "output": "ray.mp3"
+    }
+  ]
+}
